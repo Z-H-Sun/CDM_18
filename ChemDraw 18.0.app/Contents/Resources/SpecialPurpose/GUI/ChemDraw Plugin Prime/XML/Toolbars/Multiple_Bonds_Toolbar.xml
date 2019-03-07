@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ToolbarGroup xmlns="http://www.cambridgesoft.com/software/ChemDraw/gui"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/gui ToolBar.xsd">
+    <Toolbar uniqueID="MultipleBondsToolBarID" preferenceKey="Multiple Bonds" columns="4" rows="2"
+        defaultOrientation="horizontal"
+        hideOnApplicationSwitch="true" menuLocation="otherMenu">
+        <Title localizationName="MultipleBondsToolbarTitle">Multiple Bonds</Title>
+        <TextMenuItem>
+            <Title localizationName="MultipleBondsToolbarMenuItem">Multiple Bonds</Title>
+        </TextMenuItem>
+        <Tooltip localizationName="MultipleBondsToolbarToolTip">Multiple Bonds Tools</Tooltip>
+        <Button buttonStyle="toggle" row="1" column="1" titleMode="hidden" uniqueID="BondsButtonID_DoubleBond">
+            <Graphic sharedGraphic="MB_DoubleBond"/>
+            <Command command="chooseMultipleBondsTool_DoubleBond"/>
+        </Button>
+        <Button buttonStyle="toggle" row="2" column="1" titleMode="hidden" uniqueID="BondsButtonID_BoldDoubleBond">
+            <Graphic sharedGraphic="MB_BoldDoubleBond"/>
+            <Command command="chooseMultipleBondsTool_BoldDoubleBond"/>
+        </Button>
+        <Button buttonStyle="toggle" row="1" column="2" titleMode="hidden" uniqueID="BondsButtonID_DashedDoubleBond">
+            <Graphic sharedGraphic="MB_DashedDoubleBond"/>
+            <Command command="chooseMultipleBondsTool_DashedDoubleBond"/>
+        </Button>
+        <Button buttonStyle="toggle" row="2" column="2" titleMode="hidden" uniqueID="BondsButtonID_DoubleDashedDoubleBond">
+            <Graphic sharedGraphic="MB_DoubleDashedDoubleBond"/>
+            <Command command="chooseMultipleBondsTool_DoubleDashedDoubleBond"/>
+        </Button>
+        <Button buttonStyle="toggle" row="1" column="3" titleMode="hidden" uniqueID="BondsButtonID_DoubleEitherBond">
+            <Graphic sharedGraphic="MB_DoubleEitherBond"/>
+            <Command command="chooseMultipleBondsTool_DoubleEitherBond"/>
+        </Button>
+        <Button buttonStyle="toggle" row="2" column="3" titleMode="hidden" uniqueID="BondsButtonID_DativeBond">
+            <Graphic sharedGraphic="MB_DativeBond"/>
+            <Command command="chooseMultipleBondsTool_DativeBond"/>
+        </Button>
+        <Button buttonStyle="toggle" row="1" column="4" titleMode="hidden" uniqueID="BondsButtonID_TripleBond">
+            <Graphic sharedGraphic="MB_TripleBond"/>
+            <Command command="chooseMultipleBondsTool_TripleBond"/>
+        </Button>
+        <Button buttonStyle="toggle" row="2" column="4" titleMode="hidden" uniqueID="BondsButtonID_QuadrupleBond">
+            <Graphic sharedGraphic="MB_QuadrupleBond"/>
+            <Command command="chooseMultipleBondsTool_QuadrupleBond"/>
+        </Button>
+    </Toolbar>
+</ToolbarGroup>

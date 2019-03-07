@@ -1,0 +1,1815 @@
+/* MadCap Table Style: */
+
+/*<meta Version="7" />*/
+
+@media print
+{
+	mcTableStyle
+	{
+		
+	}
+
+	mcTableColumnStyle
+	{
+		size: 25%;
+	}
+
+	mcTableColumnStyle
+	{
+		size: 25%;
+	}
+
+	mcTableColumnStyle
+	{
+		size: 25%;
+	}
+
+	mcTableColumnStyle
+	{
+		size: 25%;
+	}
+
+	mcTableBodyStyle
+	{
+		
+	}
+
+	mcTableFootStyle
+	{
+		
+	}
+}
+
+mcTableStyle
+{
+	name: ChemBioOfficeChemProperties;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 14pt;
+	margin-bottom: 14pt;
+	border-spacing-x: 0;
+	border-spacing-y: 0;
+	border-collapse: collapse;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+	border-top-style: none;
+	border-top-width: 1px;
+	border-bottom-style: none;
+	border-bottom-width: 1px;
+	border-right-style: none;
+	border-left-style: none;
+	cell-padding-top: 0pt;
+	cell-padding-left: 0pt;
+	cell-padding-right: 0pt;
+	cell-padding-bottom: 0pt;
+	max-id: 7;
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+
+mcTableColumnStyle
+{
+	separator-style: none;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Column1;
+	id: 0;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 5;
+	name: Column2;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 6;
+	name: Column3;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 7;
+	name: Column4;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 1px;
+	separator-color: #000000;
+	background-color: #ffffff;
+	name: Body1;
+	id: 1;
+	font-size: 8pt;
+	color: #000000;
+}
+
+mcTableFootStyle
+{
+	name: Footer1;
+	id: 4;
+}
+
+
+/* Cell Styles: */
+ 
+@media print
+{
+	.TableStyle-ChemBioOfficeChemProperties
+	{
+		border-spacing: 0px 0px;
+	}
+
+	.TableStyle-ChemBioOfficeChemProperties .Column-Column1
+	{
+		width: 25%;
+	}
+
+	.TableStyle-ChemBioOfficeChemProperties .Column-Column2
+	{
+		width: 25%;
+	}
+
+	.TableStyle-ChemBioOfficeChemProperties .Column-Column3
+	{
+		width: 25%;
+	}
+
+	.TableStyle-ChemBioOfficeChemProperties .Column-Column4
+	{
+		width: 25%;
+	}
+}
+
+.TableStyle-ChemBioOfficeChemProperties
+{
+	border-collapse: collapse;
+	border-left-style: none;
+	border-left-color: #000000;
+	border-left-width: 1px;
+	border-right-style: none;
+	border-right-color: #000000;
+	border-right-width: 1px;
+	border-top-style: none;
+	border-top-color: #000000;
+	border-top-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 14pt;
+	margin-bottom: 14pt;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .Column-Column1
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .Column-Column2
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .Column-Column3
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .Column-Column4
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadI-Column1-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadI-Column1- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadE-Column1-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadE-Column1- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadF-Column1-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadF-Column1- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadH-Column1-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadH-Column1- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadD-Column1-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadD-Column1- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadC-Column1-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadC-Column1- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadB-Column1-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadB-Column1- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadA-Column1-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadA-Column1- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadG-Column1-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadG-Column1- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadI-Column2-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadI-Column2- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadE-Column2-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadE-Column2- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadF-Column2-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadF-Column2- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadH-Column2-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadH-Column2- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadD-Column2-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadD-Column2- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadC-Column2-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadC-Column2- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadB-Column2-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadB-Column2- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadA-Column2-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadA-Column2- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadG-Column2-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadG-Column2- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadI-Column3-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadI-Column3- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadE-Column3-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadE-Column3- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadF-Column3-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadF-Column3- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadH-Column3-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadH-Column3- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadD-Column3-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadD-Column3- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadC-Column3-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadC-Column3- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadB-Column3-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadB-Column3- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadA-Column3-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadA-Column3- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadG-Column3-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadG-Column3- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadI-Column4-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadI-Column4- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadE-Column4-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadE-Column4- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadF-Column4-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadF-Column4- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadH-Column4-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadH-Column4- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadD-Column4-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadD-Column4- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadC-Column4-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadC-Column4- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadB-Column4-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadB-Column4- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadA-Column4-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadA-Column4- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadG-Column4-
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .HeadG-Column4- p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .Foot-Footer1
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootI-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootI-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootE-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootE-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootF-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootF-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootH-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootH-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootD-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootD-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootC-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootC-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootB-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootB-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootA-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootA-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootG-Column1-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootG-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootI-Column2-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootI-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootE-Column2-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootE-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootF-Column2-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootF-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootH-Column2-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootH-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootD-Column2-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootD-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootC-Column2-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootC-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootB-Column2-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootB-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootA-Column2-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootA-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootG-Column2-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootG-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootI-Column3-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootI-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootE-Column3-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootE-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootF-Column3-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootF-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootH-Column3-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootH-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootD-Column3-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootD-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootC-Column3-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootC-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootB-Column3-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootB-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootA-Column3-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootA-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootG-Column3-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootG-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootI-Column4-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootI-Column4-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootE-Column4-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootE-Column4-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootF-Column4-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootF-Column4-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootH-Column4-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootH-Column4-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootD-Column4-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootD-Column4-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootC-Column4-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootC-Column4-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootB-Column4-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootB-Column4-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootA-Column4-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootA-Column4-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootG-Column4-Footer1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .FootG-Column4-Footer1 p
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .Body-Body1
+{
+	
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyI-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyI-Column1-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyE-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyE-Column1-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyF-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyF-Column1-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyH-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyH-Column1-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyD-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyD-Column1-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyC-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyC-Column1-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyB-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyB-Column1-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyA-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyA-Column1-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyG-Column1-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyG-Column1-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyI-Column2-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyI-Column2-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyE-Column2-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyE-Column2-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyF-Column2-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyF-Column2-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyH-Column2-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyH-Column2-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyD-Column2-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyD-Column2-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyC-Column2-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyC-Column2-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyB-Column2-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyB-Column2-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyA-Column2-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyA-Column2-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyG-Column2-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyG-Column2-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyI-Column3-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyI-Column3-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyE-Column3-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyE-Column3-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyF-Column3-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyF-Column3-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyH-Column3-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyH-Column3-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyD-Column3-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyD-Column3-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyC-Column3-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyC-Column3-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyB-Column3-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyB-Column3-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyA-Column3-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyA-Column3-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyG-Column3-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyG-Column3-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyI-Column4-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyI-Column4-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyE-Column4-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyE-Column4-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyF-Column4-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyF-Column4-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyH-Column4-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyH-Column4-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyD-Column4-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyD-Column4-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyC-Column4-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyC-Column4-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyB-Column4-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyB-Column4-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyA-Column4-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyA-Column4-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyG-Column4-Body1
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	color: #000000;
+	font-size: 8pt;
+	background-color: #ffffff;
+}
+
+.TableStyle-ChemBioOfficeChemProperties .BodyG-Column4-Body1 p
+{
+	color: #000000;
+	font-size: 8pt;
+}
+
+

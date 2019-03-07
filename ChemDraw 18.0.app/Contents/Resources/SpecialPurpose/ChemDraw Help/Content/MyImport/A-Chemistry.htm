@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Chemical Interpretation|Database Conventions" data-mc-conditions="MyImport.ChemDraw help">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>Chemical Interpretation</title>
+        <link href="../Resources/TableStyles/Copy of _2col_table.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../Resources/Stylesheets/Cambridgesoft1.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1 class="Heading1"><a name="A-Chemistry_1158485972_1113284"></a>Chemical Interpretation<a name="kanchor478"></a></h1>
+        <div class="Body">ChemDraw converts lines, characters, and other symbols into chemically meaningful figures as you work. This occurs in the background, but you can also choose to view this chemical data. ChemDraw uses the data when exporting to file formats that support only a subset of the notations that ChemDraw  does.</div>
+        <div class="Body">This section describes how ChemDraw interprets drawings.</div>
+        <h2 class="Heading2"><a name="A-Chemistry_1158485972_1110085"></a>Database Conventions<a name="kanchor479"></a></h2>
+        <div class="Body">Most databases require not only that you draw a structure in a way that makes sense, but that you draw it in the way that the database expects it. Consider ferrocene, which is represented in at least four different ways in major databases:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="17_43.jpg" style="width: 240.9994px;height: 205.9997px;margin-left: 1.00008px;margin-top: 1.00008px;margin-right: 0.656643px;margin-bottom: 2.200329px;" />
+        </p>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="17_44.jpg" style="width: 229.9997px;height: 246px;margin-left: 1.00008px;margin-top: 1.00008px;margin-right: 1.028164px;margin-bottom: 0.9799157px;" />
+        </p>
+        <p class="Caption">Representations of ferrocene</p>
+        <div class="Body">A successful search in one database might not produce  results in another. When in doubt, consult the documentation for the conventions your database uses.</div>
+        <h3 class="Heading3"><a name="A-Chemistry_1158485972_1107996"></a>Bond Conventions<a name="kanchor480"></a></h3>
+        <div class="Body">The following table describes the chemical conventions ChemDraw recognizes.</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <table class="TableStyle-Copy_of__2col_table" style="caption-side: top;mc-table-style: url('../Resources/TableStyles/Copy of _2col_table.css');margin-left: 0;margin-right: auto;width: 100%;" cellspacing="0">
+            <col width="109px" class="Column-Column1" />
+            <col width="488px" class="Column-Column1" />
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="TableHead"><span class="_Override" style="line-height: 12pt;">Bond</span>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableHead">Description</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_3.jpg" style="width: 54.99936px;height: 18px;margin-left: 1.43784px;margin-top: 1.0008px;margin-right: 1.226882px;margin-bottom: 0.1274406px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Single bond, unspecified stereo-chemistry.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_4.jpg" style="width: 54.99936px;height: 57.99936px;margin-left: 1.60632px;margin-top: 1.50048px;margin-bottom: 2.275921px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Single bond, “down” stereochemistry (into the plane of the paper, away from the viewer), from the first drawn atom to the second drawn atom.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_5.jpg" style="width: 57px;height: 57.99936px;margin-left: 3.07944px;margin-top: 1.25136px;margin-bottom: 1.670401px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Single bond, “up” stereochemistry (out of the plane of the paper, toward the viewer), from the first drawn atom to the second drawn atom.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_6.jpg" style="width: 57px;height: 18px;margin-left: 1.37952px;margin-top: 2.50128px;margin-right: 0.4175991px;margin-bottom: 0.4233606px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Single bond, mixture of “up” and “down” stereochemistries in some unspecified proportion.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_7.jpg" style="width: 51px;height: 16.99968px;margin-left: 2.27952px;margin-top: 0.25128px;margin-bottom: 1.098719px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Dative bond. Often used to indicate polar bonds, such as the N-O bond in pyridine N-oxide.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_8.jpg" style="width: 51px;height: 40.99968px;margin-left: 0.37944px;margin-top: 0.252px;margin-right: 0.9172824px;margin-bottom: 1.645923px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Double bond, with cis/trans stereochemistry as drawn.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_9.jpg" style="width: 52.99968px;height: 15.99936px;margin-left: 1.00008px;margin-top: 1.00008px;margin-right: 1.010159px;margin-bottom: 0.9684011px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Double bond, with cis/trans stereochemistry unknown.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_10.jpg" style="width: 52.99968px;height: 15px;margin-left: 2.10384px;margin-top: 1.35432px;margin-right: 1.141201px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Tautomeric bond, either single or double according to rules of tautomerism.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_11.jpg" style="width: 48px;height: 18.99936px;margin-left: 1.00008px;margin-top: 1.00008px;margin-right: 1.015919px;margin-bottom: 1.0224px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Aromatic bond, part of a delocalized resonance system.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_12.jpg" style="width: 52.99968px;height: 22.99968px;margin-left: 2.4912px;margin-top: 1.50048px;margin-right: 0.1807208px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Triple bond.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_14.jpg" style="width: 49.99968px;height: 25.99968px;margin-top: 1.52352px;margin-bottom: 1.584001px;" />
+                        </p>
+                    </td>
+                    <td class="BodyA-Column1-Body2">
+                        <p class="TableText">Quadruple Bond.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="Body">A single bond near a closed circle is recognized as aromatic:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="17_13.jpg" style="width: 217.9997px;height: 69.99936px;margin-left: 2.43792px;margin-top: 1.03176px;margin-right: 1.325538px;margin-bottom: 2.264402px;" />
+        </p>
+        <h3 class="Heading3"><a name="A-Chemistry_1158485972_1112954"></a>Atom Labels<a name="kanchor481"></a></h3>
+        <div class="Body">A simple atom label may contain any of the following:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <table class="TableStyle-Copy_of__2col_table" style="caption-side: top;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Copy of _2col_table.css');" cellspacing="0">
+            <col width="135px" class="Column-Column1" />
+            <col width="354px" class="Column-Column1" />
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_16.jpg" style="width: 82.99968px;height: 90px;margin-left: 0.42552px;margin-top: 1.3716px;margin-right: 0.3909587px;margin-bottom: 0.4708835px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">A single element.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_38.jpg" style="width: 81px;height: 79.99968px;margin-left: 2.51352px;margin-top: 1.27944px;margin-right: 0.9792016px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">An element and some number of hydrogen atoms.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_39.jpg" style="width: 84.00001px;height: 82.99968px;margin-left: 1.9764px;margin-right: 1.191595px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">A nickname.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_41.jpg" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Repeating units within parentheses.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <p style="text-align: center;">
+                            <img src="17_42.jpg" style="width: 147px;height: 36.99936px;margin-top: 1.00008px;margin-bottom: 0.9863988px;" />
+                        </p>
+                    </td>
+                    <td class="BodyA-Column1-Body1">
+                        <p class="TableText">A series of any combination of the above.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="Body">ChemDraw analyzes atom labels from left to right, applying standard valence rules to determine which atoms are bonded together. The exception is with an atom label in Automatic alignment on the left side of a compound. This type of atom label is displayed in reverse (H<span class="_Override" style="font-size: 80%;vertical-align: sub;">3</span>CO instead OCH<span class="_Override" style="font-size: 80%;vertical-align: sub;">3</span>) and is parsed from right to left. Standard valences for each atom are defined in the Isotopes Table.</div>
+        <div class="Body">By definition, a “simple” atom label has all bonds attached to the first (or last) character. A multi-attached atom label has bonds connected to more than one character, or has all of its bonds attached to a character in the middle of the atom label. Multi-attached atom labels are always parsed from beginning to end, but the beginning might be on the right if the atom label was in Automatic style and on the left side of the original structure:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <table class="TableStyle-Copy_of__2col_table" style="caption-side: top;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Copy of _2col_table.css');" cellspacing="0">
+            <col width="142px" class="Column-Column1" />
+            <col width="353px" class="Column-Column1" />
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_17.jpg" style="width: 102px;height: 63px;margin-left: 1.01448px;margin-top: 0.42408px;margin-right: 1.757516px;margin-bottom: 0.1339186px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">A multi-attached label that is parsed from left to right.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_19.jpg" style="width: 91.99968px;height: 66.99936px;margin-left: 1.01448px;margin-top: 1.42848px;margin-right: 0.3722464px;margin-bottom: 0.1051236px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">A multi-attached label that is parsed from right to left.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_48.jpg" style="width: 121.9997px;height: 99.99936px;margin-left: 1.01448px;margin-top: 0.70848px;margin-right: 1.216797px;margin-bottom: 2.123277px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">A bond attached to the open parenthesis of a repeating group is treated as if bonded to the first of those groups.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_49.jpg" style="width: 150px;height: 90.99936px;margin-top: 0.25056px;" />
+                        </p>
+                    </td>
+                    <td class="BodyA-Column1-Body2">
+                        <p class="TableText">A bond attached to the close parenthesis or repeat count of a repeating group is treated as if bonded to the last of those groups.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="Body">Multiple fragments within a single label can be specified:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <table class="TableStyle-Copy_of__2col_table" style="caption-side: top;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Copy of _2col_table.css');" cellspacing="0">
+            <col width="102px" class="Column-Column1" />
+            <col width="384px" class="Column-Column1" />
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_18.jpg" style="width: 63.99936px;height: 15.99936px;margin-left: 1.00008px;margin-top: 1.00008px;margin-right: 0.968403px;margin-bottom: 0.9684011px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Implicitly, using standard valence rules.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_20.jpg" style="width: 75.99936px;height: 89.59872px;margin-left: 0.51624px;margin-bottom: 0.1511993px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Explicitly, using a space, period (unsuperscripted or unsubscripted), bullet, or combination.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_40.jpg" style="width: 119.1984px;height: 42.40032px;" />
+                        </p>
+                    </td>
+                    <td class="BodyA-Column1-Body1">
+                        <p class="TableText">An unsuperscripted, unsubscripted integer at the start of a fragment is recognized as a stoichiometric multiplier and is treated as if the appropriate number of fragments were drawn explicitly.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 class="Heading3"><a name="A-Chemistry_1158485972_1072014"></a>Chemically Significant Text<a name="kanchor482"></a></h3>
+        <div class="Body">Often, it is simpler to write a chemical formula like MeOH or H<span class="_Override" style="font-size: 80%;vertical-align: sub;">2</span>O than to draw an  atoms-and-bonds structure. ChemDraw interprets any <span class="_Override" style="font-style: italic;">unambiguous</span> structural formula. For example, CH<span class="_Override" style="font-size: 80%;vertical-align: sub;">3</span>COCH<span class="_Override" style="font-size: 80%;vertical-align: sub;">2</span>CH<span class="_Override" style="font-size: 80%;vertical-align: sub;">3</span> is recognized as methyl ethyl ketone and MeOH is recognized as methanol. On the other hand, C<span class="_Override" style="font-size: 80%;vertical-align: sub;">6</span>H<span class="_Override" style="font-size: 80%;vertical-align: sub;">6</span> might mean benzene, or another isomer. Generally, empirical formulas (C<span class="_Override" style="font-size: 80%;vertical-align: sub;">2</span>H<span class="_Override" style="font-size: 80%;vertical-align: sub;">6</span> and H<span class="_Override" style="font-size: 80%;vertical-align: sub;">2</span>SO<span class="_Override" style="font-size: 80%;vertical-align: sub;">4</span>) are not recognized, but structural formulas (CH<span class="_Override" style="font-size: 80%;vertical-align: sub;">3</span>CH<span class="_Override" style="font-size: 80%;vertical-align: sub;">3</span> and HOSO<span class="_Override" style="font-size: 80%;vertical-align: sub;">2</span>OH) are.</div>
+        <div class="Body">Molecular weight and elemental analyses of empirical structures are possible, but the Expand Label command does not work with them. Empirical structures are discarded when they are transferred to other applications that require unambiguous structures.</div>
+        <div class="Body">Chemically-significant text must be entirely in formula or, for isotopes and charges, superscript style. ChemDraw does not recognize a chemical formula embedded within a larger block of text.</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <table class="TableStyle-Copy_of__2col_table" style="caption-side: top;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Copy of _2col_table.css');" cellspacing="0">
+            <col width="131px" class="Column-Column1" />
+            <col width="401px" class="Column-Column1" />
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_21.jpg" style="width: 51.99936px;height: 37.99968px;margin-left: 2.70072px;margin-top: 2.50056px;margin-right: 1.04904px;margin-bottom: 1.99944px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">If you draw a bond, add an atom label, and then delete the bond, you have a chemically meaningful text block whose font, size, and style match other atom labels.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_22.jpg" style="width: 54px;height: 45px;margin-left: 2.70072px;margin-top: 3.00096px;margin-right: 1.048322px;" />
+                        </p>
+                    </td>
+                    <td class="BodyA-Column1-Body2">
+                        <p class="TableText">If you create a caption with the text tool and set it to Formula style, you have a chemically meaningful text block whose font, size, and style match other captions.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 class="Heading3"><a name="A-Chemistry_1158485972_1072043"></a>Charges<a name="kanchor483"></a></h3>
+        <div class="Body">You can create charges as part of a atom label or with the appropriate symbol from the Chemical Symbols toolbar. Charges are always assigned to a specific element in the atom label, whose acceptable valences become those of the similar isoelectronic neutral element</div>
+        <p class="GraphicAnchor">.</p>
+        <table class="TableStyle-Copy_of__2col_table" style="caption-side: top;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Copy of _2col_table.css');" cellspacing="0">
+            <col width="130px" class="Column-Column1" />
+            <col width="433px" class="Column-Column1" />
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_25.jpg" style="width: 72px;height: 37.59936px;margin-left: 7.6428px;margin-top: 1.86336px;margin-right: 9.070556px;margin-bottom: 2.069997px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">A charge following an element is assigned to that element.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_26.jpg" style="width: 89.59872px;height: 88.79904px;margin-left: 7.77456px;margin-top: 1.79136px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">A charge that does not follow an element is assigned to the next element.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_27.jpg" style="width: 89.59872px;height: 88.79906px;margin-left: 7.01352px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Charges that follow a monovalent element with a repeat count are assigned to the element before that element.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_28.jpg" style="width: 87.99936px;height: 87.19969px;margin-left: 5.5368px;margin-right: 1.391758px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Charges that follow other repeating units are distributed among those units.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_29.jpg" style="width: 81.59904px;height: 39.19968px;margin-left: 7.80984px;margin-top: 0.64296px;margin-right: 3.180963px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Charges may be superscripted.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_30.jpg" style="width: 81.59904px;height: 39.19968px;margin-left: 8.54856px;margin-top: 0.64296px;margin-right: 0.9655161px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Multiple charges are recognized appropriately.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_31.jpg" style="width: 80.79937px;height: 60.79968px;margin-left: 8.184959px;margin-top: 1.59192px;margin-right: 3.405594px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Charges may have repeat counts as long as both the charge and the repeat count are superscripted.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p>
+                            <img src="17_32.jpg" style="width: 89.59872px;height: 89.59872px;margin-left: 6.2748px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">A “floating” charge placed with the Chemical Symbols Tool is assigned to the nearest atom. If no atom is within the distance set as the Fixed Length, the charge is ignored and not assigned to any atom.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_33.jpg" style="width: 87.99936px;height: 72.79968px;margin-top: 0.96552px;" />
+                        </p>
+                    </td>
+                    <td class="BodyA-Column1-Body1">
+                        <p class="TableText">A “floating” charge placed within a delocalized system is recognized by the Analyze Structure function, but is discarded when saved to formats that require all charges to be associated with specific atoms.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 class="Heading3"><a name="A-Chemistry_1158485972_1072120"></a>Isotopes and Elements<a name="kanchor484"></a></h3>
+        <div class="Body">By default,<span class="_Override" style="font-style: italic;">  <![CDATA[ ]]></span>all isotopes are recognized in the full Table of the Elements. This data is provided by CRC Press, Inc. Isotopes are defined in the Isotopes Table file. You can edit this file in any text editor to add new isotopes.</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <table class="TableStyle-Copy_of__2col_table" style="caption-side: top;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Copy of _2col_table.css');" cellspacing="0">
+            <col width="116px" class="Column-Column1" />
+            <col width="448px" class="Column-Column1" />
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_23.jpg" style="width: 42px;height: 24px;margin-left: 2.13696px;margin-top: 1.75032px;margin-right: 1.594798px;margin-bottom: 5.755681px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">A super-scripted number before the element symbol indicates isotope numbers.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_34.jpg" style="width: 96.99936px;height: 22.99968px;margin-left: 1.38744px;margin-top: 1.0008px;margin-right: 1.594806px;margin-bottom: 2.0052px;" />
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Isotopes can be included anywhere that regular elements can.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <p class="GraphicAnchor">&#160;</p>
+                        <p style="text-align: center;">
+                            <img src="17_24.jpg" style="width: 63.99936px;height: 63px;margin-left: 2.13696px;margin-top: 2.25072px;margin-right: 3.095279px;margin-bottom: 1.505517px;" />
+                        </p>
+                    </td>
+                    <td class="BodyA-Column1-Body1">
+                        <p class="TableText">Deuterium and Tritium appear as one-letter symbols.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 class="Heading3"><a name="A-Chemistry_1158485972_1072154"></a>Radicals<a name="kanchor485"></a></h3>
+        <div class="Body">Radicals are indicated with the appropriate symbol from the Chemical Symbols palette. As with charges, they are assigned to the nearest atom. Radicals always occupy one free valence, in addition to any charge effects. Two examples are:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="17_35.jpg" style="width: 282.6403px;height: 94.65792px;" />
+        </p>
+        <DIV class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>The lone pair symbol is interpreted as a diradical when it is placed next to an unlabeled carbon atom.</DIV>
+        <h3 class="Heading3"><a name="A-Chemistry_1158485972_1072171"></a>H-Dot/H-Dash<a name="kanchor486"></a></h3>
+        <div class="Body">H-Dot and H-Dash symbols from the Chemical Symbols palette indicate the stereochemistry of a single hydrogen atom. These symbols are most common in fused systems, such as below:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="17_1.jpg" style="width: 204.9994px;height: 72px;margin-left: 1.9692px;margin-top: 3.37536px;margin-right: 1.757515px;margin-bottom: 2.011679px;" />
+        </p>
+        <h3 class="Heading3"><a name="A-Chemistry_1158485972_1094137"></a>Complexes</h3>
+        <div class="Body">Compounds with electron pairs can act as Lewis bases, bonding with Lewis acids that are electron-deficient. Similar behavior can be seen between lone pairs and metals. </div>
+        <div class="Body">The best representation of these types of interaction is with a dative bond from the electron-pair donor to the acceptor. Using a plain bond instead of the dative bond, will cause a valence error. The dative bond more accurately represents the electron donation.</div>
+        <div class="Body">Complexes may also be represented with explicit lone pairs and without any bonds.</div>
+        <div class="Body">If you use a simple bond to indicate a complex, you may want to set Abnormal Valence to <span class="Action_Object">Allowed</span> in the Atom Properties dialog.</div>
+        <h3 class="Heading3"><a name="A-Chemistry_1158485972_1094186"></a>Multi-center Attachments</h3>
+        <div class="Body">Multi-center attachments are meaningful only when created using <span class="Action_Object">Structure</span>&gt;<span class="Action_Object">Add Multi-Center Attachment</span>. Multi-center attachments create a pseudo-atom that is disregarded during chemical calculations but still lets you create diagrams that look meaningful to an experienced chemist. A few examples are shown below:</div>
+        <div class="Body"><span class="_Override" style="font-family: Symbol;font-style: italic;">h</span><span class="_Override" style="font-size: 80%;vertical-align: super;">3</span> or <span class="_Override" style="font-family: Symbol;font-style: italic;">p</span>-Allyl complex:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="17_15.jpg" style="width: 77.7264px;height: 61.32768px;" />
+        </p>
+        <div class="Body">Ferrocene, a <span class="_Override" style="font-family: Symbol;">p</span>-Aryl complex:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="17_36.jpg" style="width: 96px;height: 150px;margin-left: 1.00008px;margin-top: 1.00008px;margin-right: 1.015919px;margin-bottom: 0.9799234px;" />
+        </p>
+        <div class="Body">Cp<span class="_Override" style="font-size: 80%;vertical-align: sub;">2</span>TiCl<span class="_Override" style="font-size: 80%;vertical-align: sub;">2</span>, another <span class="_Override" style="font-family: Symbol;">p</span>-Aryl complex:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="17_37.jpg" style="width: 135.8544px;height: 91.19136px;" />
+        </p>
+        <div class="Body"><span class="_Override" style="font-family: Symbol;">h</span>-C<span class="_Override" style="font-size: 80%;vertical-align: sub;">5</span>H<span class="_Override" style="font-size: 80%;vertical-align: sub;">5</span>Mn(CO):</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="17_2.jpg" style="width: 141.4541px;height: 116.5229px;" />
+        </p>
+        <h3 class="Heading3"><a name="A-Chemistry_1158485972_1073176"></a><a name="A-Chemistry_1158485972_Cahn-Ingold-Prelog"></a><a name="kanchor487"></a>Cahn-Ingold-Prelog</h3>
+        <div class="Body">Absolute stereochemistry is calculated for tetrahedral atoms and double bonds according to the Cahn-Ingold-Prelog (CIP) priority rules.</div>
+        <div class="Body">The CIP rules are designed to order ligands by their priority and determine a descriptor based on the orientation of the ordered ligands in space.<a name="kanchor488"></a></div>
+        <div class="Body">A ligand is an entity attached to a stereocenter. For example, a tetrahedral carbon has four ligands corresponding to its four substituents. When a tetrahedral carbon is in a ring, it still has four ligands: the two ligands outside the ring, a third consisting of the ring “unpeeled” clockwise, and a fourth consisting of the ring “unpeeled” counterclockwise.</div>
+        <div class="Body">Five rules used to determine the priority of ligands are summarized below in simplified form. For more detailed information, see the references. </div>
+        <DIV class="HeadingRunIn" data-mc-autonum=". &#160;">Rule 1<span class="autonumber"><span>. &#160;</span></span></DIV>
+        <div class="Body">Higher atomic number precedes lower</div>
+        <DIV class="HeadingRunIn" data-mc-autonum=". &#160;">Rule 2<span class="autonumber"><span>. &#160;</span></span></DIV>
+        <div class="Body">Higher atomic mass precedes lower</div>
+        <DIV class="HeadingRunIn" data-mc-autonum=". &#160;">Rule 3<span class="autonumber"><span>. &#160;</span></span></DIV>
+        <div class="Body"><span class="_Override" style="font-style: italic;">cis</span> precedes <span class="_Override" style="font-style: italic;">trans</span></div>
+        <DIV class="HeadingRunIn" data-mc-autonum=". &#160;">Rule 4<span class="autonumber"><span>. &#160;</span></span></DIV>
+        <div class="Body">Like pairs of descriptors precede unlike pairs</div>
+        <DIV class="HeadingRunIn" data-mc-autonum=". &#160;">Rule 5<span class="autonumber"><span>. &#160;</span></span></DIV>
+        <div class="Body">R precedes S</div>
+        <div class="Body">ChemDraw checks differences up to 15 atoms distant from the stereocenter.</div>
+        <h4 class="Heading4">Stereochemical Indicators<a name="kanchor489"></a></h4>
+        <div class="Body">After the ligands are ranked, an indicator is assigned as shown in the following table.</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <table class="TableStyle-Copy_of__2col_table" style="caption-side: top;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Copy of _2col_table.css');" cellspacing="0">
+            <col width="134px" class="Column-Column1" />
+            <col width="531px" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <td class="HeadE-Column1-Header1">
+                        <p class="TableHead">Stereocenter</p>
+                    </td>
+                    <td class="HeadD-Column1-Header1">
+                        <p class="TableHead">Indicator</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="TableText">Double bond</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <div class="Body">Z if the highest ranking ligand of each pair are on the same side of the bond; otherwise E.</div>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyB-Column1-Body2">
+                        <p class="TableText">Tetrahedral atom</p>
+                    </td>
+                    <td class="BodyA-Column1-Body2">
+                        <div class="Body">When the lowest-ranking ligand is located behind the central atom:</div>
+                        <div class="Bullet1-1st">R when remaining 3 ligands are arranged clockwise in descending order</div>
+                        <div class="Bullet1-inner">S when remaining 3 ligands are arranged counterclockwise in descending order</div>
+                        <div class="Bullet1-last">r or s is used for pseudo asymmetric atoms </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 class="Heading3"><a name="A-Chemistry_1158485972_1101152"></a>Stereochemical Flags<a name="kanchor490"></a><a name="kanchor491"></a></h3>
+        <div class="Body">While the chirality of a specific stereocenter can be indicated with the appropriate wedged, hashed, or plain bond, sometimes it is useful to indicate the relative stereochemistry of a molecule as a whole, considering the relationship between all stereo-centers. Stereochemical flags apply to the nearest structure; if no structure is within the distance specified by the Fixed Length value, the stereochemical flag is not assigned to any structure.</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="17_46.jpg" style="width: 159px;height: 270px;margin-left: 1.50048px;margin-top: 0.75024px;margin-right: 1.514161px;" />
+        </p>
+        <p class="Caption">The Absolute flag indicates the exact stereoisomer as drawn.</p>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="17_47.jpg" style="width: 276px;height: 228px;margin-top: 0.57672px;margin-right: 1.217526px;" />
+        </p>
+        <p class="Caption">The relative flag indicates the exact stereoisomer as drawn, or its enantiomer.</p>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="17_45.jpg" style="width: 276px;height: 222px;margin-left: 1.20096px;margin-top: 1.00008px;margin-bottom: 9.019436px;" />
+        </p>
+        <p class="Caption">The racemic flag indicates a mixture of the exact stereoisomer as drawn and its enantiomer.</p>
+        <p class="GraphicAnchor">&#160;</p>
+        <h3 class="Heading3"><a name="A-Chemistry_1158485972_1102824"></a>Polymer Representations<a name="A-Chemistry_1158485972_Annotations"></a></h3>
+        <div class="Body">Polymers are represented by brackets used to enclose repeated structures or structural fragments. Bracket properties specify the orientation and context of the repeating units. For an explanation of the bracket properties, see <a href="Polymers.htm#5-Query_617691554_1290197" title="" alt="" class="MCXref xref">Setting Bracket Properties</a>.</div>
+        <h4 class="Heading4">References </h4>
+        <div class="Body">“Graphic Representations (Chemical Formulae) of Macromolecules (Recommendations 1994)” <i class="Emphasis">Pure Appl. Chem.</i>, 66, 2469-2482 (1994).</div>
+        <div class="Body">“Source-Based Nomenclature for Copolymers (Recommendations 1985)” <i class="Emphasis">Pure Appl. Chem</i>., 57, 1427-1440 (1985). Also available at: <a class="hyperlink">http://www.iupac.org/publications/books/pbook/PurpleBook-C7.pdf</a>.</div>
+        <div class="Body">“Basic Definitions of Terms Relating to Polymers (1974)” <i class="Emphasis">Pure Appl. Chem.</i>, 40, 479-491 (1974) Also available at: <a class="hyperlink">http://www.iupac.org/reports/1996/6812jenkins/index.html</a>.</div>
+        <div class="Body">Also see the Guide for the authors of papers and reports in polymer science and technology from IUPAC.</div>
+        <h3 class="Heading3"><a name="A-Chemistry_1158485972_1072367"></a><a name="A-Chemistry_1158485972_92761"></a>Analysis Messages<a name="kanchor492"></a></h3>
+        <div class="Body">When a structure cannot be fully analyzed, two general types of messages are displayed: </div>
+        <div class="Bullet1-1st">Status messages that report a problem that may not affect the final analysis</div>
+        <div class="Bullet1-last">Critical messages that may affect the final analysis</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <table class="TableStyle-Copy_of__2col_table" style="caption-side: top;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Copy of _2col_table.css');" cellspacing="0">
+            <col width="209px" class="Column-Column1" />
+            <col width="440px" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <td class="HeadE-Column1-Header1">
+                        <p class="TableHead">Message</p>
+                    </td>
+                    <td class="HeadD-Column1-Header1">
+                        <p class="TableHead">Description</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="TableText"><i class="Emphasis">There are too many bonds to this unlabeled Carbon.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Displayed for every unlabeled atom with more than four filled valences. Filled valences include sum of bond orders, charge, radicals, and free sites. Aromatic bonds count 1.5 each, rounded down unless it is the only bond to the atom. Charge is signed and includes charge implied by dative bonds. The Substituents query property treats free sites, up to and exactly the same way: an atom with two explicit bonds and “Substituents: Up To 3” or “Substituents: Exactly 3” or “Substituents: Free Sites 1” has three filled valences.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="TableText"><i class="Emphasis">An atom in this label has an invalid valence.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Displayed in cases where a place cannot be found to place a bond or a bond cannot be found to place an atom. Valid valences for each element are listed in the Isotopes Table file.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="TableText"><i class="Emphasis">ChemDraw can’t interpret this label.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Displayed when text is found that cannot be identified as an element, nickname, generic nickname, or alternative group name.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="TableText"><i class="Emphasis">Parentheses don’t match.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Displayed when parentheses cannot be matched into nested open-close pairs.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="TableText"><i class="Emphasis">This label has conflicting or unassignable charges.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Displayed when a plus and minus charge have been assigned to the same element, charges have been assigned in more than one way, or a charge has been assigned to a nickname, generic nickname, or Alternative Group name.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="TableText"><i class="Emphasis">Formula cannot be computed for queries.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Displayed for every label that contains a generic nickname, an element list or an alternative group. This is a status message only; analysis continues as if the problematic label were not selected.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="TableText"><i class="Emphasis">Text not in Formula style won’t be interpreted.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Displayed for the first caption that is not an atom label or Alternative Group name, and which contains any text not in Formula, Subscript, or Superscript style. This is a status message only, and appears only once regardless of how many captions are in the selection.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="TableText"><i class="Emphasis">This named alternative group contains no attachment point.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Displayed for any structure within an Alternative Group Box where the structure lacks an attachment point. This is a status message only.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="TableText"><i class="Emphasis">This named alternative group contains fragments with inconsistent valences.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Displayed for any Alternative Group Box whose contained structures have varying numbers of attachment points. Since all structures within an Alternative Group Box are to be used interchangeably, they must have the same number of attachments. This is a status message only.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="TableText"><i class="Emphasis">This named alternative group contains no fragment.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Displayed for any Alternative Group Box that is empty. This is a status message only.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="TableText"><i class="Emphasis">Part of a molecule is outside of the alternative group definition.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Displayed for any Alternative Group Box whose border crosses part of a structure. This is a status message only.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="TableText"><i class="Emphasis">This isolated bond is probably not intended to have chemical significance.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Displayed for unlabeled single bonds unattached to other bonds. All bonds are interpreted chemically, usually as C<span class="_Override" style="font-size: 80%;vertical-align: sub;">2</span>H<span class="_Override" style="font-size: 80%;vertical-align: sub;">6</span>, and may cause unexpected results if intended as a graphical line only. This is a status message only.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="TableText"><i class="Emphasis">The atom is very close to another atom or bond.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Displayed for any atom that is nearly touching another atom or bond but not bound to it. If a bond really was intended, the analysis of the structure produces incorrect results. This is a status message only.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="TableText"><i class="Emphasis">The stereocenter has no stereobonds specified. </i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Displayed for any asymmetric center without attached wedged, hashed, dashed, or bold bonds. This is a status message only, and appears only when Show Stereochemistry is tuned on and there is at least one other wedged, hashed, dashed, or bold bond in the structure. </p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="TableText"><i class="Emphasis">There is a valence and charge error somewhere in this aromatic system.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Displayed for any odd&#8209;membered ring drawn as a delocalized system (with a circle in the middle), where there is no corresponding associated charge. For example, a delocalized representation of cyclopentadiene must include either a negative charge or a multicenter attachment.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="TableText"><i class="Emphasis">The stereocenter has conflicting or ambiguous stereobonds specified.</i>
+                        </p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">Displayed for any stereocenter (tetrahedral atom, asymmetric double bond, etc.) where the absolute stereochemistry cannot be determined from the structure as drawn. For example, this message would be shown for a carbon atom attached by bold bonds to four different ligands. This message is displayed only when Show Stereochemistry is also turned on.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">
+                        <p class="TableText"><i class="Emphasis">This label has an unrecognized isotopic mass.</i>
+                        </p>
+                    </td>
+                    <td class="BodyA-Column1-Body1">
+                        <p class="TableText">Displayed for every label that has a numeric superscript immediately preceding an atomic symbol, where the superscripted number does not correspond to a recognized isotope. For example, <span class="_Override" style="font-size: 80%;vertical-align: super;">24</span>CH<span class="_Override" style="font-size: 80%;vertical-align: sub;">3</span>.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

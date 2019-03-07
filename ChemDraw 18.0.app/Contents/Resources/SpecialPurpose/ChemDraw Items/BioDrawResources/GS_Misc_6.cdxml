@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 12.0d575"
+ Name="Untitled ACS Document 1996-68"
+ BoundingBox="0 0 22.44 34.53"
+ WindowPosition="0 0"
+ WindowSize="1073741824 1073741824"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ LabelFont="3"
+ LabelSize="10"
+ LabelFace="96"
+ CaptionFont="3"
+ CaptionSize="10"
+ HashSpacing="2.5"
+ MarginWidth="1.6"
+ LineWidth="0.6"
+ BoldWidth="2"
+ BondLength="14.4"
+ BondSpacing="18"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ AminoAcidTermini="H/OH"
+ ShowSequenceTermini="yes"
+ ShowSequenceBonds="yes"
+ PrintMargins="36 36 36 36"
+ MacPrintInfo="0003000001200120000000000B6608A0FF84FF880BE309180367052703FC0002000001200120000000000B6608A0000100640064000000010001010100000001270F000100010000000000000000000000000002001901900000000000600000000000000000000100000000000000000000000000000000"
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+</colortable><fonttable>
+<font id="3" charset="iso-8859-1" name="Arial"/>
+</fonttable><page
+ id="768"
+ BoundingBox="0 0 540 719.75"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><group
+ id="766"
+ BoundingBox="0 0 22.44 34.53"
+ Integral="yes"
+><curve
+ id="465"
+ Z="2"
+ CurveType="1"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="21.39 17.69 21.39 23.31 21.39 28.93 16.84 33.48 11.22 33.48 5.6 33.48 1.05 28.93 1.05 23.31 1.05 17.69 5.6 13.14 11.22 13.14 16.84 13.14"
+/><curve
+ id="466"
+ Z="3"
+ ArrowheadType="Solid"
+ CurvePoints="11.22 12.94 11.22 12.94 11.22 12.94 11.22 5.34 11.22 5.34 11.22 5.34"
+/><curve
+ id="467"
+ Z="4"
+ ArrowheadType="Solid"
+ CurvePoints="5.47 1.05 5.47 1.05 6.16 3.58 8.47 5.45 11.22 5.45 13.97 5.45 16.29 3.58 16.98 1.05 16.98 1.05"
+/><annotation Keyword="GUID" Content="a89a966b-15f7-42ee-bb90-fd7a8e51af60"/></group></page></CDXML>

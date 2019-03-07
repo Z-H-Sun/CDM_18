@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 12.0d575"
+ Name="Untitled ACS Document 1996-10"
+ BoundingBox="0.28 -0.24 24.58 25.11"
+ WindowPosition="0 -2147483648"
+ WindowSize="1073741824 -1073741824"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ LabelFont="3"
+ LabelSize="20"
+ LabelFace="96"
+ CaptionFont="3"
+ CaptionSize="20"
+ HashSpacing="5"
+ MarginWidth="3.2"
+ LineWidth="1.2"
+ BoldWidth="4"
+ BondLength="28.8"
+ BondSpacing="18"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ AminoAcidTermini="H/OH"
+ ShowSequenceTermini="yes"
+ ShowSequenceBonds="yes"
+ PrintMargins="36 36 36 36"
+ MacPrintInfo="0003000001200120000000000B6608A0FF84FF880BE309180367052703FC0002000001200120000000000B6608A0000100640064000000010001010100000001270F000100010000000000000000000000000002001901900000000000600000000000000000000100000000000000000000000000000000"
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+<color r="0.4" g="0.1451" b="0.0824"/>
+<color r="0.6157" g="0.2353" b="0.1255"/>
+<color r="0.7608" g="0.2902" b="0.1608"/>
+</colortable><fonttable>
+<font id="3" charset="iso-8859-1" name="Arial"/>
+</fonttable><page
+ id="348"
+ BoundingBox="0 0 540 719.75"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><group
+ id="346"
+ BoundingBox="0.28 -0.24 24.58 25.11"
+ Integral="yes"
+><group
+ id="42"
+ BoundingBox="0.28 -0.24 24.58 25.11"
+ Integral="yes"
+><group
+ id="21"
+ BoundingBox="0.28 -0.24 24.58 25.11"
+ Integral="yes"
+><group
+ id="20"
+ BoundingBox="0.28 -0.24 24.58 25.11"
+ Integral="yes"
+><group
+ id="19"
+ BoundingBox="0.28 -0.24 24.58 25.11"
+ Integral="yes"
+><group
+ id="18"
+ BoundingBox="0.4 -0.24 24.58 25.01"
+ Integral="yes"
+><curve
+ id="11"
+ Z="12"
+ color="10"
+ CurveType="1"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="6.23 2.38 4.56 4.69 2.97 6.89 2.43 8.84 1.94 10.97 1.52 12.83 0.9 19.45 2.12 21.03 4.41 24.01 10.17 24.2 12.48 23.41 14.68 22.66 18.18 17.61 15.17 16.83 13.28 16.34 11.99 15.23 11.24 14.48 10.59 13.81 9.98 13.12 10.35 13.54 10.72 13.97 12.34 15.73 13.46 16.17 14.57 16.61 17.53 18.26 20.85 16.46 24.81 14.33 23.64 10.89 22.37 8.79 20.11 5.06 14.64 1.32 11.47 1.11 8.79 0.93"
+/><annotation Keyword="GUID" Content="f9c6972a-d7ca-462b-a237-ce25f7fc2d52"/></group><curve
+ id="9"
+ Z="11"
+ color="11"
+ FillType="Solid"
+ CurveType="129"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="11.08 15.55 11.08 18.96 11.08 21.67 2.85 21.58 1.63 15.12 1.29 13.25 0.96 19.76 2.06 21.03 4.5 23.88 10.11 24.2 12.42 23.41 14.61 22.66 18.12 17.61 15.1 16.83 13.22 16.34 11.93 15.23 11.17 14.48 10.53 13.81 9.92 13.12 10.29 13.54 10.65 13.97 12.29 15.73 13.4 16.17 14.51 16.61 17.42 18.26 20.79 16.46 24.8 14.33 24.09 8.55 20.35 12.81 18.09 15.37 12.11 10.86 8.95 10.86 6.26 10.86"
+/><annotation Keyword="GUID" Content="c77bcca1-7a64-4dff-93e3-4a4683cb9e06"/></group><annotation Keyword="GUID" Content="c77bcca1-7a64-4dff-93e3-4a4683cb9e06"/></group><annotation Keyword="GUID" Content="c77bcca1-7a64-4dff-93e3-4a4683cb9e06"/></group><annotation Keyword="GUID" Content="c77bcca1-7a64-4dff-93e3-4a4683cb9e06"/></group><curve
+ id="7"
+ Z="10"
+ color="12"
+ FillType="Solid"
+ CurveType="129"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="6.17 2.38 4.5 4.69 2.92 6.89 2.36 8.84 1.88 10.97 1.46 12.83 0.84 19.45 2.06 21.03 4.35 24.01 10.11 24.2 12.42 23.41 14.61 22.66 18.12 17.61 15.1 16.83 13.22 16.34 11.93 15.23 11.17 14.48 10.53 13.81 9.92 13.12 10.29 13.54 10.65 13.97 12.29 15.73 13.4 16.17 14.51 16.61 17.47 18.26 20.79 16.46 24.75 14.33 23.59 10.89 22.31 8.79 20.05 5.06 14.58 1.32 11.41 1.11 8.73 0.93"
+/><annotation Keyword="GUID" Content="6beeb712-e797-4185-8743-fe42fe9ef46c"/></group></page></CDXML>

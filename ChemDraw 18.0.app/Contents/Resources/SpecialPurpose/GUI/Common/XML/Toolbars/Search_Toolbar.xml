@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ToolbarGroup xmlns="http://www.cambridgesoft.com/software/ChemDraw/gui"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/gui ToolBar.xsd">
+	<Toolbar uniqueID="SearchToolBarID" preferenceKey="Search" columns="2" rows="1"
+		defaultOrientation="horizontal" hideOnApplicationSwitch="true" menuLocation="otherMenu" defaultDockedLocation="topCenter">
+		<Title localizationName="SearchToolbarTitle">Search</Title>
+		<TextMenuItem>
+			<Title localizationName="SearchToolbarMenuID">Show Search Toolbar</Title>
+		</TextMenuItem>
+		<Tooltip localizationName="SearchToolbarTooltip">Search extensions</Tooltip>
+		<Button uniqueID="SciFinderButtonID" row="1" column="1">
+			<Graphic sharedGraphic="Search_SciFinder"/>
+			<Command command="Search SciFinder"/>
+   	    </Button>
+		<Button column="2" row="1" uniqueID="ReaxysButtonID">
+            <Graphic sharedGraphic="Search_Reaxys"/>
+			<Command command="searchReaxys"/>
+        </Button>
+	</Toolbar>
+</ToolbarGroup>

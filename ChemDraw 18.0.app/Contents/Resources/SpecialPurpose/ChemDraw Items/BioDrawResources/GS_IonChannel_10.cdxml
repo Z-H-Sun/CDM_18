@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 12.0d575"
+ Name="Untitled ACS Document 1996-6"
+ BoundingBox="0 0 101.06 40.78"
+ WindowPosition="-2147483648 1073741824"
+ WindowSize="-1073741824 0"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ LabelFont="3"
+ LabelSize="20"
+ LabelFace="96"
+ CaptionFont="3"
+ CaptionSize="20"
+ HashSpacing="5"
+ MarginWidth="3.2"
+ LineWidth="1.2"
+ BoldWidth="4"
+ BondLength="28.8"
+ BondSpacing="18"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ AminoAcidTermini="H/OH"
+ ShowSequenceTermini="yes"
+ ShowSequenceBonds="yes"
+ PrintMargins="36 36 36 36"
+ MacPrintInfo="0003000001200120000000000B6608A0FF84FF880BE309180367052703FC0002000001200120000000000B6608A0000100640064000000010001010100000001270F000100010000000000000000000000000002001901900000000000600000000000000000000100000000000000000000000000000000"
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+<color r="0.1608" g="0.3569" b="0.3922"/>
+<color r="0.1451" g="0.3059" b="0.3451"/>
+<color r="0.2157" g="0.4706" b="0.5255"/>
+<color r="0.2706" g="0.6" b="0.6706"/>
+</colortable><fonttable>
+<font id="3" charset="iso-8859-1" name="Arial"/>
+</fonttable><page
+ id="15745"
+ BoundingBox="0 0 540 719.75"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><group
+ id="15743"
+ BoundingBox="0 0 101.06 40.78"
+ Integral="yes"
+><curve
+ id="15733"
+ Z="2"
+ color="10"
+ FillType="Solid"
+ CurveType="129"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="35.41 1.78 38.47 3.63 43.88 6.86 56.71 6.62 60.44 4.83 63.91 3.15 65.6 0.99 75.08 1.35 82.75 1.64 90.68 5.55 95.36 11.79 101.82 20.41 98.36 28.71 92.96 33.51 88.83 37.17 79.88 38.91 73.51 39.39 70.02 39.65 66.56 38.79 58.88 36.75 54.32 35.54 45.26 35.36 39.8 37.15 32.91 39.39 30.2 39.7 23.16 38.91 17.57 38.27 9.44 36.03 5.88 31.54 0.08 24.26 1.42 19.12 4.52 13.23 6.92 8.67 13.99 2.43 24.68 1.35 30.18 0.79"
+/><curve
+ id="15736"
+ Z="3"
+ color="11"
+ FillType="Solid"
+ CurveType="129"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="10.71 8.45 19.03 4.9 27.67 1.23 35.54 1.23 40.79 4.99 43.04 6.58 46.36 10.76 47.84 11.55 51.43 13.47 51.69 15.04 50.08 16.18 46.63 18.63 45.19 24.87 43.64 28.94 42.08 33.01 37.3 40.52 28 39.22 22.24 38.43 9.59 37.54 6.07 26.35 3.5 18.8"
+/><curve
+ id="15738"
+ Z="4"
+ color="11"
+ FillType="Solid"
+ CurveType="129"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="90.09 8.45 81.76 4.9 73.12 1.23 65.25 1.23 59.99 4.99 57.76 6.58 54.43 10.76 52.96 11.55 49.36 13.47 49.11 15.04 50.71 16.18 54.16 18.63 55.6 24.87 57.15 28.94 58.71 33.01 63.49 40.52 72.79 39.22 78.55 38.43 91.19 37.54 94.72 26.35 97.3 18.8"
+/><curve
+ id="15728"
+ Z="5"
+ color="12"
+ FillType="Solid"
+ CurveType="129"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="6.5 7.25 14.84 3.7 23.48 0.03 34.52 0.51 39.32 4.83 44.12 9.15 44.76 12.19 46.35 12.67 50.15 13.8 49.42 14.65 47.31 15.22 42.68 16.51 42.2 24.03 40.76 27.87 39.32 31.71 37.31 40.27 27.96 39.39 15.96 38.59 5.4 36.34 1.88 25.15 -0.71 17.6"
+/><curve
+ id="15732"
+ Z="6"
+ color="12"
+ FillType="Solid"
+ CurveType="129"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="94.55 7.25 86.22 3.7 77.58 0.03 66.54 0.51 61.74 4.83 56.94 9.15 56.3 12.19 54.7 12.67 50.91 13.8 51.64 14.65 53.74 15.22 58.38 16.51 58.86 24.03 60.3 27.87 61.74 31.71 63.75 40.27 73.1 39.39 85.1 38.59 95.66 36.34 99.18 25.15 101.75 17.6"
+/><curve
+ id="15734"
+ Z="7"
+ color="13"
+ CurveType="1"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="6.5 7.25 14.84 3.7 23.48 0.03 34.52 0.51 39.32 4.83 44.12 9.15 44.76 12.19 46.35 12.67 50.15 13.8 49.42 14.65 47.31 15.22 42.68 16.51 42.2 24.03 40.76 27.87 39.32 31.71 37.31 40.27 27.96 39.39 15.96 38.59 5.4 36.34 1.88 25.15 -0.71 17.6"
+/><curve
+ id="15735"
+ Z="8"
+ color="13"
+ CurveType="1"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="94.55 7.25 86.22 3.7 77.58 0.03 66.54 0.51 61.74 4.83 56.94 9.15 56.3 12.19 54.7 12.67 50.91 13.8 51.64 14.65 53.74 15.22 58.38 16.51 58.86 24.03 60.3 27.87 61.74 31.71 63.75 40.27 73.1 39.39 85.1 38.59 95.66 36.34 99.18 25.15 101.75 17.6"
+/><annotation Keyword="GUID" Content="ef89e271-a0ee-4b39-8cd3-0e2b89f71343"/></group></page></CDXML>

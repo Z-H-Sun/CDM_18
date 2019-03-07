@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Sharing Information" data-mc-conditions="MyImport.ChemDraw help">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>Transferring Objects</title>
+        <link href="../Resources/Stylesheets/Cambridgesoft1.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h2 class="Heading2"><a name="9-Sharing_Info_2779241888_1071759"></a><a name="kanchor194"></a>Transferring Objects</h2>
+        <div class="Body">This section explains behaviors of certain features in ChemDraw when you transfer objects using the <a name="kanchor195"></a>clipboard, or drag and drop from one document to another.</div>
+        <DIV class="HeadingRunIn" data-mc-autonum=". &#160;"><a name="9-Sharing_Info_2779241888_1071799"></a><a name="9-Sharing_Info_2779241888_40684"></a>Autoscaling<a name="kanchor196"></a><span class="autonumber"><span>. &#160;</span></span></DIV>
+        <div class="Body">Objects that you transfer are scaled to match the settings of the destination document. </div>
+        <DIV class="HeadingRunIn" data-mc-autonum=". &#160;"><a name="9-Sharing_Info_2779241888_18503"></a>Bonds<a name="kanchor197"></a><span class="autonumber"><span>. &#160;</span></span></DIV>
+        <div class="Body">When you copy or move a structure to another document, the structure adopts the new document’s fixed-length value, but retains its scaling factor.</div>
+        <div class="Body">For example, assume the fixed length is set to 1.0 cm in a source document. A benzene ring is resized to 200%. The bond length is then 2.0 cm. In the destination document, assume the fixed Length set to 1.7 cm. When the benzene ring is pasted into the destination document, the bonds are scaled by a factor to 200% to a final bond length of 3.4 cm.</div>
+        <DIV class="HeadingRunIn" data-mc-autonum=". &#160;"><a name="9-Sharing_Info_2779241888_51578"></a>Atom Labels<span class="autonumber"><span>. &#160;</span></span></DIV>
+        <div class="Body">Atom labels are scaled the same way as bonds. For example, in the source document, assume the atom label font size is set to 16 points. One or two atom labels in the source document are resized to 8 points, a ratio of 8:16 or a scale factor of 0.5. Assume that the destination document has an atom label font size set to 14 points. If you paste the atom label into the destination document, the font size is scaled by a factor of 0.5 to give a final atom label font size of 7 points. </div>
+        <DIV class="HeadingRunIn" data-mc-autonum=". &#160;"><a name="9-Sharing_Info_2779241888_52836"></a>Captions<span class="autonumber"><span>. &#160;</span></span></DIV>
+        <div class="Body">ChemDraw autoscales captions using the ratio of the fixed length in the destination document to the fixed length in the source document times the caption font size. The font size of the caption can be any size and is not related to the setting in the Settings dialog. This ensures that captions are always in proportion to the bonds with which they are pasted. </div>
+        <div class="Body">For example, if the source document has a fixed length of 1.0 cm and the destination document has a fixed length of 2.0 cm, and the caption you are pasting is 12 points, then the resulting caption size after autoscaling is (2.0 cm /1.0 cm) x 12 points = 24 points.</div>
+        <DIV class="HeadingRunIn" data-mc-autonum=". &#160;"><a name="9-Sharing_Info_2779241888_49469"></a>Non-bond Objects and Color<a name="kanchor198"></a><span class="autonumber"><span>. &#160;</span></span></DIV>
+        <div class="Body">The document settings do not affect all objects. Objects such as arrows and boxes, are scaled to maintain the same proportions to bonds that were  in the source document. </div>
+        <div class="Body">Except for the foreground and background color, the colors present in the selection to be pasted are added to the destination document’s Color palette if they are not already  (up to 20 total colors). The background color in the destination document remains, and all objects colored using the foreground color are changed to match the foreground color in the destination document. </div>
+        <DIV class="HeadingRunIn" data-mc-autonum=". &#160;"><a name="9-Sharing_Info_2779241888_53991"></a>Pasting to an Empty Document<span class="autonumber"><span>. &#160;</span></span></DIV>
+        <div class="Body">If you paste a ChemDraw drawing into an empty document that has different settings, the Change Settings dialog appears.</div>
+        <div class="Body">To change the settings in the destination document to match the settings in the source document, click <span class="Action_Object">Change Settings</span>.</div>
+        <div class="Body">All of the settings in the destination document are changed to match those of the source document. All of the colors in the Color palette of the destination document are changed to those specified in the source document. </div>
+        <div class="Body">To scale the objects from the source document to the settings in the destination document, click <span class="Action_Object">Don’t Change Settings</span>.</div>
+        <div class="Body">The settings from the source document are scaled to those in the destination document using the ratios given above. </div>
+        <div class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>If the source document was created in a ChemDraw version earlier than 3.0, the name of the document appears as “Unknown” in the dialog box.</div>
+    </body>
+</html>

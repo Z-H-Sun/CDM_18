@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 12.0d575"
+ Name="Untitled ACS Document 1996-2"
+ BoundingBox="0 0 16.27 16.27"
+ WindowPosition="0 -2147483648"
+ WindowSize="-1073741824 -2147483648"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ LabelFont="3"
+ LabelSize="10"
+ LabelFace="96"
+ CaptionFont="3"
+ CaptionSize="10"
+ HashSpacing="2.5"
+ MarginWidth="1.6"
+ LineWidth="0.6"
+ BoldWidth="2"
+ BondLength="14.4"
+ BondSpacing="18"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ AminoAcidTermini="H/OH"
+ ShowSequenceTermini="yes"
+ ShowSequenceBonds="yes"
+ PrintMargins="36 36 36 36"
+ MacPrintInfo="0003000001200120000000000B6608A0FF84FF880BE309180367052703FC0002000001200120000000000B6608A0000100640064000000010001010100000001270F000100010000000000000000000000000002001901900000000000600000000000000000000100000000000000000000000000000000"
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+<color r="0.8392" g="0.8235" b="0.1529"/>
+<color r="0.8392" g="0.8392" b="0.5059"/>
+</colortable><fonttable>
+<font id="3" charset="iso-8859-1" name="Arial"/>
+</fonttable><page
+ id="345"
+ BoundingBox="0 0 540 719.75"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><group
+ id="37"
+ BoundingBox="0 0 16.27 16.27"
+ Integral="yes"
+><graphic
+ id="343"
+ BoundingBox="15.97 8.14 8.14 8.14"
+ Z="2"
+ color="10"
+ GraphicType="Oval"
+ OvalType="Circle Filled"
+ Center3D="8.14 8.14 0"
+ MajorAxisEnd3D="15.97 8.14 0"
+ MinorAxisEnd3D="8.14 15.97 0"
+/><graphic
+ id="16"
+ BoundingBox="6.51 1.81 4.93 2.99"
+ Z="3"
+ color="11"
+ GraphicType="Oval"
+ OvalType="Filled"
+ Center3D="4.93 2.99 0"
+ MajorAxisEnd3D="6.51 1.81 0"
+ MinorAxisEnd3D="5.43 3.67 0"
+/><annotation Keyword="GUID" Content="dd16226a-3f35-45a8-9887-4dfd24b546b9"/></group></page></CDXML>

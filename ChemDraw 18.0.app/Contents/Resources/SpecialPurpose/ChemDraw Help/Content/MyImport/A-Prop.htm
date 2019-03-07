@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Property Calculations" data-mc-conditions="MyImport.ChemDraw help">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>Property Calculations</title>
+        <link href="../Resources/Stylesheets/Cambridgesoft1.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1 class="Heading1"><a name="A-Prop_1250800079_1093643"></a><a name="A-Prop_1250800079_83085"></a>Property Calculations<span class="_Override" style="font-size: 14pt;line-height: 16pt;"><a name="kanchor170"></a></span></h1>
+        <div class="Body">You can calculate predicted values of selected physical and thermodynamic properties for structures of up to 200 heavy atoms. This section describes how the values are determined.</div>
+        <h3 class="Heading3"><a name="A-Prop_1250800079_1082799"></a><a name="A-Prop_1250800079_59104"></a>LogP<a name="kanchor171"></a></h3>
+        <div class="Body">Three fragmentation methods are used to predict the logP values:</div>
+        <div class="Bullet1-1st"><b>Method One</b>: Based on 94 atomic contributions evaluated from 830 molecules by least squares analysis. This method works with a standard deviation of 0.47 logP units and can handle molecules containing hydrogen, oxygen, nitrogen, sulfur, and halogens. </div>
+        <div class="Bullet1-inner"><b>Method Two</b>: An extension of method one but is based on 120 atomic contributions evaluated from 893 molecules by least squares analysis. In addition to the atoms introduced for method one, it can handle molecules that contain phosphorus and selenium atoms. This method works with a standard deviation of 0.50 logP units. </div>
+        <div class="Bullet1-last"><b>Method Three</b>: Based on 222 atomic contributions calculated from 1868 molecules by least squares analysis. This method allows a calculation of logP with a standard deviation of 0.43 logP units and can handle molecules containing hydrogen, oxygen, nitrogen, sulfur, halogens, and phosphorus atoms. If this method is applied to molecules with internal hydrogen bonds, the standard deviation is 0.83 LogP units.</div>
+        <h3 class="Heading3"><a name="A-Prop_1250800079_1071787"></a>Henry’s Law<a name="kanchor172"></a></h3>
+        <div class="Body">Two methods are used to predict Henry’s Law constant:</div>
+        <div class="Bullet1-1st"><b>Method One</b>: An approach based on the bond contribution method, this method uses 59 bond contribution values and 15 correction factors. The contributions were calculated by least squares analysis using a data set of 345 chemicals. This method estimates with a mean error of 0.30 units and a standard deviation of 0.45 units, and can handle molecules containing carbon, hydrogen, oxygen, nitrogen, sulfur, phosphorus and, halogens. </div>
+        <div class="Bullet1-last"><b>Method Two</b>: Henry’s Law constant is estimated from an equation found using linear regression. Multifunctional compounds were omitted from this study. This method should not be used for compounds where distant polar interaction is present. </div>
+        <h3 class="Heading3"><a name="A-Prop_1250800079_1096996"></a>Molar Refractivity<a name="kanchor173"></a></h3>
+        <div class="Body">Two fragmentation methods are used to estimate the molar refractivity value:</div>
+        <div class="Bullet1-1st"><b>Method One</b>: Includes 93 atomic contributions evaluated from 504 molecules by using a constrained least squares technique. This method works with a standard deviation 1.27 cm<span class="_Override" style="font-size: 80%;vertical-align: super;">3</span>/mol and can handle molecules containing hydrogen, oxygen, nitrogen, sulfur, and halogens. </div>
+        <div class="Bullet1-last"><b>Method Two</b>: Is an extension of method one that includes 120 atomic contributions evaluated from 538 molecules by using a constrained least squares analysis technique. In addition to the atoms introduced for method one, this method can handle molecules with phosphorus and selenium atoms. This method works with a standard deviation of 0.77 cm<span class="_Override" style="font-size: 80%;vertical-align: super;">3</span>/mol. </div>
+        <h3 class="Heading3"><a name="A-Prop_1250800079_1081482"></a><a name="A-Prop_1250800079_66623"></a>pKa, CLogP, and CMR<a name="kanchor174"></a><span class="_Override" style="font-size: 14pt;line-height: 16pt;"><a name="kanchor175"></a></span></h3>
+        <DIV class="Bullet1-1st">Specific algorithms for calculating LogP and molar refractivity from fragment-based methods developed by the Medicinal Chemistry Project and BioByte. For more information, see <a class="hyperlink">http://www.biobyte.com/blqsar/index.html</a>.  </DIV>
+        <DIV class="Bullet1-inner">LogP and CLogP estimate the Octanol/Water Partition Coefficient, but use different methods.</DIV>
+        <DIV class="Bullet1-last">CLogP and CMR are calculated as part of the Chemical Properties window. Several other sources exist for LogP data, however: </DIV>
+        <DIV class="Bullet2-1st"><b>The ChemDraw Report Window for LogP Prediction</b><span style="font-weight: normal;">: The Chemical Properties window shows averaged LogP and MR values. Via the "Report" button, you can see the original values from each applicable estimation method.</span> <span style="font-weight: normal;">The estimation methods are Crippen's fragmentation, Viswanadhan's fragmentation, and Broto's method. </span></DIV>
+        <DIV class="Bullet2-1st"><b>The ChemDraw Report Window for LogP Empirical Data</b>: For selected substances, the Chemical Properties window's <b>Report</b> button includes a section "Data from Database," which includes measured values of the partition coefficient and pKa values, at specified pH levels, with source citations. </DIV>
+        <H4 class="Heading4">ChemDraw/Excel</H4>
+        <div class="Body"> The ChemDraw add-in module in Microsoft Excel predicts:</div>
+        <div class="Bullet1-1st">LogP (function CHEMPROPPRO_LOGP) </div>
+        <div class="Bullet1-inner">CLogP (function CLOGP_DRIVER_PARTITION_COEFFICIENT)</div>
+        <div class="Bullet1-inner">MR (function CHEMPROPPRO_ MOL_REFRACTIVITY) </div>
+        <div class="Bullet1-last">CMR (function CLOGP_DRIVER_MOL_REFRACTIVITY)</div>
+        <H4 class="Heading4">ChemFinder/BioViz</H4>
+        <div class="Body"> The Property Populator predicts:</div>
+        <div class="Bullet1-1st">LogP (server ChemPropPro, property LogP) </div>
+        <div class="Bullet1-inner">CLogP (server CLogP driver, property Partition_Coefficient)</div>
+        <div class="Bullet1-inner">MR (server ChemPropPro, property Mol Refractivity) </div>
+        <div class="Bullet1-inner">CMR (server CLogP driver, property Mol Refractivity)</div>
+        <H4 class="Heading4">Chem3D </H4>
+        <div class="Body">The Property Picker predicts:</div>
+        <div class="Bullet1-inner">LogP (ChemPropPro LogP) </div>
+        <div class="Bullet1-inner">CLogP (CLogP driver Partition Coefficient)</div>
+        <div class="Bullet1-inner">MR (ChemPropPro Mol Refractivity) </div>
+        <div class="Bullet1-last">CMR (CLogP driver Mol Refractivity)</div>
+        <H4 class="Heading4">The Chem3D MOPAC Interface</H4>
+        <div class="Body"> Calculates the pKa of the most acidic hydrogen atom attached to an oxygen. For more information, see <a class="hyperlink">http://www.openmopac.net/pKa_table.html</a>. </div>
+        <div class="Body">For more information, "ChemDraw/Excel functions" on page 1, <a class="Heading_And_Page MCXref xref xrefHeading_And_Page" href="#A-Prop_1250800079_1082799" xrefformat="{paratext}">LogP</a>, <a href="#A-Prop_1250800079_1093643" title="" alt="" class="MCXref xref" xrefformat="{paratext}">Property Calculations</a>, and <a class="Heading_And_Page MCXref xref xrefHeading_And_Page" href="#A-Prop_1250800079_1081482" xrefformat="{paratext}">pKa, CLogP, and CMR</a>.</div>
+        <h3 class="Heading3"><a name="A-Prop_1250800079_1085888"></a><a name="A-Prop_1250800079_34632"></a>To<a name="kanchor176"></a>pological Polar Surface Area<a name="kanchor177"></a></h3>
+        <div class="Body">The polar surface area of a molecule (measured in square angstroms) can be used to predict of pharmaceutical transport properties in the body. ChemDraw implements a more innovative algorithm. Historically, this property has been calculated using time-consuming 3D techniques. However, a recent paper provided a remarkably accurate way of predicting it rapidly. </div>
+        <h3 class="Heading3"><a name="A-Prop_1250800079_1090449"></a>Other Properties<a name="kanchor178"></a><a name="kanchor179"></a><a name="kanchor180"></a></h3>
+        <H4 class="Heading4">Normal Boiling Point and Melting Point</H4>
+        <div class="Body">Estimated in K using two methods:</div>
+        <div class="Bullet1-1st"><b>Method One</b>: Joback's fragmentation method</div>
+        <div class="Bullet1-last"><b>Method Two</b>: Joback's fragmentation method as modified by Stein. All boiling points are estimated for a pressure of 1&#160;atm.</div>
+        <H4 class="Heading4">Miscellaneous Properties</H4>
+        <div class="Body">Heat of Formation, Gibbs Free Energy, Ideal Gas Thermal Capacity, Freezing Point, Critical Temperature, Critical Pressure, and Critical Volume are estimated using Joback’s fragmentation method. <a name="kanchor181"></a></div>
+    </body>
+</html>

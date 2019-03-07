@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUIConfig xmlns="http://www.cambridgesoft.com/software/ChemDraw/gui"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/gui GUI.xsd">
+    
+    <Theme uniqueID="ChemDrawThemeID" stdButtonWidth="26" stdButtonHeight="26"
+        primaryToolbars=""
+        visibleToolbars=""
+        >ChemDraw</Theme>
+</GUIConfig>

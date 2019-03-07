@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MenuSet xmlns="http://www.cambridgesoft.com/software/ChemDraw/gui"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/gui Menus.xsd">
+
+    <Menu uniqueID="UnlicensedPluginMenuID" usage="unlicensedPluginClick">
+        <TextMenuItem sharedMenuItem="MenuItem_Help_ActivateChemDraw"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Help_AboutChemDraw"/>
+    </Menu>
+    
+    <TextMenuItem uniqueID="MenuItem_Help_AboutChemDraw">
+        <Title localizationName="MenuItem_Help_Title">About ChemDraw...</Title>
+        <Command command="showAboutBox"/>
+    </TextMenuItem>
+    
+    <TextMenuItem uniqueID="MenuItem_Help_ActivateChemDraw" specialLocation="activateLocation">
+        <Title localizationName="MenuItem_Help_Activate">Activate ChemDraw...</Title>
+        <Command command="showActivateDialog"/>
+    </TextMenuItem>
+
+</MenuSet>

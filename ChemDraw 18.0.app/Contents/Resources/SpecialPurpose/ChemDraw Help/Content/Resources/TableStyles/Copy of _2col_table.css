@@ -1,0 +1,649 @@
+/* MadCap Table Style: */
+
+/*<meta sourceDocument="D:\Projects\people\DocTeam\ChemOffice 13.0 documentation\1-Chem &amp; Bio Drawing\Source files\CDOnline.book" Version="7" />*/
+
+mcTableStyle
+{
+	name: Copy of _2col_table;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0pt;
+	margin-bottom: 4pt;
+	border-spacing-x: 0;
+	border-spacing-y: 0;
+	border-collapse: collapse;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+	border-top-style: none;
+	border-top-width: 1px;
+	border-bottom-style: none;
+	border-bottom-width: 1px;
+	border-right-style: none;
+	border-left-style: none;
+	cell-padding-top: 3pt;
+	cell-padding-left: 3pt;
+	cell-padding-right: 3pt;
+	cell-padding-bottom: 3pt;
+	max-id: 4;
+}
+
+mcTableColumnStyle
+{
+	separator-style: none;
+	name: Column1;
+	id: 0;
+	vertical-align: top;
+}
+
+mcTableHeadStyle
+{
+	name: Header1;
+	id: 3;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: none;
+	background-color: #f2f2f9;
+	name: Body1;
+	id: 1;
+	vertical-align: top;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: none;
+	name: Body2;
+	id: 2;
+}
+
+mcTableFootStyle
+{
+	name: Footer1;
+	id: 4;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-Copy_of__2col_table
+{
+	border-collapse: collapse;
+	border-left-style: none;
+	border-left-color: #000000;
+	border-right-style: none;
+	border-right-color: #000000;
+	border-top-style: none;
+	border-top-color: #000000;
+	border-top-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0pt;
+	margin-bottom: 4pt;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-Copy_of__2col_table .Column-Column1
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .Head-Header1
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .HeadI-Column1-Header1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .HeadI-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .HeadE-Column1-Header1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of__2col_table .HeadE-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .HeadF-Column1-Header1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .HeadF-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .HeadH-Column1-Header1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of__2col_table .HeadH-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .HeadD-Column1-Header1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .HeadD-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .HeadC-Column1-Header1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .HeadC-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .HeadB-Column1-Header1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of__2col_table .HeadB-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .HeadA-Column1-Header1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .HeadA-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .HeadG-Column1-Header1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .HeadG-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .Foot-Footer1
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .FootI-Column1-Footer1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .FootI-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .FootE-Column1-Footer1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of__2col_table .FootE-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .FootF-Column1-Footer1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .FootF-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .FootH-Column1-Footer1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of__2col_table .FootH-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .FootD-Column1-Footer1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .FootD-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .FootC-Column1-Footer1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .FootC-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .FootB-Column1-Footer1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of__2col_table .FootB-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .FootA-Column1-Footer1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .FootA-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .FootG-Column1-Footer1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .FootG-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .Body-Body1
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyI-Column1-Body1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #f2f2f9;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .BodyI-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyE-Column1-Body1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #f2f2f9;
+	border-bottom-style: none;
+	vertical-align: top;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of__2col_table .BodyE-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyF-Column1-Body1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #f2f2f9;
+	border-bottom-style: none;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .BodyF-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyH-Column1-Body1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #f2f2f9;
+	vertical-align: top;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of__2col_table .BodyH-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyD-Column1-Body1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #f2f2f9;
+	border-bottom-style: none;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .BodyD-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyC-Column1-Body1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #f2f2f9;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .BodyC-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyB-Column1-Body1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #f2f2f9;
+	vertical-align: top;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of__2col_table .BodyB-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyA-Column1-Body1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #f2f2f9;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .BodyA-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyG-Column1-Body1
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #f2f2f9;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .BodyG-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .Body-Body2
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyI-Column1-Body2
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .BodyI-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyE-Column1-Body2
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-bottom-style: none;
+	vertical-align: top;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of__2col_table .BodyE-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyF-Column1-Body2
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-bottom-style: none;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .BodyF-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyH-Column1-Body2
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of__2col_table .BodyH-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyD-Column1-Body2
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-bottom-style: none;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .BodyD-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyC-Column1-Body2
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .BodyC-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyB-Column1-Body2
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+	border-right-style: none;
+}
+
+.TableStyle-Copy_of__2col_table .BodyB-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyA-Column1-Body2
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .BodyA-Column1-Body2 p
+{
+	
+}
+
+.TableStyle-Copy_of__2col_table .BodyG-Column1-Body2
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	vertical-align: top;
+}
+
+.TableStyle-Copy_of__2col_table .BodyG-Column1-Body2 p
+{
+	
+}
+
+

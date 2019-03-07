@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextSet xmlns="http://www.cambridgesoft.com/software/ChemDraw/strings"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/strings Strings.xsd">
+    <Text uniqueID="MenuItem_Help_Title"><![CDATA[&About ChemDraw...]]></Text>
+    <Text uniqueID="MenuItem_Help_Activate"><![CDATA[&Activate ChemDraw...]]></Text>
+    <Text uniqueID="MenuItem_Windows_Quit"><![CDATA[E&xit ChemDraw]]></Text>
+    <Text uniqueID="MenuItem_Mac_Quit">Quit ChemDraw</Text>
+    <Text uniqueID="MenuItem_Mac_Help">ChemDraw Help</Text>
+</TextSet>

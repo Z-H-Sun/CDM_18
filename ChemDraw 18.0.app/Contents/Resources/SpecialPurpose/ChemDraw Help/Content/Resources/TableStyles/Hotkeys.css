@@ -1,0 +1,670 @@
+/* MadCap Table Style: */
+
+/*<meta sourceDocument="D:\Projects\people\DocTeam\ChemOffice 13.0 documentation\1-Chem &amp; Bio Drawing\Source files\CDOnline.book" />*/
+
+mcTableStyle
+{
+	name: Hotkeys;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	border-spacing-x: 0;
+	border-spacing-y: 0;
+	border-collapse: collapse;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	cell-padding-top: 5.04pt;
+	cell-padding-left: 2pt;
+	cell-padding-right: 5.04pt;
+	cell-padding-bottom: 2pt;
+}
+
+mcTableColumnStyle
+{
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	background-color: #707c9e;
+	separator-style: double;
+	separator-width: 3px;
+	separator-color: #000000;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	background-color: #6f95c3;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+}
+
+mcTableFootStyle
+{
+	
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle_Hotkeys
+{
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-color: #000000;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle_Hotkeys .Column-
+{
+	
+}
+
+.TableStyle_Hotkeys .Head-
+{
+	
+}
+
+.TableStyle_Hotkeys .HeadI--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #707c9e;
+}
+
+.TableStyle_Hotkeys .HeadI-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .HeadE--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	background-color: #707c9e;
+	border-bottom-width: 3px;
+	border-bottom-color: #000000;
+	border-bottom-style: double;
+}
+
+.TableStyle_Hotkeys .HeadE-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .HeadF--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #707c9e;
+	border-bottom-width: 3px;
+	border-bottom-color: #000000;
+	border-bottom-style: double;
+}
+
+.TableStyle_Hotkeys .HeadF-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .HeadH--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	background-color: #707c9e;
+}
+
+.TableStyle_Hotkeys .HeadH-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .HeadD--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #707c9e;
+	border-bottom-width: 3px;
+	border-bottom-color: #000000;
+	border-bottom-style: double;
+}
+
+.TableStyle_Hotkeys .HeadD-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .HeadC--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #707c9e;
+}
+
+.TableStyle_Hotkeys .HeadC-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .HeadB--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	background-color: #707c9e;
+}
+
+.TableStyle_Hotkeys .HeadB-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .HeadA--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #707c9e;
+}
+
+.TableStyle_Hotkeys .HeadA-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .HeadG--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #707c9e;
+}
+
+.TableStyle_Hotkeys .HeadG-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .Foot-
+{
+	
+}
+
+.TableStyle_Hotkeys .FootI--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+}
+
+.TableStyle_Hotkeys .FootI-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .FootE--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Hotkeys .FootE-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .FootF--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+}
+
+.TableStyle_Hotkeys .FootF-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .FootH--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Hotkeys .FootH-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .FootD--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+}
+
+.TableStyle_Hotkeys .FootD-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .FootC--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+}
+
+.TableStyle_Hotkeys .FootC-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .FootB--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Hotkeys .FootB-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .FootA--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+}
+
+.TableStyle_Hotkeys .FootA-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .FootG--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+}
+
+.TableStyle_Hotkeys .FootG-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .Body-
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyI--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #6f95c3;
+}
+
+.TableStyle_Hotkeys .BodyI-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyE--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #6f95c3;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Hotkeys .BodyE-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyF--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #6f95c3;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle_Hotkeys .BodyF-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyH--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #6f95c3;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Hotkeys .BodyH-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyD--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #6f95c3;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle_Hotkeys .BodyD-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyC--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #6f95c3;
+}
+
+.TableStyle_Hotkeys .BodyC-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyB--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #6f95c3;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Hotkeys .BodyB-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyA--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #6f95c3;
+}
+
+.TableStyle_Hotkeys .BodyA-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyG--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	background-color: #6f95c3;
+}
+
+.TableStyle_Hotkeys .BodyG-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .Body-
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyI--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+}
+
+.TableStyle_Hotkeys .BodyI-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyE--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Hotkeys .BodyE-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyF--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle_Hotkeys .BodyF-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyH--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Hotkeys .BodyH-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyD--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle_Hotkeys .BodyD-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyC--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+}
+
+.TableStyle_Hotkeys .BodyC-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyB--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_Hotkeys .BodyB-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyA--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+}
+
+.TableStyle_Hotkeys .BodyA-- p
+{
+	
+}
+
+.TableStyle_Hotkeys .BodyG--
+{
+	padding-left: 2pt;
+	padding-right: 5.04pt;
+	padding-top: 5.04pt;
+	padding-bottom: 2pt;
+}
+
+.TableStyle_Hotkeys .BodyG-- p
+{
+	
+}
+
+

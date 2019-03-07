@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ToolbarGroup xmlns="http://www.cambridgesoft.com/software/ChemDraw/gui"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/gui ToolBar.xsd">
+    <Toolbar uniqueID="PenToolBarID" preferenceKey="Pen" columns="2" rows="1"
+        defaultOrientation="horizontal" hideOnApplicationSwitch="true" menuLocation="otherMenu">
+        <Title localizationName="PenToolbarTitle">Pens</Title>
+        <TextMenuItem>
+            <Title localizationName="PenToolbarMenuItem">Pen Tools</Title>
+        </TextMenuItem>
+        <Tooltip localizationName="PenToolbarToolTip">Pen Tools</Tooltip>
+        <Button buttonStyle="toggle" column="1" row="1" titleMode="hidden" uniqueID="DrawCurveButtonID">
+            <Graphic sharedGraphic="Pen_DrawCurve"/>
+            <Command command="choosePenTool_DrawCurve"/>
+        </Button>
+        <Button buttonStyle="toggle" column="2" row="1" titleMode="hidden" uniqueID="EditCurveButtonID">
+            <Graphic sharedGraphic="Pen_EditCurve"/>
+            <Command command="choosePenTool_EditCurve"/>
+        </Button>
+    </Toolbar>
+</ToolbarGroup>

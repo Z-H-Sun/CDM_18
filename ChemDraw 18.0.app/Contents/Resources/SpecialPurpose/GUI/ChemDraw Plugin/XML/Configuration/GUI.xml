@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUIConfig xmlns="http://www.cambridgesoft.com/software/ChemDraw/gui"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/gui GUI.xsd"
+   >
+    <Theme uniqueID="ChemDrawThemeID" stdButtonWidth="26" stdButtonHeight="26"
+    primaryToolbars="MainToolBarID GenericShapeToolBarID GeneralToolbarID_Ext TextStylesToolBarID ObjectToolBarID"
+    otherToolbars="AccessoriesToolBarID ArrowToolBarID BracketToolBarID ChainToolBarID ChemicalSymbolsToolBarID ChromatographyToolBarID ColorPickerToolbarID CurvesToolBarID DrawingToolBarID FragmentationToolBarID GenericShapeDNAToolBarID GenericShapeEnzymeToolBarID GenericShapeERToolBarID GenericShapeGolgiToolBarID GenericShapeGProteinToolBarID GenericShapeHelixProteinToolBarID GenericShapeImmunoglobinToolBarID GenericShapeIonChannelToolBarID GenericShapeMembraneToolBarID GenericShapeMicroorganismToolBarID GenericShapeMiscToolBarID GenericShapeNuclearPoreToolBarID GenericShapeOrganelleToolBarID GenericShapePolygonToolBarID GenericShapeReceptorToolBarID GenericShapeRibosomeToolBarID GenericShapetRNAToolBarID MultipleBondsToolBarID OrbitalsToolBarID PenToolBarID QueryToolBarID SequenceToolBarID StructureToolBarID"
+  	visibleToolbars="MainToolBarID"
+  	>ChemDraw</Theme>
+    <Theme uniqueID="ChemDrawLargeThemeID" stdButtonWidth="34" stdButtonHeight="34"
+    primaryToolbars="MainToolBarID GenericShapeToolBarID GeneralToolbarID_Ext TextStylesToolBarID ObjectToolBarID"
+    otherToolbars="AccessoriesToolBarID ArrowToolBarID BracketToolBarID ChainToolBarID ChemicalSymbolsToolBarID ChromatographyToolBarID ColorPickerToolbarID CurvesToolBarID DrawingToolBarID FragmentationToolBarID GenericShapeDNAToolBarID GenericShapeEnzymeToolBarID GenericShapeERToolBarID GenericShapeGolgiToolBarID GenericShapeGProteinToolBarID GenericShapeHelixProteinToolBarID GenericShapeImmunoglobinToolBarID GenericShapeIonChannelToolBarID GenericShapeMembraneToolBarID GenericShapeMicroorganismToolBarID GenericShapeMiscToolBarID GenericShapeNuclearPoreToolBarID GenericShapeOrganelleToolBarID GenericShapePolygonToolBarID GenericShapeReceptorToolBarID GenericShapeRibosomeToolBarID GenericShapetRNAToolBarID MultipleBondsToolBarID OrbitalsToolBarID PenToolBarID QueryToolBarID SequenceToolBarID StructureToolBarID"
+  	visibleToolbars="MainToolBarID"
+  	>ChemDraw Large</Theme>  	
+</GUIConfig>

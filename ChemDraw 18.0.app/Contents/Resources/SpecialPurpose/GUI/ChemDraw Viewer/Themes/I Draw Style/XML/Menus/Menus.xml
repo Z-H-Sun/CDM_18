@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MenuSet xmlns="http://www.cambridgesoft.com/software/ChemDraw/gui"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/gui Menus.xsd">
+    <Menu uniqueID="ViewMenuID">
+        <!-- The View menu in the menubar -->
+        <Title localizationName="MenuTitle_View">View</Title>
+        <TextMenuItem sharedMenuItem="MenuItem_ShowCrosshair"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ShowRulers"/>
+        <TextMenuItem isSeparator="true"/>
+        <TextMenuItem sharedMenuItem="VerticalToolBarID"/>
+        <TextMenuItem sharedMenuItem="HorizontalToolbarID"/>
+        <TextMenuItem sharedMenuItem="AnalysisWindowID"/>
+        <TextMenuItem sharedMenuItem="InfoWindowID"/>
+        <TextMenuItem sharedMenuItem="PeriodicTableWindowID"/>
+        <TextMenuItem sharedMenuItem="CharacterMapWindowID"/>
+        <TextMenuItem sharedMenuItem="MenuItem_View_OtherToolbars"/>
+        <TextMenuItem sharedMenuItem="MenuItem_View_Templates"/>
+        <TextMenuItem isSeparator="true"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ShowChemicalWarnings"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ShowReactionInterpretations"/>
+        <TextMenuItem isSeparator="true"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ZoomToActualSize"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ZoomToShowDocument"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ZoomToMagnify"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ZoomToReduce"/>
+    </Menu>
+    <Menu uniqueID="OtherToolbarsMenuID">
+        <TextMenuItem sharedMenuItem="IArrowToolbarID"/>
+        <TextMenuItem sharedMenuItem="IDrawChainToolBarID"/>
+        <TextMenuItem sharedMenuItem="IDrawBondToolBarID"/>
+        <TextMenuItem sharedMenuItem="IDrawLineToolbarID"/>
+        <TextMenuItem sharedMenuItem="IDrawSelectToolBarID"/>
+        <TextMenuItem sharedMenuItem="IDrawSequenceToolBarID"/>
+        <TextMenuItem sharedMenuItem="IDrawShapeToolBarID"/>
+        <TextMenuItem sharedMenuItem="IDrawWedgeToolBarID"/>
+    </Menu>
+    <Menu uniqueID="ToolbarContextual" usage="toolbarClick">
+        <TextMenuItem sharedMenuItem="MenuItem_Help_Mac" platformSpecific="Mac" maximumDepth="1"/>
+        <TextMenuItem isSeparator="true" platformSpecific="Mac" maximumDepth="1"/>
+        <TextMenuItem sharedMenuItem="VerticalToolBarID"/>
+        <TextMenuItem sharedMenuItem="HorizontalToolbarID"/>
+        <TextMenuItem sharedMenuItem="AnalysisWindowID"/>
+        <TextMenuItem sharedMenuItem="ChemicalPropertiesWindowID"/>
+        <TextMenuItem sharedMenuItem="InfoWindowID"/>
+        <TextMenuItem sharedMenuItem="PeriodicTableWindowID"/>
+        <TextMenuItem sharedMenuItem="CharacterMapWindowID"/>
+        <TextMenuItem sharedMenuItem="MenuItem_View_OtherToolbars"/>
+        <TextMenuItem sharedMenuItem="MenuItem_View_Templates"/>
+        <TextMenuItem isSeparator="true"/>
+        <TextMenuItem sharedMenuItem="MenuItem_DockToolbar"/>
+    </Menu>
+</MenuSet>

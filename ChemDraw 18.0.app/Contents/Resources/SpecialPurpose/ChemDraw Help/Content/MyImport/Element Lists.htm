@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Query Structures|Element Lists" data-mc-conditions="MyImport.ChemDraw help">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>Element Lists</title>
+        <link href="../Resources/Stylesheets/Cambridgesoft1.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h2 class="Heading2"><a name="5-Query_617691554_1287335"></a>Element Lists<a name="kanchor404"></a></h2>
+        <div class="Body">An element list is a list of atoms  allowed at a specified location. For example, the query structure below allows bromobenzene, Iodobenzene, or chlorobenzene to be returned. An example of an element list is:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="13_19.jpg" style="width: 93px;height: 141px;margin-left: 2.6244px;margin-top: 0.8748px;margin-right: 2.625119px;margin-bottom: 1.625032px;" />
+        </p>
+        <p class="Caption">An element list as an atom label</p>
+        <div class="Body">The elements in the list must be separated by commas. A space after each comma and brackets are optional.</div>
+        <div class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>An element list may contain only atomic symbols, plus D (deuterium) and T (tritium).</div>
+        <div class="Body">To create an element list:</div>
+        <table class="AutoNumber_div_numlist1-1st" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>1. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="1. ">Open an atom label text box.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>2. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="2. ">Type an open bracket ("<b>[</b>") followed by a list of elements separated by commas (“Cl, Br, I”), followed by a close bracket ("<b>]</b>"), for example: [Cl, Br, I].</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-last" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>3. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="3. ">Close the text box.</td>
+            </tr>
+        </table>
+        <p class="GraphicAnchor">&#160;</p>
+        <div class="Body">The figure below shows a query structure created to find compounds matching the following criteria:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="13_22.jpg" style="width: 234.9994px;height: 129px;margin-left: 2.25px;margin-top: 0.7531199px;margin-right: 1.500473px;margin-bottom: 1.247048px;" />
+        </p>
+        <DIV class="Bullet1-1st">(<b>A</b>) indicates that the atom must match any atom except hydrogen. </DIV>
+        <DIV class="Bullet1-inner">The Indicator (<b>B</b>) near the bond indicates that the bond must be single or double, S/D. </DIV>
+        <DIV class="Bullet1-last">The element list (<b>C</b>) specifies that one of these elements must match in the target structures.</DIV>
+        <h3 class="Heading3"><a name="5-Query_617691554_1078312"></a>Element NOT Lists</h3>
+        <div class="Body">The element not-list specifies that the elements in the list are not allowed in the search results. Commas must separate the elements in the element not-list. A space after each comma and brackets are optional.</div>
+        <div class="Body">The word NOT must be in all-caps and must be followed by a space. Alternatively, you can replace the word NOT with a minus sign.</div>
+        <div class="Body">For example:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="13_8.jpg" style="width: 279px;height: 34.99968px;margin-left: 1.50048px;margin-top: 1.0008px;" />
+        </p>
+        <p class="Caption">Element NOT lists</p>
+        <div class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>An element not-list may contain only atomic elements, plus D (deuterium) and T (tritium).</div>
+        <div class="Body">To create an element NOT list:</div>
+        <table class="AutoNumber_div_numlist1-1st" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>1. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="1. ">Open an atom label text box.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-last" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>2. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="2. ">Type an open bracket "<b>[</b>", the word <span class="Action_Object" style="font-weight: bold;">NOT</span>, and a space, for example: <b>[NOT </b>, followed by a list of elements separated by commas (“Cl, Br, I”), followed by a close bracket, “<b>]</b>”, for example: <b>[NOT Cl, Br, I]</b>.</td>
+            </tr>
+        </table>
+    </body>
+</html>

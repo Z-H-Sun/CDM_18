@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin Version="1" Comment="This is the default skin" Anchors="Width,Height" Width="704px" Height="882px" Top="33px" Left="2701px" Bottom="285px" Right="115px" Tabs="TOC,Index,Search" DefaultTab="TOC" UseBrowserDefaultSize="false" UseDefaultBrowserSetup="false" AutoSyncTOC="true" Title="ChemDraw 18.0 Help" BrowserSetup="">
+    <!-- saved from url=(0016)http://localhost -->
+    <!-- saved from url=(0014)about:internet -->
+    <Index BinaryStorage="True" />
+    <HtmlHelpOptions ShowMenuBar="False" TopmostWindowStyle="False" Buttons="Hide,Locate,Back,Forward,Stop,Refresh,Home,Print" EnableButtonCaptions="true" />
+    <Stylesheet>
+        <Styles>
+            <Style Name="Frame">
+                <Classes>
+                    <StyleClass Name="Toolbar">
+                        <Properties>
+                            <Property Name="BackgroundGradient">solid #003399 #003399</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="AccordionTOC">
+                        <Properties>
+                            <Property Name="BackgroundColor">#ffffff</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="NavigationTopDivider">
+                        <Properties>
+                            <Property Name="BackgroundGradient">solid #000000 White</Property>
+                        </Properties>
+                    </StyleClass>
+                </Classes>
+            </Style>
+            <Style Name="ToolbarItem">
+                <Classes>
+                    <StyleClass Name="Logo">
+                        <Properties>
+                            <Property Name="Icon">none</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="Home">
+                        <Properties>
+                            <Property Name="Color">#ffffff</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="AccordionTitle">
+                        <Properties>
+                            <Property Name="FontSize">12pt</Property>
+                        </Properties>
+                    </StyleClass>
+                </Classes>
+                <Properties>
+                    <Property Name="Color">#ffffff</Property>
+                    <Property Name="FontWeight">bold</Property>
+                </Properties>
+            </Style>
+            <Style Name="AccordionItem">
+                <Classes>
+                    <StyleClass Name="TOC">
+                        <Properties>
+                            <Property Name="Label">Contents</Property>
+                            <Property Name="Color">#ffffff</Property>
+                            <Property Name="BackgroundGradientHover">solid #3b3bc8 #dcdcdc</Property>
+                            <Property Name="BackgroundGradient">solid #5c8dda #dfdfdf</Property>
+                            <Property Name="BorderBottom">solid 3px #d3d3d3</Property>
+                            <Property Name="BorderTop">solid 1px #d3d3d3</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="Search">
+                        <Properties>
+                            <Property Name="BackgroundGradient">solid #5c8dda #5c8dda</Property>
+                            <Property Name="BackgroundGradientHover">solid #3b3bc8 #3b3bc8</Property>
+                            <Property Name="Color">#ffffff</Property>
+                            <Property Name="BorderTop">solid 1px #d3d3d3</Property>
+                            <Property Name="BorderBottom">solid 3px #d3d3d3</Property>
+                        </Properties>
+                    </StyleClass>
+                    <StyleClass Name="Index">
+                        <Properties>
+                            <Property Name="BackgroundGradient">solid #5c8dda #5c8dda</Property>
+                            <Property Name="BackgroundGradientHover">solid #3b3bc8 #3b3bc8</Property>
+                            <Property Name="Color">#ffffff</Property>
+                            <Property Name="BorderTop">solid 1px #d3d3d3</Property>
+                            <Property Name="BorderBottom">solid 3px #d3d3d3</Property>
+                        </Properties>
+                    </StyleClass>
+                </Classes>
+                <Properties>
+                    <Property Name="Icon">none</Property>
+                </Properties>
+            </Style>
+            <Style Name="TocEntry">
+                <Properties>
+                    <Property Name="FontFamily">Tahoma,,Arial,sans-serif</Property>
+                    <Property Name="Color">#00507d</Property>
+                    <Property Name="FontSize">8pt</Property>
+                </Properties>
+            </Style>
+        </Styles>
+    </Stylesheet>
+    <WebHelpOptions NavigationPaneWidth="200" />
+    <Toolbar EnableCustomLayout="true" ExcludeAccordionTitle="false" Buttons="Home|Back|Forward|RemoveHighlight|Print" />
+</CatapultSkin>

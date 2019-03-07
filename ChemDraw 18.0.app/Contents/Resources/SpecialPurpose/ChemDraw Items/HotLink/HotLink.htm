@@ -1,0 +1,589 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Hotlink Database</title>
+	<meta name="generator" content="BBEdit 8.7">
+	<style type="text/css">
+body {
+	margin:0px;
+	padding:0px;
+	margin-left:20px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333333;
+	font-weight:normal;
+	margin-top:10px;
+}
+img {
+	border:0px;
+	margin:0px;
+	padding:0px;
+	vertical-align:middle;
+}
+.both {
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+.right {
+	clear:right;
+	margin:0px;
+	padding:0px;
+}
+.wrapper {
+	width:752px;
+	margin:10px 0px 10px 0px;
+	position:relative;
+}
+#logo {
+	width:210px;
+	height:45px;
+	float:left;
+	padding-left:0px;
+	margin:-5px 0px 5px 0px;
+}
+#overDiv {
+	position:absolute;
+	visibility:hidden;
+	z-index:1000;
+}
+a {
+	color:#333399;
+}
+a:hover {
+	text-decoration:none;
+}
+ul {
+	list-style:disc;
+}
+.topBorder {
+	margin-top:10px;
+	}
+.botBorder {
+	margin-bottom:10px;
+	}
+/*Content Styles*/	
+
+.home {
+	float:left;
+	width:750px;
+	position:static;
+	margin: 0px auto 0px auto;
+	overflow:hidden;
+	border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+.home h1 {
+	text-align:left;
+	width:642px;
+	}
+.home ul a {
+	letter-spacing:1.5px;
+	color:#666;
+	text-decoration:none;
+	font:bold 11px Verdana, sans-serif;
+	text-transform:none;
+	font-variant:small-caps;
+}
+.home ul a:hover {
+	text-decoration:underline;
+	color:#660000;
+}
+/* START GENERAL */
+/*html {text-align: center;border-left: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;width: 780px;margin: 0px auto 0px auto;}*/
+/*form {margin: 0px 0px 0px 0px;}*/
+/*.content {text-align: left;float: left;overflow:hidden;}*/
+/* END GENERAL */
+
+/* START BODY */
+h1 {
+	color: #0099FF;
+	font: normal normal bold 17px/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 680px;
+	margin: 5px auto 5px auto;
+}
+.search h1 {
+	color: #0099FF;
+	font: normal normal bolder 17px/24px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 680px;
+	margin: 5px auto 5px auto;
+}
+
+.search {
+	margin: 0px auto 0px auto;
+	width: 680px;
+}
+.search th {
+	color: #333333;
+	font: normal normal normal 11px/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: right;
+	width: 580px;
+}
+.search td {
+	color: #333333;
+	font: normal normal normal 10px/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: left;
+	width:100px;
+}
+.searchHelp {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 8px 0px !important;
+	padding:0px 0px 8px 0px;
+	text-decoration:none;
+	}
+.searchBox {
+	margin:10px 0px 5px 0px;
+	border: 1px solid #999999;
+	color:#000000;
+	padding:1px 3px 1px 3px;
+	}
+.search input 
+{
+    margin:10px 0px 5px 0px;
+    position:relative;
+}
+.searchBox1
+	{
+		
+	border: 1px solid #999999;
+	color:#000000;
+	}
+	
+#validationContext
+{
+    position: absolute;
+}
+#validate 
+{
+    position: absolute;
+    top:-18px;
+    left:0px;
+    display: block;
+    width:200px;
+    height:18px;
+    padding:0px;
+}
+#validate span
+{
+    margin:0px;
+    padding:0px;
+}
+	
+/* User Subscription Message styles */
+
+#UserSubscriptionMessage 
+{
+    width: 680px;
+	margin: 5px auto 15px auto;
+}
+#UserSubscriptionMessage h3 
+{
+    font-size: 11px;
+    color: #0099FF;
+    margin: 0px 0px 5px 0px;
+    padding:0px;
+}
+#UserSubscriptionMessage p 
+{
+    font-size: 10px;
+    margin: 0px 0px 5px 18px;
+    padding:0px;
+}
+#UserSubscriptionMessage ul 
+{
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    list-style-type: disc;
+}
+
+
+/*.search p{padding: 3px 3px 3px 3px;}*/
+.structure_search {
+	width: 680px;
+	height: 80px;
+	margin: 10px auto 10px auto;
+	background: url('images/graphics/searchstructure.gif') no-repeat scroll top center;
+}
+.structure_search h3 {
+	color: #0099FF;
+	font: normal normal bold 17px/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: right;
+	padding: 5px 80px 5px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.structure_search p {
+	color: #333333;
+	font: normal normal normal 11px/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: right;
+	margin: 3px 80px 0px 0px;
+}
+.structure_search h2 {
+	color: #0099FF;
+	font: normal normal bold 11px/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: right;
+	margin: 3px 80px 0px 0px;
+}
+/* START Divs Contents Tables Database */
+.database_search {
+	width: 680px;
+	margin: 0px auto 0px auto;
+	z-index:99
+}
+.database_search_left {
+	position: relative;
+	float: left;
+	width: 330px;
+}
+.database_search_right {
+	float: right;
+	width: 330px;
+	z-index:99
+}
+/* END Divs Contents Tables Database */
+/* START Table Database */
+.t_database {
+	width: 333px;
+	z-index:99;
+	margin-bottom:10px;
+}
+.t_database #col1 {
+	width: 10px;
+	text-align: left;
+}
+.t_database #col2 {
+	width: 200px;
+	text-align: left;
+	border-right: 1px solid #CCCCCC;
+}
+.t_database #col3 {
+	width: 125px;
+	text-align: left;
+	border-right: none;
+}
+.t_database thead th {
+	color: #FFFFFF;
+	font: normal normal bold 17px/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #0099FF;
+	height: 22px;
+	text-align: left;
+	padding:0px 5px 2px 5px;
+	z-index:99
+}
+.t_database tbody th {
+	font: normal normal normal 9px/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+	height: 18px;
+	padding: 5px 3px 5px 5px;
+	vertical-align: middle;
+	border-bottom: 1px solid #CCCCCC;
+	border-left: 1px solid #0099FF;
+}
+.t_database tbody td {
+	font: normal normal normal 11px/normal Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 5px 3px 5px 3px;
+	vertical-align: middle;
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #0099FF;
+}
+.t_database tfoot th {
+	height: 10px;
+	background: url('images/graphics/t_database_footer.gif') no-repeat scroll top left;
+}
+.t_database tfoot td {
+	height: 10px;
+	background: url('images/graphics/t_database_footer.gif') no-repeat scroll top right;
+}
+/* Links t_database */
+.t_database a:link {
+	text-decoration: underline;
+	color: #333399;
+}
+.t_database a:hover {
+	text-decoration: none;
+}
+.t_database a:visited {
+	text-decoration: underline;
+	color: #666666;
+}
+/* END Table Database */	
+
+/* About Us Styles */
+
+.about p 
+{
+    padding: 0px;
+    margin: 0px 0px 10px 10px;
+    font-size: 11px;
+}
+.about h4 
+{
+    font-size:12px;
+    margin: 15px 0px 8px 10px;
+    padding:0px;
+}
+.about h6 
+{
+    margin: 0px 0px 12px 0px;
+    font-size:10px;
+}
+.about ul 
+{
+    margin: 0px 0px 8px 10px;
+    padding:0px;
+    font-size: 11px;
+    list-style
+}
+.about ul li 
+{
+    font-size: 11px;
+}
+/*END Content*/
+
+/* START Language Bar Styles */
+	.languages {
+	margin:0px;
+	padding:0px;
+	margin-top:8px;
+	width:750px;
+	text-align:right;
+	height:14px;
+}
+.languages li {
+	float:right;
+	display:block;
+	text-align:right;
+	padding:0px 10px 0px 10px;
+	border-right:1px solid #ccc;
+}
+.languages a {
+	text-decoration:none;
+	color:#000099;
+}
+.languages a:hover {
+	text-decoration:underline;
+	color:#990066;
+}
+/* END Language Bar Styles */
+
+/* START CS Sites Bar Styles */
+.cssites {
+	height:20px;
+	width:428px;
+	border:1px solid #DDDDDD;
+	margin-top:10px;
+	padding:0px;
+	background:#fff url('images/menu_bg.jpg') repeat;
+	position:absolute;
+	right:0px;
+	
+}
+.cssites a {
+	text-decoration:none;
+	color:#333399;
+	font-size:9px;
+}
+.cssites a:hover {
+	text-decoration:underline;
+}
+.cssites ul {
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.cssites li {
+	float:left;
+	width:102px;
+	text-align:center;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #DDDDDD;
+	display: block;
+	height: 15px;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-left: 1px;
+		font-size:9px;
+}
+
+/* END CS Sites Bar Styles */
+
+
+/*START Send Mail to friend*/
+	.send_friend {
+	width: 500px;
+	height: 250px;
+	background: url('http://chembiofinder.cambridgesoft.com/images/back.gif') repeat-x scroll top;
+}
+.send_friend h1 {
+	width: 500px;
+	height: 25px;
+	background: url('http://chembiofinder.cambridgesoft.com/images/barSendMail.gif') no-repeat scroll top;
+	font: normal normal bold 14px/18px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 3px 0px 3px 0px;
+}
+.send_friend thead td {
+	font: normal normal bold 14px/18px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #006633;
+	text-align: center;
+	margin: 2px 0px 2px 0px;
+	height: 40px;
+}
+.send_friend tbody th {
+	font: normal normal bold 11px/18px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #006633;
+	text-align: right;
+	margin: 2px 0px 2px 0px;
+	height: 30px;
+}
+.send_friend tbody td {
+	font: normal normal bold 11px/18px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #006633;
+	text-align: left;
+	margin: 2px 0px 2px 0px;
+	height: 30px;
+}
+.send_friend #center {
+	text-align: center;
+}
+.send_friend tfoot th {
+	font: normal normal bold 11px/18px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #006633;
+	text-align: right;
+	margin: 2px 0px 2px 0px;
+	height: 35px;
+}
+.send_friend tfoot td {
+	font: normal normal bold 11px/18px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #006633;
+	text-align: left;
+	margin: 2px 0px 2px 0px;
+	height: 70px;
+}
+/*End Send Mail to friend*/
+
+
+
+
+/* START Footer Styles 
+___________________________________________*/
+
+.footer {
+	width: 752px;
+	margin-bottom: 30px;
+	height: 80px;
+}
+.footer ul, .footer li, .footer dl, .footer dd, .footer dt {
+	margin: 0;
+	padding: 0;
+}
+.footerHead {
+	clear:both;
+	height: -10px;
+}
+.footer .phones {
+	width: 750px;
+	height: 12px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #DDDDDD;
+	margin-bottom: 10px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #DDDDDD;
+	float: left;
+}
+.footer .phones dt {
+	float: left;
+	margin-right: 5px;
+	display: block;
+	margin-left: 7px !important;
+	margin-left: 6px;
+	font-size:90%;
+}
+.footer .phones dd {
+	display: block;
+	float: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #DDDDDD;
+	padding-right: 5px;
+	margin-right: -2px;
+	font-size:90%;
+}
+.cssites_footer {
+	width:750px;
+	height:20px;
+	border:1px solid #DDDDDD;
+	background:#fff url('images/menu_bg.jpg') repeat;
+	float: left;
+	margin-bottom: 10px;
+}
+.cssites_footer li {
+	font-size:9px;
+	width:182px;
+	letter-spacing:1.5px;
+}
+#footerTag {
+	font-size: 9px;
+	color: #666666;
+	width: 752px;
+	text-align: center;
+	float: left;
+	margin-bottom: 20px;
+	height: 12px;
+}
+#footerTag a {
+	text-decoration:none;
+	color:#333399;
+}
+#footerTag a:hover {
+	text-decoration:underline;
+	color:#000099;
+}
+.cssites_footer a {
+	text-decoration:none;
+	color:#333399;
+	font-size: 9px;
+}
+.cssites_footer a:hover {
+	text-decoration:underline;
+}
+.cssites_footer ul {
+	list-style:none;
+}
+.cssites_footer li {
+	float:left;
+	text-align:center;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #DDDDDD;
+	display: block;
+	height: 15px;
+	padding-top: 4px;
+	padding-right: 3px;
+	padding-left: 1px;
+}
+</style>
+
+</head>
+<body>
+
+<center><a HREF="http://chembiofinder.com"  target="_blank"><img src="HotLin1.jpg" alt="ChemBioFInder.Com" align="top" border=0></a></center>
+
+<br>ChemBioFinder Database Gateway HotLink shows which databases hosted at 
+CambridgeSoft&#39;s ChemBioFinder.com contain data on a selected compound in an easy to use, clickable form which updates as you draw a 
+chemical structure. <BR><BR>
+
+Information retrieved includes:
+<UL><LI>Databases and links to detailed records</LI><LI>Chemical names and 
+	synonyms</LI><LI>Chemical Identifiers (including InChI and SMILES Strings) </LI></UL>
+<p><i>Requires an active Internet connection set to allow HTTPS traffic.</i>
+
+</p>
+
+</body>
+</html>

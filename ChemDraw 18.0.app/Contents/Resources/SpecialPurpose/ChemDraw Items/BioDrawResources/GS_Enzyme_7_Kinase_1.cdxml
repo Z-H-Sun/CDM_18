@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 12.0d575"
+ Name="Untitled ACS Document 1996-9"
+ BoundingBox="-0.38 0.29 32.57 25.06"
+ WindowPosition="0 0"
+ WindowSize="1073741824 1073741824"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ LabelFont="3"
+ LabelSize="20"
+ LabelFace="96"
+ CaptionFont="3"
+ CaptionSize="20"
+ HashSpacing="5"
+ MarginWidth="3.2"
+ LineWidth="1.2"
+ BoldWidth="4"
+ BondLength="28.8"
+ BondSpacing="18"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ AminoAcidTermini="H/OH"
+ ShowSequenceTermini="yes"
+ ShowSequenceBonds="yes"
+ PrintMargins="36 36 36 36"
+ MacPrintInfo="0003000001200120000000000B6608A0FF84FF880BE309180367052703FC0002000001200120000000000B6608A0000100640064000000010001010100000001270F000100010000000000000000000000000002001901900000000000600000000000000000000100000000000000000000000000000000"
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+<color r="0.6157" g="0.2353" b="0.1255"/>
+<color r="0.4" g="0.1451" b="0.0824"/>
+<color r="0.7608" g="0.2902" b="0.1608"/>
+</colortable><fonttable>
+<font id="3" charset="iso-8859-1" name="Arial"/>
+</fonttable><page
+ id="347"
+ BoundingBox="0 0 540 719.75"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><group
+ id="345"
+ BoundingBox="-0.38 0.29 32.57 25.06"
+ Integral="yes"
+><group
+ id="17"
+ BoundingBox="-0.38 0.29 32.57 25.06"
+ Integral="yes"
+><curve
+ id="8"
+ Z="7"
+ color="10"
+ FillType="Solid"
+ CurveType="129"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="14.72 24.65 7.88 21.71 1.01 18.77 2.24 13.5 1.35 15.11 0.17 17.2 1.87 19.69 4.48 22.16 5.91 23.53 8.21 24.18 11.02 23.86 13.72 23.57 15.7 22.35 17.27 19.85 18.45 17.97 19.9 15.77 18.9 15.2 18.03 14.71 17.21 14.18 17.71 14.51 18.22 14.84 20.41 16.18 21.68 16.32 22.96 16.44 26.86 17.24 29.41 14.43 32.53 11.08 27.91 15.76 25.33 15.47 19.74 14.85 20.03 11.54 16.7 12.24 13.88 12.83"
+/><curve
+ id="10"
+ Z="8"
+ color="11"
+ CurveType="1"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="9.61 4.04 7.65 6.4 4.33 10.39 2.24 13.5 1.35 15.11 0.17 17.2 1.87 19.69 4.48 22.16 5.91 23.53 8.21 24.18 11.02 23.86 13.72 23.57 15.7 22.35 17.27 19.85 18.45 17.97 19.9 15.77 18.9 15.2 18.03 14.71 17.21 14.18 17.71 14.51 18.22 14.84 20.41 16.18 21.68 16.32 22.96 16.44 26.49 17.29 29.4 14.47 32.87 11.13 30.66 7.91 28.74 6.11 25.32 2.92 18.59 0.65 15.26 1.35 12.44 1.95"
+/><annotation Keyword="GUID" Content="f8b9bf1c-5b60-4340-b2f5-08f7ad984bd8"/></group><curve
+ id="6"
+ Z="6"
+ color="12"
+ FillType="Solid"
+ CurveType="129"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="9.61 4.04 7.65 6.4 4.33 10.39 2.24 13.5 1.35 15.11 0.17 17.2 1.87 19.69 4.48 22.16 5.91 23.53 8.21 24.18 11.02 23.86 13.72 23.57 15.7 22.35 17.27 19.85 18.45 17.97 19.9 15.77 18.9 15.2 18.03 14.71 17.21 14.18 17.71 14.51 18.22 14.84 20.41 16.18 21.68 16.32 22.96 16.44 26.49 17.29 29.4 14.47 32.87 11.13 30.66 7.91 28.74 6.11 25.32 2.92 18.59 0.65 15.26 1.35 12.44 1.95"
+/><annotation Keyword="GUID" Content="edc44b8a-5fc3-4d1b-92f4-8bd6bae191bf"/></group></page></CDXML>

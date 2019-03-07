@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="" data-mc-conditions="Default.PrintOnly">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>Tutorials</title>
+        <link href="../../Resources/Stylesheets/Cambridgesoft1.css" rel="stylesheet" type="text/css" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h2 class="Heading2"><a name="chemscript_680541004_40147"></a><a name="kanchor414"></a>Tutorials</h2>
+        <div class="Body">We provide several sample scripts to illustrate how you can develop your own custom code to meet your business needs. Many of the scripts we use are in the ChemScript samples directory. By default, this directory is where ChemOffice 2018  auxillary files are installed:</div>
+        <DIV class="Body">On Windows 7 and 8:</DIV>
+        <Div><span class="Code">C:\ProgramData\PerkinElmerInformatics\ChemOffice2018\ChemScript\Examples\</span>
+        </Div>
+        <div class="Body">For the sake of brevity, we won’t repeat the scripts in this manual or try to teach <a name="kanchor415"></a>Python. However, we briefly describe what you can do with the code examples so that you can modify and expand upon them for your own use. As you read the tutorials, you are encouraged to view the code in IDLE and edit it as desired to see how each example works. For more on IDLE, see <a href="Getting_Started.htm" class="MCXref xref">Getting Started</a>.</div>
+        <h4 class="Heading4">Example 1: Automated Structure Clean up</h4>
+        <div class="Body">This sample script cleans up the structures in multiple ChemDraw files all at the same time. It uses the same cleanup function that is in ChemDraw. The script is in the directory <span class="Code">Example.001/script.py</span>. The script reads the CDX structure files from a source directory, applies the cleanup feature to each structure, and write the modified files to an output directory. The original files remain unchanged.</div>
+        <p>
+            <img src="../Images/1_2.jpg" style="width: 277.9997px;height: 111.9994px;margin-top: 1.41768px;margin-right: 0.7732831px;" />
+        </p>
+        <p class="Caption1">The structure cleanup script reads a structure file (left) and creates a new, cleaned up structure file (right).</p>
+        <div class="Body">This example uses the CDXML format. Other formats, such as MDL MOL, may also be applied. You can also force ChemScript to use specific file formats for reading and writing data.</div>
+        <h4 class="Heading4"><a name="kanchor416"></a>Example 2: Create an SD file</h4>
+        <div class="Body">This example illustrates how you can <a name="kanchor417"></a>create an SD file from existing CDXML files. You can find the script at <span class="Code">Example.002/script.py</span>. We begin with a list of CDXML files that each contain a chemical structure. The list of files is hard-coded into the ChemScript script. When executed, the script uses the <span class="Code">SDFileWriter</span> method to create an SD file that includes all the structures.</div>
+        <h4 class="Heading4"><a name="kanchor418"></a>Example 3: Create a list of CDXML files</h4>
+        <div class="Body">This example illustrates how to read an SD file and write a list of CDXML files. You can find the source file at <span class="Code">Example.003/script.py</span>.</div>
+        <h4 class="Heading4"><a name="kanchor419"></a>Example 4: Filter an SD file</h4>
+        <div class="Body">This example uses the <span class="Code">atomByAtomSearch</span> method to demonstrate a simple application of the "atom-by-atom" substructure search in ChemScript. The program reads an SD file and filters structures into one of two output SD files, structures that contain a phenyl group and structures that don’t. It also illustrates how you can read chemical data formatted as a SMILES string. See <span class="Code">Example.004/script.py</span>.</div>
+        <h4 class="Heading4">Example 5: <a name="kanchor420"></a>Computing Canonical Codes</h4>
+        <div class="Body">This example script checks whether any structures appear in both of two SD files based on the structures’ canonical codes. The output is a new SD file with the duplicate structures excluded. See <span class="Code">Example.005/script.py</span>.</div>
+        <div class="Body">This example first computes the canonical code for each structure. Since the canonical code does not vary with different representations of the same chemical structure, you can use it to determine whether two structures are chemically equivalent.</div>
+        <div class="Body">This example also introduces the Python Dictionary, which is an associative array. The dictionary maps a key to a value. The dictionary is used to determine whether a canonical code has been previously encountered.</div>
+        <div class="Body">This example uses an alternate looping construct to read an SD file.</div>
+        <blockquote class="Caution"><a name="kanchor421"></a>Canonical codes should never be permanently stored because their representation can change among different versions of ChemScript.</blockquote>
+        <h4 class="Heading4"><a name="kanchor422"></a>
+        </h4>
+        <h4 class="Heading4"><a name="kanchor423"></a>Example 6: Structure Overlay</h4>
+        <div class="Body">This script introduces the ChemScript structure overlay feature. It uses a scaffold structure file to superimpose two chemically similar structures. The script first examines the structures in an SD file that contain a common scaffold substructure. It then aligns these structures so that they have the same orientation with respect to the scaffold. See <span class="Code">Example.006/script.py</span>.</div>
+        <div class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>The overlay functionality can also be used to align three dimensional structures.</div>
+        <h4 class="Heading4"><a name="kanchor424"></a>Example 7: Reaction Transformation</h4>
+        <div class="Body">This example demonstrates <a name="kanchor425"></a>reaction transformation. This means that you can draw a reaction that defines a transformation of a molecule and then apply that transformation to a set of structure files.</div>
+        <div class="Body">All the files necessary for this tutorial are in the <span class="Code">Example.007</span> directory. The <span class="Code">transform1.cdxml</span> file provides the reaction that defines the transformation. The input.sdf file contains all the structures that will be transformed.</div>
+        <p>
+            <img src="../Images/1_3.jpg" style="width: 279px;height: 82.99968px;margin-left: 0.5004px;margin-top: 0.5004px;" />
+        </p>
+        <p class="Caption"><a name="chemscript_680541004_60909"></a>The transform file defines how the transformation is applied to the source structures.</p>
+        <div class="Body">The script searches the input file for structures that contain a nitro group, shown as a reactant in the transformation file. If a structure is found, the script transforms the nitro group to the form shown in the product and copies the entire structure to a new file. The figure below shows one example.</div>
+        <p>
+            <img src="../Images/1_4.jpg" style="width: 274.9997px;height: 159px;margin-left: 1.75032px;margin-top: 0.22392px;margin-right: 0.2239232px;margin-bottom: 0.3045529px;" />
+        </p>
+        <p class="Caption">A) before the transformation is applied; B) after transformation.</p>
+        <div class="Body">Structures that don’t meet the search criteria are ignored.</div>
+        <h4 class="Heading4">Example 8: Simple <a name="kanchor426"></a>salt stripping</h4>
+        <div class="Body">The program reads an SD File, identifies and removes salt components (if any are present), and outputs two SD files. The output structure file contains the original structures without the salt component, and the output salt file contains the salt components that were stripped, along with a reference to the original structure. See <span class="Code">Example.008/script.py</span>.</div>
+        <div class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>This example uses a default set of salts that PerkinElmer provides. However, you can also define a customized salt table that enables you to designate which chemicals are considered salts. </div>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextSet xmlns="http://www.cambridgesoft.com/software/ChemDraw/strings"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/strings Strings.xsd">
+    <Text uniqueID="MenuItem_Help_Title">About ChemDraw Plugin...</Text>
+    <Text uniqueID="MenuItem_Help_Activate">Activate ChemDraw Plugin...</Text>
+    <Text uniqueID="MenuItem_Mac_Help">ChemDraw Plugin Help</Text>
+    <Text uniqueID="RESTART_TO_UPDATE_SKU">You should restart your browser to complete the registration process.</Text>
+</TextSet>

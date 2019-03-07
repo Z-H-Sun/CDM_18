@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 12.0d511"
+ Name="hemocytoblast.cdxml"
+ BoundingBox="141.91 137.79 332.97 328.84"
+ WindowPosition="0 0"
+ WindowSize="-2147483648 1073741824"
+ WindowIsZoomed="yes"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ LabelFont="3"
+ LabelSize="10"
+ LabelFace="96"
+ CaptionFont="4"
+ CaptionSize="12"
+ HashSpacing="2.7"
+ MarginWidth="2"
+ LineWidth="1"
+ BoldWidth="4"
+ BondLength="30"
+ BondSpacing="12"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ PrintMargins="36 36 36 36"
+ MacPrintInfo="000300000258025800000000190D1357FFA9FFB21971139E0367052803FC000200000258025800000000190D1357000100640064000000010001010100000001270F000100010000000000000000000000000002001901900000000000600000000000000000000100000000000000000000000000000000"
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+<color r="0.8667" g="0.8667" b="1"/>
+<color r="0.7176" g="0.7176" b="1"/>
+</colortable><fonttable>
+<font id="3" charset="iso-8859-1" name="Arial"/>
+<font id="4" charset="iso-8859-1" name="Times New Roman"/>
+</fonttable><page
+ id="15"
+ BoundingBox="0 0 540 720"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><group
+ id="13"
+ BoundingBox="141.91 137.79 332.97 328.84"
+ Integral="yes"
+><group
+ id="12"
+ BoundingBox="141.91 137.79 332.97 328.84"
+ Integral="yes"
+><group
+ id="7"
+ BoundingBox="141.91 137.79 332.97 328.84"
+ Integral="yes"
+><graphic
+ id="6"
+ BoundingBox="332.47 233.32 237.44 233.32"
+ Z="4"
+ color="8"
+ GraphicType="Oval"
+ OvalType="Circle"
+ Center3D="237.44 233.32 0"
+ MajorAxisEnd3D="332.47 233.32 0"
+ MinorAxisEnd3D="237.44 328.34 0"
+/><curve
+ id="5"
+ Z="3"
+ color="10"
+ FillType="Solid"
+ CurveType="129"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="212.79 153.2 212.79 153.2 212.79 153.2 179.73 152.64 158.45 191.86 137.16 231.07 158.45 269.17 158.45 269.17 158.45 269.17 142.76 238.36 164.61 195.78 186.46 153.2"
+/><annotation Keyword="GUID" Content="350fe8fc-de58-4db9-95e6-e61c49a241be"/></group><group
+ id="8"
+ BoundingBox="203.44 176.28 325.12 297.96"
+ Integral="yes"
+><graphic
+ id="9"
+ BoundingBox="324.62 237.12 264.28 237.12"
+ Z="10"
+ color="8"
+ GraphicType="Oval"
+ OvalType="Circle Filled"
+ Center3D="264.28 237.12 0"
+ MajorAxisEnd3D="324.62 237.12 0"
+ MinorAxisEnd3D="264.28 297.46 0"
+/><graphic
+ id="10"
+ BoundingBox="324.62 237.12 264.28 237.12"
+ Z="12"
+ color="10"
+ GraphicType="Oval"
+ OvalType="Circle"
+ Center3D="264.28 237.12 0"
+ MajorAxisEnd3D="324.62 237.12 0"
+ MinorAxisEnd3D="264.28 297.46 0"
+/><curve
+ id="11"
+ Z="11"
+ color="10"
+ FillType="Solid"
+ CurveType="129"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="248.63 186.25 248.63 186.25 248.63 186.25 227.64 185.9 214.12 210.8 200.6 235.7 214.12 259.89 214.12 259.89 214.12 259.89 204.16 240.32 218.03 213.29 231.91 186.25"
+/><annotation Keyword="GUID" Content="574f4b88-a434-4c7b-a2fb-595636a1cd47"/></group><annotation Keyword="GUID" Content="574f4b88-a434-4c7b-a2fb-595636a1cd47"/></group><graphic
+ id="4"
+ BoundingBox="332.47 233.32 237.44 233.32"
+ Z="2"
+ color="11"
+ GraphicType="Oval"
+ OvalType="Circle Filled"
+ Center3D="237.44 233.32 0"
+ MajorAxisEnd3D="332.47 233.32 0"
+ MinorAxisEnd3D="237.44 328.34 0"
+/><annotation Keyword="GUID" Content="f3521a0c-3c97-482c-9507-825923b9e5a7"/></group></page></CDXML>

@@ -1,0 +1,8 @@
+{
+    "description": "Find structure from CAS Registry Number at ChemACX.com",
+    "version": "1.0",
+    "menuItemText": "ChemACX.com Structure from CAS Registry Number",
+    "minimumAPIVersion": "1.0",
+    "url": "main.html",
+    "canBeUninstalled": false
+}

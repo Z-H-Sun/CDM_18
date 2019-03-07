@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ToolbarGroup xmlns="http://www.cambridgesoft.com/software/ChemDraw/gui"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/gui ToolBar.xsd">
+    <Toolbar uniqueID="VerticalToolBarID" preferenceKey="Vertical" columns="15" rows="1"
+        rowHeight="30" columnWidth="30" defaultOrientation="vertical" hideOnApplicationSwitch="true"
+        defaultDockedLocation="topCenter">
+        <Title localizationName="VerticalToolbarTitle">Main</Title>
+        <TextMenuItem>
+            <Title localizationName="VerticalToolbarMenuItem">Show Main Toolbar</Title>
+        </TextMenuItem>
+        <Tooltip localizationName="MainToolbarToolTip">Main Tools</Tooltip>
+        <Button row="1" column="1" buttonStyle="subToolbar" subToolbarID="IDrawSelectToolBarID"
+            uniqueID="IDrawSelect_ButtonID" imageSource="currentIDrawSelectTool">
+            <Tooltip localizationName="Select_ButtonToolTip">Selection Tools</Tooltip>
+            <Tooltip localizationName="Select_LongButtonToolTip" longForm="true">Press and drag for
+                each part of the curve</Tooltip>
+            <Command command="chooseIDrawSelectTool_Current"/>
+        </Button>
+        <Button row="1" column="2" buttonStyle="toggle" uniqueID="StructurePerspective_ButtonID">
+            <Tooltip localizationName="Structure_Perspective_ButtonToolTip">Rotation Tool</Tooltip>
+            <Graphic sharedGraphic="ThreeDRotate"/>
+            <Command command="chooseStructurePerspectiveTool"/>
+        </Button>
+        <Button row="1" column="3" buttonStyle="toggle" uniqueID="Eraser_ButtonID">
+            <Tooltip localizationName="Eraser_ButtonToolTip">Eraser</Tooltip>
+            <Tooltip localizationName="Eraser_LongButtonToolTip" longForm="true">Click an atom or
+                press and drag to add a bond; draw over an existing bond to double or triple</Tooltip>
+            <Graphic sharedGraphic="Eraser"/>
+            <Command command="chooseEdittingTool_Eraser"/>
+        </Button>
+        <Button row="1" column="4" buttonStyle="toggle" uniqueID="QueryButtonID_ReactionAtomAtomMap">
+            <Tooltip localizationName="ReactionAtomAtomMap_ButtonToolTip">Atom Map</Tooltip>
+            <Tooltip localizationName="ReactionAtomAtomMap_LongButtonToolTip" longForm="true">Click
+                an atom or press and drag to add a bond; draw over an existing bond to double or triple</Tooltip>
+            <Graphic sharedGraphic="Atom"/>
+            <Command command="chooseEdittingTool_Text"/>
+        </Button>
+        <Button row="1" column="5" buttonStyle="subToolbar" subToolbarID="IDrawBondToolBarID"
+            uniqueID="IDrawBond_ButtonID" imageSource="currentIDrawBondTool">
+            <Tooltip localizationName="Bonds_ButtonToolTip">Bond Tools</Tooltip>
+            <Tooltip localizationName="Bonds_LongButtonToolTip" longForm="true">Press and drag for
+                each part of the curve</Tooltip>
+            <Command command="chooseIDrawBondTool_Current"/>
+        </Button>
+        <Button row="1" column="6" buttonStyle="subToolbar" subToolbarID="IDrawWedgeToolBarID"
+            uniqueID="IDrawWedge_ButtonID" imageSource="currentIDrawWedgeTool">
+            <Tooltip localizationName="Wedge_ButtonToolTip">Special Bond Tools</Tooltip>
+            <Tooltip localizationName="Wedge_LongButtonToolTip" longForm="true">Press and drag for
+                each part of the curve</Tooltip>
+            <Command command="chooseIDrawWedgeTool_Current"/>
+        </Button>
+        <Button row="1" column="7" buttonStyle="subToolbar" subToolbarID="IDrawChainToolBarID" uniqueID="IDrawChain_ButtonID">
+            <Tooltip localizationName="Chain_ButtonToolTip">Chain </Tooltip>
+            <Tooltip localizationName="Chain_LongButtonToolTip" longForm="true">Press and drag for each part of the curve</Tooltip>	
+	    <Command command="chooseIDrawChainTool_Current"/>
+        </Button>
+        <Button row="1" column="8" buttonStyle="toggle" uniqueID="ButtonID_Plus">
+            <Tooltip localizationName="DashedBond_ButtonToolTip">Plus</Tooltip>
+            <Tooltip localizationName="DashedBond_LongButtonToolTip" longForm="true">Click an atom
+                or press and drag to add a bond; draw over an existing bond to double or triple</Tooltip>
+            <Graphic sharedGraphic="Plus"/>
+            <Command command="chooseSymbolTool_Plus"/>
+        </Button>
+        <Button row="1" column="9" buttonStyle="subToolbar" subToolbarID="IArrowToolbarID"
+            uniqueID="Arrow_ButtonID" imageSource="currentArrowTool">
+            <Tooltip localizationName="Arrow_ButtonToolTip">Arrows Tools</Tooltip>
+            <Tooltip localizationName="Arrow_LongButtonToolTip" longForm="true">Press and drag for
+                each part of the curve</Tooltip>
+            <Command command="chooseArrowTool_Current"/>
+        </Button>
+        <Button row="1" column="10" buttonStyle="toggle" titleMode="hidden" uniqueID="QueryButtonID_ReactionAtomAtomMap">
+            <Tooltip localizationName="ReactionAtomAtomMap_ButtonToolTip">Atom Atom Map</Tooltip>
+            <Graphic sharedGraphic="AtomAtomMap"/>
+            <Command command="chooseQueryTool_ReactionAtomAtomMap"/>
+        </Button>
+
+        <Button row="1" column="11" buttonStyle="toggle" titleMode="hidden" uniqueID="SequenceButtonID">
+            <Tooltip localizationName="SequenceButtonToolTip">Sequence</Tooltip>
+            <Graphic sharedGraphic="Sequence"/>
+            <Command command="chooseSingleLetterAminoAcid"/>
+        </Button>
+		
+         <Button row="1" column="12" buttonStyle="toggle" uniqueID="DashedBond_ButtonID">
+            <Tooltip localizationName="DashedBond_ButtonToolTip">Bracket</Tooltip>
+            <Tooltip localizationName="DashedBond_LongButtonToolTip" longForm="true">Click an atom
+                or press and drag to add a bond; draw over an existing bond to double or triple</Tooltip>
+            <Graphic sharedGraphic="Bracket"/>
+            <Command command="chooseBracketTool_SquareBrackets"/>
+        </Button>
+        <Button row="1" column="13" buttonStyle="toggle" uniqueID="Text_ButtonID">
+            <Tooltip localizationName="Text_ButtonToolTip">Text</Tooltip>
+            <Tooltip localizationName="Text_LongButtonToolTip" longForm="true">Click an atom or
+                press and drag to add a bond; draw over an existing bond to double or triple</Tooltip>
+            <Graphic sharedGraphic="Text"/>
+            <Command command="chooseEdittingTool_Text"/>
+        </Button>
+        <Button row="1" column="14" buttonStyle="subToolbar" subToolbarID="IDrawLineToolbarID"
+            uniqueID="IDrawLine_ButtonID" imageSource="currentIDrawLineTool">
+            <Tooltip localizationName="Lines_ButtonToolTip">Drawing Elements</Tooltip>
+            <Tooltip localizationName="Lines_LongButtonToolTip" longForm="true">Press and drag for
+                each part of the curve</Tooltip>
+            <Command command="chooseIDrawLineTool_Current"/>
+        </Button>
+        <Button row="1" column="15" buttonStyle="subToolbar" subToolbarID="IDrawShapeToolBarID"
+            uniqueID="IDrawFigure_ButtonID" imageSource="currentIDrawShapeTool">
+            <Tooltip localizationName="Figures_ButtonToolTip">Shape Tools</Tooltip>
+            <Tooltip localizationName="Figures_LongButtonToolTip" longForm="true">Press and drag for
+                each part of the curve</Tooltip>
+            <Command command="chooseIDrawShapeTool_Current"/>
+        </Button>
+    </Toolbar>
+    <ExternalReference uniqueID="IDrawSelectToolBarID"/>
+    <ExternalReference uniqueID="IDrawRotateToolBarID"/>
+    <ExternalReference uniqueID="IDrawBondToolBarID"/>
+    <ExternalReference uniqueID="IDrawWedgeToolBarID"/>
+    <ExternalReference uniqueID="IDrawChainToolBarID"/>
+    <ExternalReference uniqueID="IArrowToolbarID"/>
+    <ExternalReference uniqueID="ArrowsToolBarID"/>
+    <ExternalReference uniqueID="AtomToolBarID"/>
+    <ExternalReference uniqueID="IDrawSequenceToolBarID"/>
+    <ExternalReference uniqueID="IDrawLineToolbarID"/>
+    <ExternalReference uniqueID="IDrawShapeToolBarID"/>
+    <ExternalReference uniqueID="TemplatesToolBarID"/>
+</ToolbarGroup>

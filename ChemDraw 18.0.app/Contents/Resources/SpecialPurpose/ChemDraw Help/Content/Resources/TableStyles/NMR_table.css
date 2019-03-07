@@ -1,0 +1,648 @@
+/* MadCap Table Style: */
+
+/*<meta sourceDocument="D:\Projects\people\DocTeam\ChemOffice 13.0 documentation\1-Chem &amp; Bio Drawing\Source files\CDOnline.book" />*/
+
+mcTableStyle
+{
+	name: NMR_table;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 4pt;
+	border-spacing-x: 0;
+	border-spacing-y: 0;
+	border-collapse: collapse;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	cell-padding-top: 3pt;
+	cell-padding-left: 3pt;
+	cell-padding-right: 3pt;
+	cell-padding-bottom: 3pt;
+}
+
+mcTableColumnStyle
+{
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+}
+
+mcTableHeadStyle
+{
+	
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	background-color: #cccccc;
+}
+
+mcTableFootStyle
+{
+	
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle_NMR_table
+{
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-color: #000000;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 4pt;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle_NMR_table .Column-
+{
+	
+}
+
+.TableStyle_NMR_table .Head-
+{
+	
+}
+
+.TableStyle_NMR_table .HeadI--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .HeadI-- p
+{
+	
+}
+
+.TableStyle_NMR_table .HeadE--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_NMR_table .HeadE-- p
+{
+	
+}
+
+.TableStyle_NMR_table .HeadF--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .HeadF-- p
+{
+	
+}
+
+.TableStyle_NMR_table .HeadH--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_NMR_table .HeadH-- p
+{
+	
+}
+
+.TableStyle_NMR_table .HeadD--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .HeadD-- p
+{
+	
+}
+
+.TableStyle_NMR_table .HeadC--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .HeadC-- p
+{
+	
+}
+
+.TableStyle_NMR_table .HeadB--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_NMR_table .HeadB-- p
+{
+	
+}
+
+.TableStyle_NMR_table .HeadA--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .HeadA-- p
+{
+	
+}
+
+.TableStyle_NMR_table .HeadG--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .HeadG-- p
+{
+	
+}
+
+.TableStyle_NMR_table .Foot-
+{
+	
+}
+
+.TableStyle_NMR_table .FootI--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .FootI-- p
+{
+	
+}
+
+.TableStyle_NMR_table .FootE--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_NMR_table .FootE-- p
+{
+	
+}
+
+.TableStyle_NMR_table .FootF--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .FootF-- p
+{
+	
+}
+
+.TableStyle_NMR_table .FootH--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_NMR_table .FootH-- p
+{
+	
+}
+
+.TableStyle_NMR_table .FootD--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .FootD-- p
+{
+	
+}
+
+.TableStyle_NMR_table .FootC--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .FootC-- p
+{
+	
+}
+
+.TableStyle_NMR_table .FootB--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_NMR_table .FootB-- p
+{
+	
+}
+
+.TableStyle_NMR_table .FootA--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .FootA-- p
+{
+	
+}
+
+.TableStyle_NMR_table .FootG--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .FootG-- p
+{
+	
+}
+
+.TableStyle_NMR_table .Body-
+{
+	
+}
+
+.TableStyle_NMR_table .BodyI--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .BodyI-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyE--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_NMR_table .BodyE-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyF--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle_NMR_table .BodyF-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyH--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_NMR_table .BodyH-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyD--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle_NMR_table .BodyD-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyC--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .BodyC-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyB--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_NMR_table .BodyB-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyA--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .BodyA-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyG--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+}
+
+.TableStyle_NMR_table .BodyG-- p
+{
+	
+}
+
+.TableStyle_NMR_table .Body-
+{
+	
+}
+
+.TableStyle_NMR_table .BodyI--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #cccccc;
+}
+
+.TableStyle_NMR_table .BodyI-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyE--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #cccccc;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_NMR_table .BodyE-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyF--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #cccccc;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle_NMR_table .BodyF-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyH--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #cccccc;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_NMR_table .BodyH-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyD--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #cccccc;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle_NMR_table .BodyD-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyC--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #cccccc;
+}
+
+.TableStyle_NMR_table .BodyC-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyB--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #cccccc;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle_NMR_table .BodyB-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyA--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #cccccc;
+}
+
+.TableStyle_NMR_table .BodyA-- p
+{
+	
+}
+
+.TableStyle_NMR_table .BodyG--
+{
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 3pt;
+	padding-bottom: 3pt;
+	background-color: #cccccc;
+}
+
+.TableStyle_NMR_table .BodyG-- p
+{
+	
+}
+
+

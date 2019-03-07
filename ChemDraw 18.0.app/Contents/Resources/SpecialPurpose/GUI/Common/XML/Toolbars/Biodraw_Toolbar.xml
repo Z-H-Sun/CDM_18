@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ToolbarGroup xmlns="http://www.cambridgesoft.com/software/ChemDraw/gui"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/gui ToolBar.xsd">
+    <Toolbar uniqueID="BioDrawToolBarID" preferenceKey="BioDraw" columns="11" rows="2"
+       defaultOrientation="horizontal" hideOnApplicationSwitch="true">
+        <Title localizationName="BioDrawToolbarTitle">BioDraw</Title>
+        <TextMenuItem>
+            <Title localizationName="BioDrawToolbarMenuItem">Show BioDraw Toolbar</Title>
+        </TextMenuItem>
+        <Tooltip localizationName="BioDrawToolbarToolTip">BioDraw Ordering and Alignment</Tooltip>
+        <Button row="1" column="1" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_1_Substrate_Enzyme"/>
+            <Command command="chooseBioTool_1SubstrateEnzyme"/>
+        </Button>
+        <Button row="1" column="2" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_2_Substrate_Enzyme"/>
+            <Command command="chooseBioTool_2SubstrateEnzyme"/>
+        </Button>
+        <Button row="1" column="3" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_Receptor"/>
+            <Command command="chooseBioTool_Receptor"/>
+        </Button>
+        <Button row="1" column="4" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_IonChannel"/>
+            <Command command="chooseBioTool_IonChannel"/>
+        </Button>
+        <Button row="1" column="5" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_HelixProtein"/>
+            <Command command="chooseBioTool_HelixProtein"/>
+        </Button>
+        <Button row="1" column="6" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_MembraneLine"/>
+            <Command command="chooseBioTool_MembraneLine"/>
+        </Button>
+        <Button row="1" column="7" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_MembraneArc"/>
+            <Command command="chooseBioTool_MembraneArc"/>
+        </Button>
+        <Button row="1" column="8" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_GolgiBody"/>
+            <Command command="chooseBioTool_Golgi"/>
+        </Button>
+        <Button row="1" column="9" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_Cloud"/>
+            <Command command="chooseBioTool_Cloud"/>
+        </Button>
+        <Button row="1" column="10" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_tRNA_Cloverleaf"/>
+            <Command command="chooseBioTool_tRNA"/>
+        </Button>
+        <Button row="1" column="11" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_RibosomeA"/>
+            <Command command="chooseBioTool_RibosomeA"/>
+        </Button>
+        <Button row="2" column="1" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_G_Protein_AlphaSubunit"/>
+            <Command command="chooseBioTool_GProteinAlpha"/>
+        </Button>
+        <Button row="2" column="2" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_G_Protein_BetaSubunit"/>
+            <Command command="chooseBioTool_GProteinBeta"/>
+        </Button>
+        <Button row="2" column="3" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_G_Protein_GammaSubunit"/>
+            <Command command="chooseBioTool_GProteinGamma"/>
+        </Button>
+        <Button row="2" column="4" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_Immunoglobin"/>
+            <Command command="chooseBioTool_Immunoglobin"/>
+        </Button>
+        <Button row="2" column="5" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_DNA"/>
+            <Command command="chooseBioTool_DNA"/>
+        </Button>
+        <Button row="2" column="6" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_Micelle"/>
+            <Command command="chooseBioTool_Membrane_Micelle"/>
+        </Button>
+        <Button row="2" column="7" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_MembraneEllipse"/>
+            <Command command="chooseBioTool_Membrane_Ellipse"/>
+        </Button>
+        <Button row="2" column="8" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_EndoplasmicReticulum"/>
+            <Command command="chooseBioTool_Er"/>
+        </Button>
+        <Button row="2" column="9" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_Mitocondrion"/>
+            <Command command="chooseBioTool_Mitochondrion"/>
+        </Button>
+        <Button row="2" column="10" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_PlasmidMap"/>
+            <Command command="chooseBioTool_PlasmidMap"/>
+        </Button>
+        <Button row="2" column="11" buttonStyle="toggle">
+            <Graphic sharedGraphic="BD_RibosomeB"/>
+            <Command command="chooseBioTool_RibosomeB"/>
+        </Button>
+    </Toolbar>
+</ToolbarGroup>

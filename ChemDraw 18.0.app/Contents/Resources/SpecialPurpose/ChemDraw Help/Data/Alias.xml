@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultAliasFile conditions="">
+    <Map Name="Usinghelp" Link="MyImport/About This Manual.htm" ResolvedId="9" />
+    <Map Name="Gettingstarted" Link="MyImport/1-Basics_10.htm" ResolvedId="3" />
+    <Map Name="Shortcutsandhotkeys" Link="MyImport/ChemDraw_HotKeys.htm" ResolvedId="2" />
+    <Map Name="Contents" Link="MyImport/0-Intro_10.htm" ResolvedId="0" />
+</CatapultAliasFile>

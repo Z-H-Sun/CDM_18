@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Chemistry Features|TLC" data-mc-conditions="MyImport.ChemDraw help">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>GEP tool</title>
+        <link href="../Resources/TableStyles/Copy of _2col_table.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../Resources/Stylesheets/Cambridgesoft1.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <H2 class="Heading2"><a name="6a-Chem_969106972_1212496"></a><a name="6a-Chem_969106972_69927"></a>Gel Electrophoresis Tool</H2>
+        <div class="Body">Gel Electrophoresis tool is available in the Chromatography toolbar and functions much like the TLC tool. It consists of a plate containing several lanes with one or more bands. The bands can be resized and moved along the lane. For example, consider the figure below:</div>
+        <div class="Body">
+            <img src="gel electo1.png" />
+        </div>
+        <div class="Body">You can perform the following action on a plate:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <table class="TableStyle-Copy_of__2col_table" style="caption-side: top;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Copy of _2col_table.css');" cellspacing="0">
+            <col width="116px" class="Column-Column1" />
+            <col width="365px" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <td class="HeadE-Column1-Header1">
+                        <p class="TableHead">Option</p>
+                    </td>
+                    <td class="HeadD-Column1-Header1">
+                        <p class="TableHead">Action</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="TableText">Show scale.</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">A scale bar appears on the right of the plate. By default, the unit is displayed in kDa. However you can change it to Log(Mass), Mass, or distance from the “Units” submenu. For Log(Mass) and Mass the highest value is on the top. For distance the highest value '1' is at the bottom.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="TableText">Show Lane Labels.</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">A label appears for every lane. You can rename and rotate it to any desired angle. When one of the labels is rotated, all the other labels are also rotated by the same angle.</p>
+                        <p class="TableText">
+                            <img src="lane rotate.png" />
+                        </p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <div class="Body">Set Range...</div>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">A dialog box prompting for the new range appears. The expected values entered in this dialog are always “kDa”. The default value for range is 10 to 10,00,000 (Mass), 1 to 6(Log), and 0 to 1(Distance). When you change the range, the bands that fall out of range are hidden.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="TableText">Add Bands...</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">A dialog box prompting for the mass of the new bands to be created in the selected lane appears. Space is used as a separator. Only numbers are allowed. You can also add bands by hovering over the plate lane with the <MadCap:conditionalText data-mc-conditions="MyImport.Mac">OPTION</MadCap:conditionalText>&#160; key pressed. The cursor changes to '+', and clicking on the plate will deposit a new band.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">Add Lane</td>
+                    <td class="BodyD-Column1-Body1">Adds a new lane.</td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">Duplicate Lane</td>
+                    <td class="BodyD-Column1-Body2">Adds a duplicate lane.  <MadCap:conditionalText data-mc-conditions="MyImport.Mac">OPTION+dragging</MadCap:conditionalText> a selected lane also duplicates a lane.</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyB-Column1-Body1">Delete Lane</td>
+                    <td class="BodyA-Column1-Body1">Deletes a lane.</td>
+                </tr>
+            </tbody>
+        </table>
+        <DIV class="Body">All of the items in a particular lane can be modified simultaneously, by hovering over the lane and selecting the required context menu option. For example, you can display all the items in a lane in a specific color, or have them display specific styles.</DIV>
+        <DIV class="Body">
+            <img src="lane options.png" />
+        </DIV>
+        <div class="Body">You can perform the following action on a band:</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <table class="TableStyle-Copy_of__2col_table" style="caption-side: top;margin-left: 0;margin-right: auto;mc-table-style: url('../Resources/TableStyles/Copy of _2col_table.css');" cellspacing="0">
+            <col width="116px" class="Column-Column1" />
+            <col width="351px" class="Column-Column1" />
+            <thead>
+                <tr class="Head-Header1">
+                    <td class="HeadE-Column1-Header1">
+                        <p class="TableHead">Option</p>
+                    </td>
+                    <td class="HeadD-Column1-Header1">
+                        <p class="TableHead">Action</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">
+                        <p class="TableText">Show size.</p>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">The current value of the band appears above it. The value is always shown on top of the band, and is always bound to it. If you drag it to another position, a tether appears between the band and the text.</p>
+                        <p class="TableText">
+                            <img src="band tether.png" />
+                        </p>
+                        <p>You can move the marker label by pressing the  <MadCap:conditionalText data-mc-conditions="MyImport.Mac">OPTION</MadCap:conditionalText> key.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2">
+                    <td class="BodyE-Column1-Body2">
+                        <p class="TableText">Set Size.</p>
+                    </td>
+                    <td class="BodyD-Column1-Body2">
+                        <p class="TableText">A dialog box prompting for the new mass(size) of the band  appears. The band will be automatically moved according to its new value. You can locate the  bands that fall out of range and are hidden.</p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1" data-mc-conditions="">
+                    <td class="BodyE-Column1-Body1">
+                        <div class="Body">Style</div>
+                    </td>
+                    <td class="BodyD-Column1-Body1">
+                        <p class="TableText">Specify the style for the selected band. There are four possible style options available- Filled, Not filled, dashed-bold, and doubled-filled bands. The styles can also be combined.</p>
+                        <p class="TableText">
+                            <img src="band style options.png" />
+                        </p>
+                    </td>
+                </tr>
+                <tr class="Body-Body2" data-mc-conditions="">
+                    <td class="BodyE-Column1-Body2">Set Custom Band</td>
+                    <td class="BodyD-Column1-Body2">
+                        <p>A dialog box prompting you to select a graphic file to be displayed as the selected band appears. </p>
+                        <p>
+                            <img src="custom bands.png" /> <![CDATA[  ]]></p>
+                    </td>
+                </tr>
+                <tr class="Body-Body1" data-mc-conditions="">
+                    <td class="BodyE-Column1-Body1">Duplicate Band</td>
+                    <td class="BodyD-Column1-Body1">To duplicate a band, select a band and  <MadCap:conditionalText data-mc-conditions="MyImport.Mac">Option+drag</MadCap:conditionalText>.</td>
+                </tr>
+                <tr class="Body-Body2" data-mc-conditions="">
+                    <td class="BodyE-Column1-Body2">Remove Custom Band</td>
+                    <td class="BodyD-Column1-Body2">The custom band setting is removed for the selected band and the band appears in its default style.</td>
+                </tr>
+                <tr class="Body-Body1" data-mc-conditions="">
+                    <td class="BodyB-Column1-Body1">Delete Band</td>
+                    <td class="BodyA-Column1-Body1">
+                        <p>Deletes a band from the lane. You can also delete the bands in a lane by hovering over them and pressing Delete. </p>
+                        <DIV class="NoteInd" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>You can have empty lanes.</DIV>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

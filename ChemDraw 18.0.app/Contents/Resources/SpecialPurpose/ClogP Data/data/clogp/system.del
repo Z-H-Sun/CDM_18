@@ -1,0 +1,116 @@
+# Initialized 2002-02-22
+# Beginning of session: 20020911105306
+ENGLISH|*[nH]c(=N)s*|theazolylimino
+PROXTYPE|*[nH]c(=N)s*|Y1
+FVALUE|*[nH]c(=N)s*|aa|-0.30|10
+# Beginning of session: 20020916135000
+ENGLISH|*C(=O)C(*)=NO|keto-ketoxime
+PROXTYPE|*C(=O)C(*)=NO|Y1
+FVALUE|*C(=O)C(*)=NO|AA|-1.00|30
+# Beginning of session: 20020916135144
+FVALUE|*C(=O)C(*)=NO|AA|-1.30|40
+# Beginning of session: 20020926091457
+ENGLISH|*OC#N|oxy-nitrile
+PROXTYPE|*OC#N|Y1
+FVALUE|*OC#N|a|-2.00|40
+# Beginning of session: 20020926103221
+FVALUE|O=C1*C(=O)NC(=S)N1|Y|-0.90|40
+# Beginning of session: 20021003091951
+ENGLISH|S|hydrogen sulfide
+FVALUE|S||0.03|40
+# Beginning of session: 20021003101119
+ENGLISH|*C(S)=S|dithiocarboxilic acid
+PROXTYPE|*C(S)=S|Y1
+FVALUE|*C(S)=S|a|1.01|40
+# Beginning of session: 20021007145433
+FVALUE|*N(O)N=O|a|-0.75|40
+# Beginning of session: 20021014101854
+FVALUE|*OP(O)(=O)O*|AA|-2.70|40
+# Beginning of session: 20021014110140
+ENGLISH|*nn1*nc(=O)n(*)c1=O|tetrazodione
+FVALUE|*nn1*nc(=O)n(*)c1=O|aaA|-2.00|40
+# Beginning of session: 20021017153018
+SIGMA|*n(*)n(*)c(*)=O|6|1.00
+SIGMA|*n(*)n(*)c(*)=O|2|1.00
+# Beginning of session: 20021017153632
+OCLASS|*n(*)n(*)c(*)=O|6|10
+# Beginning of session: 20021030140357
+RHO|*N(O)C(*)=O|2|0.90
+SIGMA|*N(O)C(*)=O|4|0.32
+RHO|*N(O)C(*)=O|4|0.70
+# Beginning of session: 20021031123428
+PROXTYPE|*n(*)c(=O)n(*)c(*)=O|Y1
+# Beginning of session: 20021107093301
+ENGLISH|*S(=O)(=O)NC(N)=S|sulfonthiourea
+PROXTYPE|*S(=O)(=O)NC(N)=S|Y1
+SIGMA|*S(=O)(=O)NC(N)=S|2|0.40
+RHO|*S(=O)(=O)NC(N)=S|2|0.60
+FVALUE|*S(=O)(=O)NC(N)=S|a|-1.00|20
+# Beginning of session: 20021107093521
+SIGMA|*S(=O)(=O)NC(N)=S|2|0.50
+FVALUE|*S(=O)(=O)NC(N)=S|a|-0.70|20
+# Beginning of session: 20021113134203
+PROXTYPE|*N1C(=O)*NC1=O|Y1
+# Beginning of session: 20021113134659
+FVALUE|*N1C(=O)*NC1=O|AZ|-2.10|10
+# Beginning of session: 20021113134807
+FVALUE|*N1C(=O)*NC1=O|AZ|-1.95|10
+# Beginning of session: 20021114145139
+FVALUE|*SS*|Aa|0.15|10
+# Beginning of session: 20021114145618
+RHO|*SS*|3|0.20
+RHO|*SS*|2|0.20
+# Beginning of session: 20021114145813
+FVALUE|*SS*|Aa|0.20|10
+# Beginning of session: 20021114150026
+FVALUE|*SS*|Za|0.55|10
+# Beginning of session: 20021126110000
+FVALUE|*C(*)=O|RW|-1.50|10
+# Beginning of session: 20030513105333
+ENGLISH|*n(O)c(*)=N|muynq
+PROXTYPE|*n(O)c(*)=N|Y1
+OHCONT|*n(O)c(*)=N|Y
+SIGMA|*n(O)c(*)=N|2|0.80
+SIGMA|*n(O)c(*)=N|4|0.30
+RHO|*n(O)c(*)=N|4|0.60
+FVALUE|*n(O)c(*)=N|aa|-1.20|40
+# Beginning of session: 20030520135819
+FVALUE|*NC(=O)O*|aZ|-2.00|0
+# Beginning of session: 20030617085251
+FVALUE|*NC(=N*)*|RRa|-0.30|20
+# Beginning of session: 20030705105542
+FVALUE|*ON(=O)=O|A|-0.30|0
+# Beginning of session: 20030705113218
+FVALUE|*ON(=O)=O|A|-0.02|0
+# Beginning of session: 20030725094905
+FVALUE|*n(*)*|Zaa|-1.24|0
+# Beginning of session: 20030725095500
+FVALUE|*n(*)*|Zaa|-1.14|0
+# Beginning of session: 20030725100829
+FVALUE|*nn(*)*|aZa|-1.65|0
+# Beginning of session: 20030725101105
+FVALUE|*nn(*)*|aZa|-1.30|0
+# Beginning of session: 20040720000000
+ZWITTER|*N(*)C(N)=N|AA|2
+ZWITTER|*N(*)C(N)=N|AZ|2
+ZWITTER|*NC(=N)NC(*)=O|aA|2
+ZWITTER|*NC(=N)NC(*)=O|aa|2
+ZWITTER|*NC(=N)NC(*)=O|Aa|2
+ZWITTER|*NC(=O)NN=C(N)N*|aA|2
+ZWITTER|*NN=C(N)NN|Z|2
+ZWITTER|*NN=C(N)NO|Z|2
+ZWITTER|*N(*)C(N)=N|AA|1
+# Beginning of session: 20060527000000
+FVALUE|*NC(=O)NS(=O)(=O)N*|aa|-1.40|0
+# Beginning of session: 20060529000000
+FVALUE|*ON=C(*)*|AAa|-1.20|10
+# Beginning of session: 20060823000000
+FVALUE|*C(*)=NBr|WW|0.08|0
+# Beginning of session: 20070219112856
+FVALUE|*C(*)=NNC(N)=S|aa|-0.60|30
+# Beginning of session: 20070219113343
+FVALUE|*NC(=S)NN=C(*)*|Aaa|-0.60|0
+# Beginning of session: 20070219114215
+FVALUE|*NC(=S)NN=C(*)*|aaa|-0.80|0
+# Beginning of session: 20070219115734
+FVALUE|*NC(=S)NN=C(*)*|Aaa|-1.20|20

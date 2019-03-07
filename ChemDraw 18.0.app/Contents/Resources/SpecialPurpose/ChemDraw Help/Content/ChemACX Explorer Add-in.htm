@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="ChemDraw Add-Ins">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>ChemACX Explorer Add-in</title>
+        <link href="Resources/Stylesheets/Cambridgesoft1.css" rel="stylesheet" type="text/css" />
+        <script src="../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/foundation.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <H2 class="Heading2">ChemACX Explorer Add-in</H2>
+        <DIV class="Body">ChemACX (Available Chemicals Exchange) is a read-only database of chemical products that are currently available from chemical manufacturers and distributors. The database offers complete catalogs of major world suppliers of fine research, speciality, and industrial chemicals.</DIV>
+        <DIV class="Body">ChemACX Explorer add-in enables you to access ChemACX and search for chemicals from the ChemDraw interface.</DIV>
+        <DIV class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> </span></span>This feature is available only in ChemOffice Professional in Windows/Mac  and ChemDraw Professional in Mac.</DIV>
+        <DIV class="Body"><b>To search for a structure in ChemACX:</b>
+        </DIV>
+        <table class="AutoNumber_div_numlist1-1st" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>1. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="1. ">Go to <b>Add-ins&gt;ChemACX Explorer</b>. The ChemACX Explorer Add-in window displaying the ChemACX panel appears:<br /></td>
+            </tr>
+        </table>
+        <p>
+            <img src="Resources/Images/chemacx menu_mac.png" data-mc-conditions="MyImport.Mac" />
+        </p>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>2. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="2. ">In ChemDraw document, draw and select the structure based on which you want to run the search. The selected structure gets populated in the structure field within ChemACX panel.<br /></td>
+            </tr>
+        </table>
+        <DIV class="Body">
+            <img src="Resources/Images/chemacx dialog1_mac.png" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>3. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="3. ">Select the type of search you want to perform:</td>
+            </tr>
+        </table>
+        <DIV class="Body">
+            <img src="Resources/Images/search type_mac.png" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <DIV class="Bullet1-1st"><b>Exact</b>- Retrieves structures that are identical to the structure specified in the query. Isotopes are not recognized as hits. </DIV>
+        <DIV class="Bullet1-inner"><b>Substructure</b>- Retrieves structures that meet the following criteria:</DIV>
+        <DIV class="Bullet2-inner">Matches the basic chemical structure specified.</DIV>
+        <DIV class="Bullet2-inner">Contains additional attachments at open bond positions.</DIV>
+        <DIV class="Bullet1-inner"><b>Similar</b>- Retrieves structures that are similar to the full structure specified in the query.</DIV>
+        <DIV class="Bullet1-inner"><b>Full</b>- Retrieves structures that match the structure specified in the query.</DIV>
+        <DIV class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> </span></span>After initiating a search, every time you select a different chemical structure in ChemDraw canvas , the following message appears:</DIV>
+        <DIV class="Body">
+            <img src="Resources/Images/criteria change message.png" />
+        </DIV>
+        <DIV class="Bullet2-1st">Click <b>revert</b>: to go to the previous criteria</DIV>
+        <DIV class="Bullet2-last">Click <b>search</b>: to run a new search based on your new selection.</DIV>
+        <table class="AutoNumber_div_numlist1-last" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>4. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="4. ">Click <b>Search</b>. The matching results are displayed under <b>Search Results</b>.</td>
+            </tr>
+        </table>
+        <DIV class="Body">
+            <img src="Resources/Images/structure search_mac.png" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <DIV class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> </span></span>In ChemACX, you can also search  by specifying textual queries such as chemical name, synonym, CAS registry number or catalog number in the '<b>Search by name/synonym/CAS/catalog number</b>' field and then clicking the <b>Search</b> button.</DIV>
+    </body>
+</html>

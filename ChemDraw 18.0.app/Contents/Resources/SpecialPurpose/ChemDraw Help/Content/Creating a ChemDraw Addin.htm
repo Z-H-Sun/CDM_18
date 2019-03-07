@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="ChemDraw Add-Ins">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>Creating a ChemDraw Addin</title>
+        <link href="Resources/Stylesheets/Cambridgesoft1.css" rel="stylesheet" type="text/css" />
+        <script src="../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/foundation.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <H1 class="Heading1">Creating a ChemDraw Add-in</H1>
+        <DIV class="Body">This chapter provides a general description of the various steps involved in creating a ChemDraw add-in. For detailed information, see <a href="ChemDraw Addin Tutorials.htm" class="MCXref xref" xrefformat="{paratext}">ChemDraw Add-in Tutorials</a>.</DIV>
+        <DIV class="Body">&#160;</DIV>
+        <DIV class="Body">The pre-requisite to creating a ChemDraw add-in are:<br /></DIV>
+        <DIV class="Body"><span class="Action_Object">For Windows</span>
+        </DIV>
+        <DIV class="Bullet1-1st">ChemOffice or ChemDraw Professional</DIV>
+        <DIV class="Body"><span class="Action_Object">For Mac</span>
+        </DIV>
+        <DIV class="Bullet1-1st">ChemDraw Professional</DIV>
+        <H3 class="Heading3">The Structure of the Add-in</H3>
+        <DIV class="Body">An add-in consists of two parts: the <b>package file</b> and the <b>JavaScript/HTML code</b>. The structure of an add-in is as follows:</DIV>
+        <p>
+            <img src="Resources/Images/addin struct.png" />
+        </p>
+        <p>For example, if we have two add-ins: the "<b>Hello World</b>" and the "<b>ChemACX.com Structure From CAS Registry Number</b>", the "Add-ins" directory is structured as follows:</p>
+        <p>
+            <img src="Resources/Images/addin struct2.png" />
+        </p>
+        <H3 class="Heading3">Add-in Package File</H3>
+        <DIV class="Body">The add-in package file is a JSON file which contains metadata that describes the add-in to the application. It is required for any add-in, and it must be named as "chemdraw-addin-metadata.json". </DIV>
+        <DIV class="Body">The following fields are required for the package file:</DIV>
+        <DIV class="Bullet1-inner"><b></b>"<b>description</b>": the description of the add-in (optional)</DIV>
+        <DIV class="Bullet1-inner"><b></b>"<b>version</b>"<b></b>: the version number of the add-in.The version number is a convenience to the user and is only used by ChemDraw for display purposes in the Add-in Manager</DIV>
+        <DIV class="Bullet1-inner">"<b>menuItemText</b>": the text of the menu item that can trigger the add-in under the "Add-ins" menu</DIV>
+        <DIV class="Bullet1-inner"><b></b>"<b>minimumAPIVersion</b>"<b></b>: the minimum API version that the add-in is compatible with.  For example, if this value is set to 2.0, and the user is running an older version of ChemDraw running with API version 1.0, the add-in will not be compatible and will not load</DIV>
+        <DIV class="Bullet1-inner"><b></b>"<b>url</b>"<b></b>: url to the HTML file as the entry point of the add-in</DIV>
+        <DIV class="Bullet1-inner">"<b>canBeUninstalled</b>": a boolean value indicating whether the add-in can be uninstalled or overwritten, accepts only true or false. true means the add-in can be uninstalled or overwritten, false otherwise (optional)</DIV>
+        <DIV class="NoteInd" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> </span></span>If the package file doesn't contain the field "<b>canBeUninstalled</b>", ChemDraw will use true as the default value.</DIV>
+        <DIV class="Body">The format of the package file is as follows:</DIV>
+        <DIV class="Body">&#160;</DIV>
+        <DIV class="Body"><b>chemdraw-addin-metadata.json</b>
+        </DIV>
+        <DIV class="Body" style="color: #00008b;">{ </DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"description": "Description of this add-in",</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"version": "Version number of this add-in",</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"menuItemText": "Text for the menu-item that can trigger this add-in",</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"minimumAPIVersion": "The minimum API version required",</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"url": "url to the HTML file as the entry point"</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New'; color: #00008b;">"canBeUninstalled": whether this add-in can be uninstalled or not, accepts only true or false</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New'; color: #00008b;">&#160;</DIV>
+        <DIV class="Body"><span style="color: #00008b;">}</span>
+        </DIV>
+        <H3 class="Heading3">Add-in Content</H3>
+        <DIV class="Body">The content of an add-in is the HTML and JavaScript code. An entry point is required for any add-in and the name of the entry point must be specified by the package file. The entry point is the first HTML page that will be processed by the add-in platform.</DIV>
+        <DIV class="Body">Here is a simple example of the entry point "main.html" which doesn't use any ChemDraw JavaScript API:</DIV>
+        <DIV class="Body"><b>main.html</b>
+        </DIV>
+        <DIV class="BodyInd">&#160;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"><span style="color: #696969;">&lt;!DOCTYPE&#160;html&gt;</span>
+        </DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">&lt;html&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New'; color: #00008b;"><span style="color: #ffffff;">aa</span>&lt;/head&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"><span style="color: #ffffff;">addad</span>&lt;title&gt;Simple Add-in&lt;/title&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"><span style="color: #ffffff;"> aa</span>&lt;/head&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">&#160;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"><span style="color: #ffffff;">aa</span>&lt;body&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"><span style="color: #ffffff;">aaaaa</span>&lt;label&gt;Simple Add-in&lt;/label&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"><span style="color: #ffffff;">aa</span>&lt;/body&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">&lt;/html&gt;</DIV>
+        <H3 class="Heading3">Location of Add-ins</H3>
+        <DIV class="Body">When installed through the add-in manager, the add-in, including the package file and JavaScript/HTML code, will be automatically added to the directory named "<b>Add-ins</b>" in the "ChemDraw Items" directory:</DIV>
+        <DIV class="Body"><span class="Action_Object">Windows:</span>
+        </DIV>
+        <DIV class="Body">C:\ProgramData\PerkinElmerInformatics\ChemOffice2018\ChemDraw\ChemDraw Items\Add-ins</DIV>
+        <DIV class="Body">&#160;</DIV>
+        <DIV class="Body"><span class="Action_Object">Mac:</span>
+        </DIV>
+        <DIV class="Body">/Users/USER/Documents/ChemDraw/Add-ins</DIV>
+        <DIV class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> </span></span>It is possible to change or append to the ChemDraw Items path in <b>File&gt;Preferences&gt;Directories&gt;ChemDraw Items</b> Location Search Priority. When add-ins are installed, they will be written to the first location listed in the Preferences to which a user has write permission. When ChemDraw starts up, add-ins will be loaded from all listed locations.</DIV>
+        <H3 class="Heading3">Executing an Add-in</H3>
+        <DIV class="Body">To access an add-in, go to the <b>Add-ins</b> menu and select the desired add-in.</DIV>
+    </body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="ChemDraw Add-Ins">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>ChemDraw Addin Tutorials</title>
+        <link href="Resources/Stylesheets/Cambridgesoft1.css" rel="stylesheet" type="text/css" />
+        <script src="../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/foundation.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <H2 class="Heading2">ChemDraw Add-in Tutorials</H2>
+        <DIV class="Body">The tutorials illustrate the various steps involved in creating various add-ins. The first tutorial describes how to create an add-in which does not use any ChemDraw JavaScript API. The second tutorial describes the steps involved in creating an add-in which uses ChemDraw JavaScript API.</DIV>
+        <DIV class="Body">For a more general description on creating ChemDraw add-ins, see <a href="Creating a ChemDraw Addin.htm" class="MCXref xref">Creating a ChemDraw Add-in</a>.</DIV>
+        <H3 class="Heading3"><a name="Tutorial"></a>Tutorial 1</H3>
+        <DIV class="Body">Following are the steps involved in creating an simple add-in "Simple Add-in" which does not use any ChemDraw JavaScript API:</DIV>
+        <DIV class="Bullet1-1st"><b>Step 1. Create the package file for the add-in</b>
+        </DIV>
+        <DIV class="BodyInd">The first step is to create the add-in package file which contains metadata that describes the add-in to the application. Specify values for the following fields:</DIV>
+        <DIV class="Bullet2-inner">"<b>description</b>"<b></b>: <i>"</i><b style="font-style: italic;">This is a simple example that demonstrates the ChemDraw add-in</b>"  (optional) (description of the add-in)</DIV>
+        <DIV class="Bullet2-inner">"<b>version</b>": "<b style="font-style: italic;">1.0</b>" (the version number of the add-in)</DIV>
+        <DIV class="Bullet2-inner">"<b>menuItemText</b>": "<b style="font-style: italic;">Simple Add-in</b>" (the name of the add-in that will appear in the menu)</DIV>
+        <DIV class="Bullet2-inner">"<b>minimumAPIVersion</b>": "<b style="font-style: italic;">1.0</b>" (the minimum API version that the add-in is compatible with</DIV>
+        <DIV class="Bullet2-last">"<b>url</b>": "<b style="font-style: italic;">main.htm</b><b>l</b>" (url to the HTML file as the entry point of the add-in)</DIV>
+        <DIV class="NoteInd" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>The add-in package file is required for any add-in, and it MUST be named as "<b>chemdraw-addin-metadata.json</b>".</DIV>
+        <DIV class="Body"><b>chemdraw-addin-metadata.json</b>
+        </DIV>
+        <DIV class="Body" style="color: #00008b;">{ </DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"description": "This is a simple example that demonstrates the ChemDraw add-in",</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"version": "1.0",</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"menuItemText": "Simple Add-in",</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"minimumAPIVersion": "1.0",</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"url": "main.html"</DIV>
+        <DIV class="Body"><span style="color: #00008b;">}</span>
+        </DIV>
+        <DIV class="Bullet1-inner"><b>Step 2. Create the entry point for the add-in</b>
+        </DIV>
+        <DIV class="BodyInd">The next step is to create an entry point for the add-in. An entry point is required for any add-in and the name of the entry point must be specified by the package file.</DIV>
+        <DIV class="BodyInd">
+            <br />
+        </DIV>
+        <DIV class="BodyInd"><b>main.html</b>
+        </DIV>
+        <DIV class="BodyInd">&#160;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"><span style="color: #696969;">&lt;!DOCTYPE&#160;html&gt;</span>
+        </DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">&lt;html&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New'; color: #00008b;"> <span style="color: #ffffff;">aa</span>&lt;/head&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">addad</span>&lt;title&gt;Simple Add-in&lt;/title&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"><span style="color: #ffffff;"> aa</span>&lt;/head&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">&#160;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aa</span>&lt;body&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aaaaa</span>&lt;label&gt;Simple Add-in&lt;/label&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aa</span>&lt;/body&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">&lt;/html&gt;</DIV>
+        <DIV class="Bullet1-inner"><b>Step 3. Install the Add-in</b>
+        </DIV>
+        <DIV class="BodyInd">Next step is to install the add-in created into ChemDraw. To do so:</DIV>
+        <DIV class="Bullet2-1st">Zip the package file "chemdraw-addin-metadata.json" and the entry point "main.html". The name of the zip file should be the name of the add-in. For example, Simple Add-in.zip. </DIV>
+        <DIV class="Bullet2-inner">Change the extension of the containing folder from .zip to .chemdrawaddin (Simple Add-in.zip to Simple Add-in.chemdrawaddin).</DIV>
+        <DIV class="NoteInd" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>Only files with .chemdrawaddin extension can be installed. <br /></DIV>
+        <DIV class="Bullet2-inner">  Launch the ChemDraw application and go to <b>Add-ins&gt;Add-in Manager</b>. The ChemDraw Add-in Manager window appears.</DIV>
+        <DIV class="Bullet2-inner">Click <b>Install</b> and navigate to the location of the add-in created. </DIV>
+        <DIV class="BodyInd">
+            <img src="Resources/Images/addin manager.png" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <DIV class="Bullet2-inner">Select Simple Add-in.chemdrawaddin and click <b>Open</b>. </DIV>
+        <DIV class="BodyInd">
+            <img src="Resources/Images/addinlocmac.png" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <DIV class="BodyInd">Simple Add-in add-in is installed and is listed in the ChemDraw Add-ins Manager window.</DIV>
+        <DIV class="BodyInd">
+            <img src="Resources/Images/addin importedmac.png" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <DIV class="Bullet1-inner"><b>Step 5. Run the add-in</b>
+        </DIV>
+        <DIV class="BodyInd">To access the add-in:</DIV>
+        <DIV class="Bullet2-1st">Go to <b>Add-ins&gt;Simple Add-in</b>. The ChemDraw Add-in - Simple Add-in window appears.</DIV>
+        <DIV class="BodyInd">
+            <img src="Resources/Images/Simpleaddin menu mac.png" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <p>&#160;</p>
+        <DIV class="BodyInd">
+            <img src="Resources/Images/simple addin mac.png" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <H3 class="Heading3">Tutorial 2</H3>
+        <DIV class="Body">Following are steps involved in creating a slightly more complex add-in called "Version Viewer" that is for viewing the version of the ChemDraw JavaScript API. It is a simple demonstration on the usage of ChemDraw JavaScript API.</DIV>
+        <p><b>Step 1. Create the package file for the add-in</b>
+        </p>
+        <DIV class="BodyInd">The first step is to create the add-in package file which contains metadata that describes the add-in to the application. Specify values for the following fields:</DIV>
+        <DIV class="Bullet2-inner">"<b>description</b>"<b></b><i>"</i><b style="font-style: italic;">This is a simple example that demonstrates the usage of ChemDraw JavaScript API</b>"  (optional) (description of the add-in)</DIV>
+        <DIV class="Bullet2-inner">"<b>version</b>": "<b style="font-style: italic;">1.0</b>" (the version number of the add-in)</DIV>
+        <DIV class="Bullet2-inner"><b>menuItemText</b>- "<b style="font-style: italic;">Version Viewer</b>" (the name of the add-in that will appear in the menu)</DIV>
+        <DIV class="Bullet2-inner">"<b>minimumAPIVersion</b>": "<b style="font-style: italic;">1.0</b>" (the minimum API version that the add-in is compatible with)</DIV>
+        <DIV class="Bullet2-last">"<b>url</b>": "<b style="font-style: italic;">main.htm</b>l" (url to the HTML file as the entry point of the add-in)</DIV>
+        <DIV class="NoteInd" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>The add-in package file is required for any add-in, and it MUST be named as "<b>chemdraw-addin-metadata.json</b>".</DIV>
+        <DIV class="Body"><b>chemdraw-addin-metadata.json</b>
+        </DIV>
+        <DIV class="Body" style="color: #00008b;">{ </DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"description": "This is a simple example that demonstrates the usage of ChemDraw JavaScript API",</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"version": "1.0",</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"menuItemText": "Version Viewer",</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"minimumAPIVersion": "1.0",</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">"url": "main.html"</DIV>
+        <DIV class="Body"><span style="color: #00008b;">}</span>
+        </DIV>
+        <DIV class="Bullet1-inner"><b>Step 2. Create the entry point for the add-in</b>
+        </DIV>
+        <DIV class="BodyInd">The next step is to create an entry point for the add-in. An entry point is required for any add-in and the name of the entry point must be specified by the package file.</DIV>
+        <DIV class="BodyInd">
+            <br />
+        </DIV>
+        <DIV class="BodyInd"><b>main.html</b>
+        </DIV>
+        <DIV class="BodyInd">&#160;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"><span style="color: #696969;">&lt;!DOCTYPE&#160;html&gt;</span>
+        </DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">&lt;html&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New'; color: #00008b;"> <span style="color: #ffffff;">aa</span>&lt;/head&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">addad</span>&lt;title&gt;Version Viewer&lt;/title&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"><span style="color: #ffffff;"> aa</span>&lt;/head&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New'; color: #00008b;">&#160;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aaa</span>&lt;script src="version-viewer.js"&gt; &lt;/script&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">&#160;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aa</span>&lt;body&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"><span style="color: #ffffff;">aaaaa</span>&lt;input value="Show API Version" type="button"<br /> <span style="color: #ffffff;">aaaaa</span>onClick="onClickShowAPIVersion()" /&gt;</DIV>
+        <DIV class="BodyInd" style="color: #00008b;"> <span style="color: #ffffff;">aaaaaaaa</span><span style="font-family: 'Courier New';">&lt;div id="messageBox"&gt;&lt;/div&gt;</span></DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aa</span>&lt;/body&gt;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">&lt;/html&gt;</DIV>
+        <DIV class="Bullet1-1st"> <b>Step 3. Write the JavaScript code for the business logic</b></DIV>
+        <DIV class="BodyInd">The next step is to write the JavaScript code for the business logic of the add-in.</DIV>
+        <DIV class="BodyInd">&#160;</DIV>
+        <DIV class="BodyInd"><b>version-view.js</b>
+        </DIV>
+        <DIV class="BodyInd">&#160;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #9acd32;">//</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #9acd32;">// version-viewer.js</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #9acd32;">//</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #9acd32;">// ChemDraw JavaScript API example</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #9acd32;">//</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #9acd32;">// Copyright (c) 2018 PerkinElmer, Inc. All rights reserved.</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">&#160;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"><span style="color: #0000cd;">function</span> onClickShowAPIVersion()</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">{</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aaa</span><span style="color: #0000cd;">var</span> messageBox = document.getElementById("messageBox");</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #0000cd;">&#160;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #0000cd;"> <span style="color: #ffffff;">aaa</span><span style="color: #0000cd;">try</span></DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aaa</span>{</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aaaaaa</span>messageBox.innerHTML += 'Using ChemDraw JavaScript API' +<br /> <span style="color: #ffffff;">aaaaaa</span>ChemDrawAPI.version + "&lt;br/&gt;";</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aaaa</span>}</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aaaa</span><span style="color: #0000cd;">catch</span> (err)</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aaaa</span>{</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aaaaaa</span>messageBox.innerHTML += err.message;</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;"> <span style="color: #ffffff;">aaaa</span>}</DIV>
+        <DIV class="BodyInd" style="font-family: 'Courier New';color: #00008b;">}</DIV>
+        <DIV class="Bullet1-inner"><b>Step 4. Install the Add-in</b>
+        </DIV>
+        <DIV class="BodyInd">Next step is to install the add-in created into ChemDraw. To do so:</DIV>
+        <DIV class="Bullet2-1st">Zip the package file "chemdraw-addin-metadata.json" and the entry point "main.html". The name of the zip file should be the name of the add-in. For example, Version Viewer.zip.</DIV>
+        <DIV class="Bullet2-inner">Change the extension of the containing folder from .zip to .chemdrawaddin (Version Viewer.zip to Version Viewer.chemdrawaddin).</DIV>
+        <DIV class="NoteInd" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>Only files with .chemdrawaddin extension can be installed. </DIV>
+        <DIV class="Bullet2-inner">Launch the ChemDraw application and go to <b>Add-ins&gt;Add-in Manager</b>. The ChemDraw Add-in Manager window appears.</DIV>
+        <DIV class="Bullet2-inner">Click <b>Install</b> and navigate to the location of the add-in created. </DIV>
+        <DIV class="Body">&#160;</DIV>
+        <DIV class="BodyInd">
+            <img src="Resources/Images/addin manager.png" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <DIV class="BodyInd">
+            <br />
+        </DIV>
+        <DIV class="Bullet2-inner">Select Version Viewer.chemdrawaddin and click <b>Open</b>. </DIV>
+        <DIV class="BodyInd">
+            <img src="Resources/Images/veraddinlocmac.png" style="width: 620px;height: 327px;" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <DIV class="BodyInd">Version Viewer add-in is installed and is listed in the ChemDraw Add-ins Manager window.</DIV>
+        <DIV class="BodyInd">
+            <img src="Resources/Images/veraddimimportedmac.png" style="width: 669px;height: 401px;" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <DIV class="Bullet1-inner"><b>Step 5. Run the add-in</b>
+        </DIV>
+        <DIV class="BodyInd">To access the add-in:</DIV>
+        <DIV class="Bullet2-1st">Go to <b>Add-ins&gt;Version Viewer</b>. </DIV>
+        <DIV class="BodyInd">
+            <img src="Resources/Images/versionveiwer menu mac.png" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <DIV class="Bullet2-1st">The ChemDraw Add-in - Version Viewer window appears.</DIV>
+        <DIV class="BodyInd">
+            <img src="Resources/Images/versionviewer mac.png" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <p>&#160;</p>
+        <DIV class="Bullet2-1st">Click <b>Show API Version</b>. The version number is displayed.</DIV>
+        <DIV class="BodyInd">
+            <img src="Resources/Images/versionviewer1 mac.png" data-mc-conditions="MyImport.Mac" />
+        </DIV>
+        <p>&#160;</p>
+    </body>
+</html>

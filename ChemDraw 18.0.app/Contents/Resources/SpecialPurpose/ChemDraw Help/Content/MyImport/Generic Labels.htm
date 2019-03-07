@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Query Structures|Generic Labels" data-mc-conditions="MyImport.ChemDraw help">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>Generic Labels</title>
+        <link href="../Resources/Stylesheets/Cambridgesoft1.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <H2 class="Heading2"><a name="5-Query_617691554_1285951"></a><a name="5-Query_617691554_24885"></a>Generic <a name="5-Query_617691554_Nicknames"></a>Labels</H2>
+        <div class="Body">A generic label represents a nonspecific attachment. It can be either an unspecified atom, functional group, or structural feature. When you perform a query, the query looks for structures based on the type of generic label you use and where it is in the query structure. Records that match the query structure are returned in the search results.</div>
+        <div class="Body">For example, the query structure below uses the letter ‘Q’ to indicate that a nonhydrogen, noncarbon atom must appear at the specified location.</div>
+        <p class="GraphicAnchor">&#160;</p>
+        <p>
+            <img src="13_18.jpg" style="width: 153px;height: 147px;margin-left: 1.20096px;margin-top: 2.00232px;margin-right: 1.04904px;margin-bottom: 1.747443px;" />
+        </p>
+        <div class="Body">You can use other generic labels to indicate other types of query criteria. The generic labels that ChemOffice supports are listed below (all are recognized as chemically significant).</div>
+        <div class="Bullet1-1st"><span class="Action_Object">A</span>: Represents any non hydrogen.</div>
+        <div class="Bullet1-inner"><span class="Action_Object">M</span>: Represents a metal.</div>
+        <div class="Bullet1-inner"><span class="Action_Object">Q</span>: Represents an atom that is neither hydrogen nor carbon.</div>
+        <div class="Bullet1-inner"><span class="Action_Object">X</span>: Represents any halide.</div>
+        <div class="Bullet1-last"><span class="Action_Object">R</span>: Unrestricted; represents one or more connected atoms of any kind.</div>
+        <div class="Body">To add a generic label to a structure, do one of the following:</div>
+        <DIV class="Bullet1-1st">Double-click the atom to open a text box, and type in the nickname.</DIV>
+        <DIV class="Bullet1-last">Right-click the atom, point to <span class="Action_Object">Insert Generic Label</span> on the context menu, and click the label you wish to insert on the sub-menu.</DIV>
+        <H3 class="Heading3"><a name="5-Query_617691554_1286331"></a>Generic Nickname Hotkeys</H3>
+        <div class="Body">You can assign hotkeys to generic nicknames, just like other nicknames. For information on assigning a hotkey to a nickname, see      <a href="Customizing Hotkeys.htm#A-Customize_2096640490_1463184" title="" alt="" class="MCXref xref">Customizing Hotkeys</a>.</div>
+        <H3 class="Heading3"><a name="5-Query_617691554_1285969"></a>Defining Generic Nicknames</H3>
+        <div class="Body">The generic nicknames recognized as chemically meaningful are listed in the Generic Nicknames file in the ChemDraw Items folder. <a name="kanchor469"></a></div>
+        <div class="Body">To edit the generic nickname files, open the Generic Nicknames file in a text editor and make your changes. Follow examples in the file for the correct format.</div>
+        <div class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>If you check a structure that has a generic nickname, a message displays because the structure contains variable substituents. If you ignore this message, the generic nicknames are ignored, and the chemical formula, mass, etc., are reported as if the atom label containing the generic nickname were not selected.</div>
+    </body>
+</html>

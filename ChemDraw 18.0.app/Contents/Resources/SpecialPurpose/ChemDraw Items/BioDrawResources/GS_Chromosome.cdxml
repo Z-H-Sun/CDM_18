@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.cambridgesoft.com/xml/cdxml.dtd" >
+<CDXML
+ CreationProgram="ChemDraw 12.0d511"
+ Name="chromosome.cdxml"
+ BoundingBox="235.54 264.9 293.99 449.54"
+ WindowPosition="0 0"
+ WindowSize="-2147483648 1073741824"
+ WindowIsZoomed="yes"
+ FractionalWidths="yes"
+ InterpretChemically="yes"
+ ShowAtomQuery="yes"
+ ShowAtomStereo="no"
+ ShowAtomEnhancedStereo="yes"
+ ShowAtomNumber="no"
+ ShowBondQuery="yes"
+ ShowBondRxn="yes"
+ ShowBondStereo="no"
+ ShowTerminalCarbonLabels="no"
+ ShowNonTerminalCarbonLabels="no"
+ HideImplicitHydrogens="no"
+ LabelFont="3"
+ LabelSize="10"
+ LabelFace="96"
+ CaptionFont="4"
+ CaptionSize="12"
+ HashSpacing="2.7"
+ MarginWidth="2"
+ LineWidth="1"
+ BoldWidth="4"
+ BondLength="30"
+ BondSpacing="12"
+ ChainAngle="120"
+ LabelJustification="Auto"
+ CaptionJustification="Left"
+ PrintMargins="36 36 36 36"
+ MacPrintInfo="000300000258025800000000190D1357FFA9FFB21971139E0367052803FC000200000258025800000000190D1357000100640064000000010001010100000001270F000100010000000000000000000000000002001901900000000000600000000000000000000100000000000000000000000000000000"
+ FixInPlaceExtent="514.75 514.75"
+ color="0"
+ bgcolor="1"
+><colortable>
+<color r="1" g="1" b="1"/>
+<color r="0" g="0" b="0"/>
+<color r="1" g="0" b="0"/>
+<color r="1" g="1" b="0"/>
+<color r="0" g="1" b="0"/>
+<color r="0" g="1" b="1"/>
+<color r="0" g="0" b="1"/>
+<color r="1" g="0" b="1"/>
+<color r="1" g="0.6824" b="0.6824"/>
+</colortable><fonttable>
+<font id="3" charset="iso-8859-1" name="Arial"/>
+<font id="4" charset="iso-8859-1" name="Times New Roman"/>
+</fonttable><page
+ id="16"
+ BoundingBox="0 0 540 720"
+ HeaderPosition="36"
+ FooterPosition="36"
+ PrintTrimMarks="yes"
+ HeightPages="1"
+ WidthPages="1"
+><group
+ id="14"
+ BoundingBox="235.54 264.9 293.99 449.54"
+ Integral="yes"
+><curve
+ id="13"
+ Z="3"
+ color="10"
+ FillType="Solid"
+ CurveType="129"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="249.19 266.25 248.81 270.75 248.44 275.25 248.06 285.75 249.38 291.19 250.69 296.63 253.13 309.38 264.75 309.38 276.38 309.38 278.63 297.94 279.75 291.94 280.88 285.94 280.88 275.25 280.5 270.56 280.13 265.88 289.23 263.01 291.94 271.13 293.81 276.75 292.11 286.66 291.19 294.19 289.31 309.56 278.06 316.69 278.06 316.69 278.06 316.69 290.25 334.31 291 376.5 291 376.5 293.19 437.35 291.75 443.25 289.69 451.69 280.31 448.5 280.31 442.31 280.31 435.19 280.72 389.78 279.56 376.31 274.31 315.38 264.75 320.44 264.75 320.44 264.75 320.44 254.87 314.83 249.38 378.56 248.44 389.44 249.75 435.16 249.75 440.25 249.75 448.88 238.91 450.72 237.75 443.44 237 438.75 237.46 388.43 237.94 377.44 239.81 334.13 250.88 316.88 250.88 316.88 250.88 316.88 240 308.81 237.56 290.63 236.89 285.58 235.69 277.69 237.94 270.94 240.19 264.19"
+/><curve
+ id="12"
+ Z="4"
+ color="4"
+ CurveType="1"
+ ArrowheadType="Solid"
+ Closed="yes"
+ CurvePoints="249.19 266.25 248.81 270.75 248.44 275.25 248.06 285.75 249.38 291.19 250.69 296.63 253.13 309.38 264.75 309.38 276.38 309.38 278.63 297.94 279.75 291.94 280.88 285.94 280.88 275.25 280.5 270.56 280.13 265.88 289.23 263.01 291.94 271.13 293.81 276.75 292.11 286.66 291.19 294.19 289.31 309.56 278.06 316.69 278.06 316.69 278.06 316.69 290.25 334.31 291 376.5 291 376.5 293.19 437.35 291.75 443.25 289.69 451.69 280.31 448.5 280.31 442.31 280.31 435.19 280.72 389.78 279.56 376.31 274.31 315.38 264.75 320.44 264.75 320.44 264.75 320.44 254.87 314.83 249.38 378.56 248.44 389.44 249.75 435.16 249.75 440.25 249.75 448.88 238.91 450.72 237.75 443.44 237 438.75 237.46 388.43 237.94 377.44 239.81 334.13 250.88 316.88 250.88 316.88 250.88 316.88 240 308.81 237.56 290.63 236.89 285.58 235.69 277.69 237.94 270.94 240.19 264.19"
+/><annotation Keyword="GUID" Content="f09b9952-3b32-44f4-8255-f0e5f3364bd3"/></group></page></CDXML>

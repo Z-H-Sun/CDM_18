@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MenuSet xmlns="http://www.cambridgesoft.com/software/ChemDraw/gui"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/gui Menus.xsd">
+	<Menu uniqueID="FileMenuID">
+		<!-- Starting off with the File Menu in the Main Menu Bar -->
+		<Title localizationName="MenuTitle_File">File</Title>
+		<TextMenuItem sharedMenuItem="MenuItem_NewDocument"/>
+        <TextMenuItem sharedMenuItem="MenuItem_File_OpenStationery" platformSpecific="Mac"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Open"/>
+        <TextMenuItem sharedMenuItem="MenuItem_File_OpenStyleSheets" platformSpecific="Windows"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Close"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Save"/>
+		<TextMenuItem sharedMenuItem="MenuItem_SaveAs"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Revert"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_PageSetup"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Print"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_DocumentSettings"/>
+		<TextMenuItem sharedMenuItem="MenuItem_DocumentAnnotations"/>
+        <TextMenuItem sharedMenuItem="MenuItem_DocumentProperties"/>
+        <TextMenuItem sharedMenuItem="MenuItem_PageDefinition"/>
+		<TextMenuItem sharedMenuItem="MenuItem_File_ApplyDocumentSettings"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Show_Preferences"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ListNicknames"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_File_RecentDocuments"/>
+		<TextMenuItem isSeparator="true" platformSpecific="Windows"/>
+		<TextMenuItem sharedMenuItem="MenuItem_File_Windows_Quit" platformSpecific="Windows"/>
+	</Menu>
+	<Menu uniqueID="EditMenuID">
+		<!-- The Edit menu in the menubar -->
+		<Title localizationName="MenuTitle_Edit">Edit</Title>
+		<TextMenuItem sharedMenuItem="MenuItem_Undo"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Redo_Mac"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Redo_Windows"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Cut"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Copy"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Paste"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Clear"/>
+		<TextMenuItem sharedMenuItem="MenuItem_SelectAll"/>
+        <TextMenuItem sharedMenuItem="MenuItem_InvertSelection"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Repeat"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Edit_CopyAs"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Edit_PasteSpecial"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem=" MenuItem_EditInChemDraw" platformSpecific="Windows"/>
+		<TextMenuItem sharedMenuItem="MenuItem_InsertFile"/>
+    <TextMenuItem sharedMenuItem="MenuItem_InsertOLEObject" platformSpecific="Windows"/>
+    <TextMenuItem sharedMenuItem="MenuItem_OLEMenuPlaceholder" platformSpecific="Windows"/>
+		<TextMenuItem isSeparator="true" platformSpecific="Mac"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ShowClipboard" platformSpecific="Mac"/>
+	</Menu>
+	<Menu  uniqueID="ViewMenuID">
+		<!-- The View menu in the menubar -->
+		<Title localizationName="MenuTitle_View">View</Title>
+		<TextMenuItem sharedMenuItem="MenuItem_ShowCrosshair"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ShowRulers"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MainToolBarID"/>
+		<TextMenuItem sharedMenuItem="SequenceToolBarID"/>
+		<TextMenuItem sharedMenuItem="MonomerWindowID"/>
+		<TextMenuItem sharedMenuItem="GeneralToolbarID_Ext"/>
+		<TextMenuItem sharedMenuItem="TextStylesToolBarID"/>
+		<TextMenuItem sharedMenuItem="ObjectToolBarID"/>
+		<TextMenuItem sharedMenuItem="AnalysisWindowID"/>
+		<TextMenuItem sharedMenuItem="InfoWindowID"/>
+		<TextMenuItem sharedMenuItem="PeriodicTableWindowID"/> 
+		<TextMenuItem sharedMenuItem="CharacterMapWindowID"/>
+		<TextMenuItem sharedMenuItem="MenuItem_View_OtherToolbars"/>
+        <TextMenuItem sharedMenuItem="MenuItem_View_Templates"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ShowChemicalWarnings"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ShowReactionInterpretations"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ZoomToActualSize"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ZoomToShowDocument"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ZoomToMagnify"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ZoomToReduce"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_AddSplitter"/>
+	</Menu>
+	
+	<Menu uniqueID="OleViewMenuID" platformSpecific="Windows">
+		<!-- The View menu in the menubar -->
+		<Title localizationName="MenuTitle_View">View</Title>
+		<TextMenuItem sharedMenuItem="MenuItem_ShowCrosshair"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ShowRulers"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MainToolBarID"/>
+		<TextMenuItem sharedMenuItem="SequenceToolBarID"/>
+		<TextMenuItem sharedMenuItem="MonomerWindowID"/>		
+		<TextMenuItem sharedMenuItem="GeneralToolbarID_Ext"/>
+		<TextMenuItem sharedMenuItem="TextStylesToolBarID"/>
+		<TextMenuItem sharedMenuItem="ObjectToolBarID"/>
+		<TextMenuItem sharedMenuItem="AnalysisWindowID"/>
+		<TextMenuItem sharedMenuItem="InfoWindowID"/>
+		<TextMenuItem sharedMenuItem="PeriodicTableWindowID"/> 
+		<TextMenuItem sharedMenuItem="CharacterMapWindowID"/>
+		<TextMenuItem sharedMenuItem="MenuItem_View_OtherToolbars"/>
+        <TextMenuItem sharedMenuItem="MenuItem_View_Templates"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ShowChemicalWarnings"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ShowReactionInterpretations"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ZoomToShowDocument"/>
+	</Menu>
+	<Menu uniqueID="ObjectMenuID">
+		<!-- Object menu in toolbar -->
+		<Title localizationName="MenuTitle_Object">Object</Title>
+		<TextMenuItem sharedMenuItem="MenuItem_ObjectSettingsDeep"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Object_ApplyObjectSettings"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ToggleFixedLengths"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ToggleFixedANgles"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_AttachData"/>
+        <TextMenuItem sharedMenuItem="MenuItem_AnnotateObject"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_CenterObjectOnPage"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Objects_AlignDeep"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Object_Distribute"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Object_AddFrames"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_GroupObjects"/>
+		<TextMenuItem sharedMenuItem="MenuItem_UngroupObjects"/>
+		<TextMenuItem sharedMenuItem="MenuItem_JoinObjectsToGroup"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_BringObjectToFront"/>
+		<TextMenuItem sharedMenuItem="MenuItem_SendObjectToBack"/>
+		<TextMenuItem sharedMenuItem="MenuItem_FlattenObjects"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_FlipObjectHorizontal"/>
+		<TextMenuItem sharedMenuItem="MenuItem_FlipOjbectVertical"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Rotate180Horizontal"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Rotate180Vertical"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ShowRotateObjectDialog"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ShowScaleObjectDialog"/>
+	</Menu>
+	<!-- the Structure menu in the menubar -->
+	<Menu uniqueID="StructureMenuID">
+		<Title localizationName="MenuTitle_Structure">Structure</Title>
+		<TextMenuItem sharedMenuItem="MenuItem_AtomProperties"/>
+		<TextMenuItem sharedMenuItem="MenuItem_BondProperties"/>
+		<TextMenuItem sharedMenuItem="MenuItem_BracketProperties"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_CheckStructure"/>
+		<TextMenuItem sharedMenuItem="MenuItem_CleanUpStructure"/>
+		<TextMenuItem sharedMenuItem="MenuItem_CleanUpReaction"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ExpandLabel"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ContractLabel"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ExpandGenericStructure"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_AddMultiCenterAttachment"/>
+		<TextMenuItem sharedMenuItem="MenuItem_AddVariableAttachment"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Structure_Add3DProperties"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Structure_EnhancedStereochemistry"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_MapReactionAtoms"/>
+		<TextMenuItem sharedMenuItem="MenuItem_ClearReactionMap"/>
+		<TextMenuItem isSeparator="true"/>
+		<TextMenuItem sharedMenuItem="MenuItem_MakeSpectrumStructureAssignment"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ClearSpectrumStructureAssignment"/>
+	</Menu>
+	
+	<Menu uniqueID="MenuBarHelpMenuID"   platformSpecific="Windows">
+		<Title localizationName="MenuTitle_Help">Help</Title>
+		<TextMenuItem platformSpecific="Windows" sharedMenuItem="MenuItem_Help_Windows_Contents"/>
+		<TextMenuItem platformSpecific="Windows" sharedMenuItem="MenuItem_Help_Windows_HowToUse"/>
+		<TextMenuItem platformSpecific="Windows" sharedMenuItem="MenuItem_Help_Windows_GettingStarted"/>
+		<TextMenuItem platformSpecific="Windows" sharedMenuItem="MenuItem_Help_Windows_WhatsNew"/>
+		<TextMenuItem platformSpecific="Windows" sharedMenuItem="MenuItem_Help_Windows_ShortcutsAndHotkeys"/>
+		<TextMenuItem isSeparator="true" platformSpecific="Windows"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Help_Mac" platformSpecific="Mac"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Help_Updates"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Help_Windows_ActivateChemDraw"/>
+		<TextMenuItem sharedMenuItem="MenuItem_Help_Windows_AboutChemDraw"/>
+	</Menu>
+    <Menu uniqueID="ToolbarContextual" usage="toolbarClick">
+        <TextMenuItem sharedMenuItem="MenuItem_Help_Mac" platformSpecific="Mac" maximumDepth="1"/>
+        <TextMenuItem isSeparator="true" platformSpecific="Mac" maximumDepth="1"/>
+        <TextMenuItem sharedMenuItem="MainToolBarID"/>
+        <TextMenuItem sharedMenuItem="SequenceToolBarID"/>
+	    <TextMenuItem sharedMenuItem="MonomerWindowID"/>
+        <TextMenuItem sharedMenuItem="GeneralToolbarID_Ext"/>
+        <TextMenuItem sharedMenuItem="TextStylesToolBarID"/>
+        <TextMenuItem sharedMenuItem="ObjectToolBarID"/>
+        <TextMenuItem sharedMenuItem="AnalysisWindowID"/>
+        <TextMenuItem sharedMenuItem="ChemicalPropertiesWindowID"/>
+        <TextMenuItem sharedMenuItem="InfoWindowID"/>
+        <TextMenuItem sharedMenuItem="PeriodicTableWindowID"/>
+        <TextMenuItem sharedMenuItem="CharacterMapWindowID"/>
+        <TextMenuItem sharedMenuItem="MenuItem_View_OtherToolbars"/>
+        <TextMenuItem sharedMenuItem="MenuItem_View_Templates"/>
+        <TextMenuItem isSeparator="true"/>
+        <TextMenuItem sharedMenuItem="MenuItem_DockToolbar"/>
+    </Menu>
+    <Menu uniqueID="CopyAsMenuID">
+        <TextMenuItem sharedMenuItem="MenuItem_CopyAs_Smiles"/>
+        <TextMenuItem sharedMenuItem="MenuItem_CopyAs_InChi"/>
+        <TextMenuItem sharedMenuItem="MenuItem_CopyAs_InChiKey"/>
+        <TextMenuItem sharedMenuItem="MenuItem_CopyAs_HELM"/>
+        <TextMenuItem sharedMenuItem="MenuItem_CopyAs_HELM_NaturalAnalog"/>
+    </Menu>
+    <Menu uniqueID="OtherToolbarsMenuID">
+        <TextMenuItem sharedMenuItem="MultipleBondsToolBarID"/>
+        <TextMenuItem sharedMenuItem="ArrowToolBarID"/>
+    	<TextMenuItem sharedMenuItem="ChainToolBarID"/>
+        <TextMenuItem sharedMenuItem="OrbitalsToolBarID"/>
+        <TextMenuItem sharedMenuItem="DrawingToolBarID"/>
+        <TextMenuItem sharedMenuItem="BracketToolBarID"/>
+        <TextMenuItem sharedMenuItem="ChemicalSymbolsToolBarID"/>
+        <TextMenuItem sharedMenuItem="QueryToolBarID"/>
+        <TextMenuItem sharedMenuItem="FragmentationToolBarID"/>
+        <TextMenuItem sharedMenuItem="ColorPickerToolbarID"/>
+        <TextMenuItem sharedMenuItem="AdvancedToolBarID"/>
+        <TextMenuItem sharedMenuItem="PenToolBarID"/>
+    </Menu>
+    <Menu uniqueID="ArrowClickMenuID" usage="arrowClick">
+        <TextMenuItem sharedMenuItem="MenuItem_Help_Mac" platformSpecific="Mac" maximumDepth="1"/>
+        <TextMenuItem isSeparator="true" platformSpecific="Mac" maximumDepth="1"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Plain"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Dashed"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Bold"/>
+        <TextMenuItem isSeparator="true"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_FullArrowAtStart"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_FullArrowAtEnd"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_HalfArrowAtLeftStart"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_HalfArrowAtRightStart"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_HalfArrowAtLeftEnd"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_HalfArrowAtRightEnd"/>
+        <TextMenuItem isSeparator="true"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Arrow_SolidHead"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Arrow_HollowHead"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Arrow_AngledHead"/>
+        <TextMenuItem isSeparator="true"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Arrow_Cross"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Arrow_Hash"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Arrow_Dipole"/>
+        <TextMenuItem isSeparator="true"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Filled"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Shaded"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Faded"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ObjectSettings"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ColorMenuItem"/>
+    </Menu>
+    <Menu uniqueID="SplineClickMenuID" usage="splineClick">
+        <TextMenuItem sharedMenuItem="MenuItem_Help_Mac" platformSpecific="Mac" maximumDepth="1"/>
+        <TextMenuItem isSeparator="true" platformSpecific="Mac" maximumDepth="1"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Plain"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Dashed"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Bold"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Doubled"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_FullArrowAtStart"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_FullArrowAtEnd"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_HalfArrowAtLeftStart"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_HalfArrowAtRightStart"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_HalfArrowAtLeftEnd"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_HalfArrowAtRightEnd"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Closed"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Filled"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Shaded"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Curves_Faded"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ObjectSettings"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ColorMenuItem"/>
+    </Menu>
+    <Menu uniqueID="BracketClickMenuID" usage="bracketClick">
+        <TextMenuItem sharedMenuItem="MenuItem_Help_Mac" platformSpecific="Mac" maximumDepth="1"/>
+        <TextMenuItem isSeparator="true" platformSpecific="Mac" maximumDepth="1"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Bracket_Brackets"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Bracket_Parenthesis"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Bracket_Braces"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Bracket_BracketUsage"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Bracket_RepeatPattern"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Bracket_FlipType"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ObjectSettings"/>
+        <TextMenuItem sharedMenuItem="MenuItem_ColorMenuItem"/>
+        <TextMenuItem sharedMenuItem="MenuItem_Molecule_Submenu"/>
+    </Menu>
+    
+    <TextMenuItem uniqueID="MenuItem_Help_Windows_AboutChemDraw">
+        <Title localizationName="MenuItem_Help_Title">About ChemDraw Viewer...</Title>
+        <Command command="showAboutBox"/>
+    </TextMenuItem>
+    
+    <TextMenuItem uniqueID="MenuItem_Help_Windows_ActivateChemDraw" specialLocation="activateLocation">
+        <Title localizationName="MenuItem_Help_Activate">Activate ChemDraw Viewer...</Title>
+        <Command command="showActivateDialog"/>
+    </TextMenuItem>
+</MenuSet>

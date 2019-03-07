@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ToolbarGroup xmlns="http://www.cambridgesoft.com/software/ChemDraw/gui"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/gui ToolBar.xsd">
+    <Toolbar uniqueID="SequenceToolBarID" preferenceKey="Biopolymer" columns="10" rows="4"
+        defaultOrientation="horizontal" defaultLocation="776,87" hideOnApplicationSwitch="true">
+        <Title localizationName="SequenceToolbarTitle">Biopolymers</Title>
+        <TextMenuItem>
+            <Title localizationName="SequenceToolbarMenuItem">Biopolymer Toolbar</Title>
+        </TextMenuItem>
+        <Tooltip localizationName="SequenceToolbarToolTip">Biopolymer Toolbar</Tooltip>
+        <Button buttonStyle="toggle" column="1" row="1" titleMode="hidden" uniqueID="BiopolymerTextToolID">
+            <Graphic sharedGraphic="BiopolymerText"/>
+            <Command command="chooseBiopolymerText"/>
+        </Button>
+        <Button buttonStyle="toggle" column="2" row="1" titleMode="hidden" uniqueID="SingleLetterAminoAcidID">
+            <Graphic sharedGraphic="SingleLetterAminoAcid"/>
+            <Command command="chooseSingleLetterAminoAcid"/>
+        </Button>
+        <Button buttonStyle="toggle" column="3" row="1" titleMode="hidden" uniqueID="DNASequenceID">
+            <Graphic sharedGraphic="dna"/>
+            <Command command="chooseDNASequence"/>
+        </Button>
+        <Button buttonStyle="toggle" column="4" row="1" titleMode="hidden" uniqueID="RNASequenceID">
+            <Graphic sharedGraphic="rna"/>
+            <Command command="chooseRNASequence"/>
+        </Button>
+        <Button buttonStyle="toggle" column="7" row="1" uniqueID="Replace_ButtonID">
+            <Graphic sharedGraphic="BiopolymerReplace"/>
+            <Command command="chooseBiopolymerEditReplace"/>
+        </Button>
+        <Button buttonStyle="toggle" column="8" row="1" uniqueID="AA_BButtonID">
+            <Graphic sharedGraphic="AA_Beta"/>
+            <Command command="chooseAminoAcidBeta"/>
+        </Button>
+        <Button buttonStyle="toggle" column="9" row="1" uniqueID="AA_LButtonID">
+            <Graphic sharedGraphic="AA_L"/>
+            <Command command="chooseAminoAcidStereo_L"/>
+        </Button>
+        <Button buttonStyle="toggle" column="10" row="1" uniqueID="AA_DButtonID">
+            <Graphic sharedGraphic="AA_D"/>
+            <Command command="chooseAminoAcidStereo_D"/>
+        </Button>
+        <Button column="1" row="2" titleMode="hidden" uniqueID="AA_AlaButtonID">
+            <Graphic sharedGraphic="AA_Ala"/>
+            <Command command="chooseResidue_Ala"/>
+        </Button>
+        <Button column="2" row="2" titleMode="hidden" uniqueID="AA_ArgButtonID">
+            <Graphic sharedGraphic="AA_Arg"/>
+            <Command command="chooseResidue_Arg"/>
+        </Button>
+        <Button column="3" row="2" titleMode="hidden" uniqueID="AA_AsnButtonID">
+            <Graphic sharedGraphic="AA_Asn"/>
+            <Command command="chooseResidue_Asn"/>
+        </Button>
+        <Button column="4" row="2" titleMode="hidden" uniqueID="AA_AspButtonID">
+            <Graphic sharedGraphic="AA_Asp"/>
+            <Command command="chooseResidue_Asp"/>
+        </Button>
+        <Button column="5" row="2" titleMode="hidden" uniqueID="AA_CysButtonID">
+            <Graphic sharedGraphic="AA_Cys"/>
+            <Command command="chooseResidue_Cys"/>
+        </Button>
+        <Button column="6" row="2" titleMode="hidden" uniqueID="AA_GlnButtonID">
+            <Graphic sharedGraphic="AA_Gln"/>
+            <Command command="chooseResidue_Gln"/>
+        </Button>
+        <Button column="7" row="2" titleMode="hidden" uniqueID="AA_GluButtonID">
+            <Graphic sharedGraphic="AA_Glu"/>
+            <Command command="chooseResidue_Glu"/>
+        </Button>
+        <Button column="8" row="2" titleMode="hidden" uniqueID="AA_GlyButtonID">
+            <Graphic sharedGraphic="AA_Gly"/>
+            <Command command="chooseResidue_Gly"/>
+        </Button>
+        <Button column="9" row="2" titleMode="hidden" uniqueID="AA_HisButtonID">
+            <Graphic sharedGraphic="AA_His"/>
+            <Command command="chooseResidue_His"/>
+        </Button>
+        <Button column="10" row="2" titleMode="hidden" uniqueID="AA_IleButtonID">
+            <Graphic sharedGraphic="AA_Ile"/>
+            <Command command="chooseResidue_Ile"/>
+        </Button>
+        <Button column="1" row="3" titleMode="hidden" uniqueID="AA_LeuButtonID">
+            <Graphic sharedGraphic="AA_Leu"/>
+            <Command command="chooseResidue_Leu"/>
+        </Button>
+        <Button column="2" row="3" titleMode="hidden" uniqueID="AA_LysButtonID">
+            <Graphic sharedGraphic="AA_Lys"/>
+            <Command command="chooseResidue_Lys"/>
+        </Button>
+        <Button column="3" row="3" titleMode="hidden" uniqueID="AA_MetButtonID">
+            <Graphic sharedGraphic="AA_Met"/>
+            <Command command="chooseResidue_Met"/>
+        </Button>
+        <Button column="4" row="3" titleMode="hidden" uniqueID="AA_PheButtonID">
+            <Graphic sharedGraphic="AA_Phe"/>
+            <Command command="chooseResidue_Phe"/>
+        </Button>
+        <Button column="5" row="3" titleMode="hidden" uniqueID="AA_ProButtonID">
+            <Graphic sharedGraphic="AA_Pro"/>
+            <Command command="chooseResidue_Pro"/>
+        </Button>
+        <Button column="6" row="3" titleMode="hidden" uniqueID="AA_SerButtonID">
+            <Graphic sharedGraphic="AA_Ser"/>
+            <Command command="chooseResidue_Ser"/>
+        </Button>
+        <Button column="7" row="3" titleMode="hidden" uniqueID="AA_ThrButtonID">
+            <Graphic sharedGraphic="AA_Thr"/>
+            <Command command="chooseResidue_Thr"/>
+        </Button>
+        <Button column="8" row="3" titleMode="hidden" uniqueID="AA_TrpButtonID">
+            <Graphic sharedGraphic="AA_Trp"/>
+            <Command command="chooseResidue_Trp"/>
+        </Button>
+        <Button column="9" row="3" titleMode="hidden" uniqueID="AA_TyrButtonID">
+            <Graphic sharedGraphic="AA_Tyr"/>
+            <Command command="chooseResidue_Tyr"/>
+        </Button>
+        <Button column="10" row="3" titleMode="hidden" uniqueID="AA_ValButtonID">
+            <Graphic sharedGraphic="AA_Val"/>
+            <Command command="chooseResidue_Val"/>
+        </Button>
+        <Button column="1" row="4" titleMode="hidden" uniqueID="DNA_AButtonID">
+            <Graphic sharedGraphic="DNA_A"/>
+            <Command command="chooseResidue_DNAA"/>
+        </Button>
+        <Button column="2" row="4" titleMode="hidden" uniqueID="DNA_CButtonID">
+            <Graphic sharedGraphic="DNA_C"/>
+            <Command command="chooseResidue_DNAC"/>
+        </Button>
+        <Button column="3" row="4" titleMode="hidden" uniqueID="DNA_GButtonID">
+            <Graphic sharedGraphic="DNA_G"/>
+            <Command command="chooseResidue_DNAG"/>
+        </Button>
+        <Button column="4" row="4" titleMode="hidden" uniqueID="DNA_TButtonID">
+            <Graphic sharedGraphic="DNA_T"/>
+            <Command command="chooseResidue_DNAT"/>
+        </Button>
+        <Button column="7" row="4" titleMode="hidden" uniqueID="RNA_AButtonID">
+            <Graphic sharedGraphic="RNA_A"/>
+            <Command command="chooseResidue_RNAA"/>
+        </Button>
+        <Button column="8" row="4" titleMode="hidden" uniqueID="RNA_CButtonID">
+            <Graphic sharedGraphic="RNA_C"/>
+            <Command command="chooseResidue_RNAC"/>
+        </Button>
+        <Button column="9" row="4" titleMode="hidden" uniqueID="RNA_GButtonID">
+            <Graphic sharedGraphic="RNA_G"/>
+            <Command command="chooseResidue_RNAG"/>
+        </Button>
+        <Button column="10" row="4" titleMode="hidden" uniqueID="RNA_UButtonID">
+            <Graphic sharedGraphic="RNA_U"/>
+            <Command command="chooseResidue_RNAU"/>
+        </Button>
+    </Toolbar>
+</ToolbarGroup>

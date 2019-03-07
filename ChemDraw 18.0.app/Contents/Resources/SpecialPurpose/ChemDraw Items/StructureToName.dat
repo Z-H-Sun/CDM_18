@@ -1,0 +1,478 @@
+VERSION: 1.0
+sn_trivial_names
+66
+acid:C|a0,fullMatch|a0,functionalAttachment:yes:yes:no:no:form
+acid:CC|a0,fullMatch|a1,functionalAttachment:yes:yes:no:no:acet
+acid:CCC|a0,fullMatch|a2,functionalAttachment:no:yes:no:no:propion
+acid:CCCC|a0,fullMatch|a3,functionalAttachment:no:yes:no:no:butyr
+acid:CC(C)C|a0,fullMatch|a3,functionalAttachment:no:yes:no:no:isobutyr
+acid:CC(C)(C)C|a0,fullMatch|a4,functionalAttachment:no:yes:no:no:pival
+acid:CCCCCCCCCCCCCCCC|a0,fullMatch|a15,functionalAttachment:no:yes:no:no:palmit
+acid:CCCCCCCCCCCCCCCCCC|a0,fullMatch|a17,functionalAttachment:no:yes:no:no:stear
+acid:C=CC|a0,fullMatch|a2,functionalAttachment:yes:yes:no:no:acryl
+acid:C=C(C)C|a0,fullMatch|a3,functionalAttachment:no:yes:no:no:methacryl
+acid:C#CC|a0,fullMatch|a2,functionalAttachment:yes:yes:no:no:propiol
+acid:CCCCCCCC\C=C/CCCCCCCC|a0,fullMatch|a17,functionalAttachment|b8,ignoreStereo:no:no:no:no:ole
+acid:CC|a0,fullMatch|a0,functionalAttachment|a1,functionalAttachment:yes:yes:no:no:oxal
+acid:CCC|a0,fullMatch|a0,functionalAttachment|a2,functionalAttachment:yes:yes:no:no:malon
+acid:CCCC|a0,fullMatch|a0,functionalAttachment|a3,functionalAttachment:yes:yes:no:no:succin
+acid:CCCCC|a0,fullMatch|a0,functionalAttachment|a4,functionalAttachment:no:no:no:no:glutar
+acid:CCCCCC|a0,fullMatch|a0,functionalAttachment|a5,functionalAttachment:no:no:no:no:adip
+acid:C/C=C/C|a0,fullMatch|a0,functionalAttachment|a3,functionalAttachment|b1,ignoreStereo:yes:no:no:no:fumar
+acid:C/C=C\C|a0,fullMatch|a0,functionalAttachment|a3,functionalAttachment|b1,ignoreStereo:yes:no:no:no:male
+acid:CC1=CC=CC=C1|a0,fullMatch|a0,functionalAttachment:yes:yes:no:no:benz
+acid:C/C=C/C1=CC=CC=C1|a0,fullMatch|a0,functionalAttachment|b1,ignoreStereo:yes:no:no:no:cinnam
+acid:CC1=CC=CC=C1C|a0,fullMatch|a0,functionalAttachment|a7,functionalAttachment:yes:yes:no:no:phthal
+acid:CC1=CC=CC(C)=C1|a0,fullMatch|a0,functionalAttachment|a6,functionalAttachment:yes:yes:no:no:isophthal
+acid:CC1=CC=C(C)C=C1|a0,fullMatch|a0,functionalAttachment|a5,functionalAttachment:yes:yes:no:no:terephthal
+acid:CC2=C1C=CC=CC1=CC=C2|a0,fullMatch|a0,functionalAttachment:yes:yes:no:no:1-naphth
+acid:CC2=CC=C1C=CC=CC1=C2|a0,fullMatch|a0,functionalAttachment:yes:yes:no:no:2-naphth
+acid:CC1=NC=CC=C1|a0,fullMatch|a0,functionalAttachment:yes:yes:no:no:picolin
+acid:CC1=CN=CC=C1|a0,fullMatch|a0,functionalAttachment:yes:yes:no:no:nicotin
+acid:CC1=CC=NC=C1|a0,fullMatch|a0,functionalAttachment:yes:yes:no:no:isonicotin
+global:C(C)(C)C|a0,fullMatch:no:no:yes:no:isobutane
+global:C(C)(C)CC|a0,fullMatch:no:no:yes:no:isopentane
+global:C(C)(C)(C)C|a0,fullMatch:no:no:yes:no:neopentane
+global:C=C(C)C=C|a0,fullMatch:no:no:yes:no:isoprene
+global:C=C1C=CC=C1|a0,fullMatch:no:no:yes:no:fulvene
+global:CC(=O)C(=O)C|a0,fullMatch:no:no:yes:no:biacetyl
+globalAromatic:CC1=CC=CC=C1C|a0,fullMatch:no:no:yes:no:<i>o</i>-xylene
+globalAromatic:C1=CC=C(C)C=C1C|a0,fullMatch:no:no:yes:no:<i>m</i>-xylene
+globalAromatic:C1=CC(C)=CC=C1C|a0,fullMatch:no:no:yes:no:<i>p</i>-xylene
+globalAromatic:CC1=CC(C)=CC(C)=C1|a0,fullMatch:no:no:yes:yes:mesitylene:mesityl
+globalAromatic:C1=CC=CC=C1C(C)C|a0,fullMatch:no:no:yes:no:cumene
+globalAromatic:CC1=CC=CC=C1C(C)C|a0,fullMatch:no:no:yes:no:<i>o</i>-cymene
+globalAromatic:C1=CC=C(C)C=C1C(C)C|a0,fullMatch:no:no:yes:no:<i>m</i>-cymene
+globalAromatic:C1=CC(C)=CC=C1C(C)C|a0,fullMatch:no:no:yes:no:<i>p</i>-cymene
+globalAromatic:CC1=CC=CC=C1O|a0,fullMatch:no:no:yes:no:<i>o</i>-cresol
+globalAromatic:C1=CC=C(C)C=C1O|a0,fullMatch:no:no:yes:no:<i>m</i>-cresol
+globalAromatic:C1=CC(C)=CC=C1O|a0,fullMatch:no:no:yes:no:<i>p</i>-cresol
+globalAromatic:CCC1=CC(O)=C(C)C=C1|a0,fullMatch:no:no:yes:no:carvacrol
+globalAromatic:CCC1=C(O)C=C(C)C=C1|a0,fullMatch:no:no:yes:no:thymol
+globalAromatic:C1=C(O)C(O)=CC=C1|a0,fullMatch:no:no:yes:no:pyrocatechol
+globalAromatic:C1(O)=CC(O)=CC=C1|a0,fullMatch:no:no:yes:no:resorcinol
+globalAromatic:C1=CC(O)=CC=C1O|a0,fullMatch:no:no:yes:no:hydroquinone
+globalAromatic:OC1=C([N+]([O-])=O)C=C([N+]([O-])=O)C=C1[N+]([O-])=O|a0,fullMatch:no:no:yes:no:picric acid
+globalAromatic:C1=CC=CC=C1C(=O)C|a0,fullMatch:no:no:yes:no:acetophenone
+globalAromatic:C1=CC=CC=C1C(=O)C(=O)C2=CC=CC=C2|a0,fullMatch:no:no:yes:no:benzil
+globalAromatic:C1=CC=CC=C1C(=O)C2=CC=CC=C2|a0,fullMatch:no:no:yes:no:benzophenone
+globalAromatic:C1=CC=CC=C1C=CC(=O)C2=CC=CC=C2|a0,fullMatch:no:no:yes:no:chalcone
+globalAromatic:C1=CC=CC=C1C(=O)CC|a0,fullMatch:no:no:yes:no:propiophenone
+globalAromatic:NC1=CC=CC=C1C|a0,fullMatch|a0,substituentBase:no:no:yes:no:<i>o</i>-toluidine
+globalAromatic:C1=CC=C(N)C=C1C|a0,fullMatch|a4,substituentBase:no:no:yes:no:<i>m</i>-toluidine
+globalAromatic:C1=CC(N)=CC=C1C|a0,fullMatch|a3,substituentBase:no:no:yes:no:<i>p</i>-toluidine
+globalSubstituted:O=C1C=CC(=O)C=C1|a0,fullMatch|a2,!functionalAttachment|a3,!functionalAttachment|a6,!functionalAttachment|a7,!functionalAttachment|a1,numberAs,1|a2,isNumbered|a3,isNumbered|a4,isNumbered|a6,isNumbered|a7,isNumbered:yes:no:no:no:benzoquinone
+globalAromaticSubstituted:C1=CC=CC=C1C=CC2=CC=CC=C2|a0,fullMatch:no:no:yes:no:stilbene
+globalAromaticSubstituted:NC1=CC=C(C2=CC=C(N)C=C2)C=C1|a0,fullMatch|a0,substituentBase:yes:no:no:yes:benzidine:benzidino
+globalAromaticSubstituted:C1=CC=CC=C1C|a0,fullMatch|a0,isNumbered|a1,isNumbered|a2,isNumbered|a3,isNumbered|a4,isNumbered|a5,numberAs,1:yes:no:no:no:toluene
+globalAromaticSubstituted:C1=CC=CC=C1OC|a0,fullMatch|a0,isNumbered|a1,isNumbered|a2,isNumbered|a3,isNumbered|a4,isNumbered|a5,numberAs,1:yes:no:no:no:anisole
+globalAromaticSubstituted:C=CC1=CC=CC=C1|a0,fullMatch|a0,substituentBase|a2,numberAs,1|a3,isNumbered|a4,isNumbered|a5,isNumbered|a6,isNumbered|a7,isNumbered:yes:no:no:yes:styrene:styryl
+sn_trivial_name_substitutions
+4
+full:4-methylphenylsulfonyl:tosyl
+partial:ethenyl:vinyl
+partial:prop-2-enyl:allyl
+partial:1-aza-bicyclo[2.2.2]octan:quinuclidin
+sn_errorcodes
+237
+1000	Failed to formulate molecular base name
+1001	Failed getting bond order suffix
+1002	Failed getting complete name prefix
+1003	Cannot get multiplicative prefixes for numbers less than zero
+1004	Failed to map a multiplicative prefix for a number between zero and ten
+1005	Cannot form multiplicative prefixes for numbers greater than 9999
+1006	Failed to get a multiplicative prefix for the remainder of a div operation
+1007	Failed to get a multiplicative prefix for the denominator used in a div operation
+1008	Failed to identify a base ring group in this molecule; too complex or large
+1009	Detected unsupported ring structure in molecule; too complex or large
+1010	Detected unsupported non-carbon atoms in ring structure; molecule too complex or large
+1011	Detected an unsupported atom type; molecule too large or complex
+1012	Detected specified stereochemistry (unsupported); molecule too large or complex
+1013	Unsupported charge; failed
+1014	Unable to formulate suffix for substituent name
+1015	Unable to prioritize substituent list
+1016	Failed to name halogen substituent
+1017	Failed to name halochalcogen substituent
+1018	Failed to recongnize oxygen count in halochalcogen substituent
+1019	Failed to recongnize chalcogen types in halochalcogen substituent
+1020	Failed to generate chalcogen basename
+1021	Failed to generate prefix for nitro- substituent
+1022	Invalid call to SNBaseGroup::GetParentBaseAtom()
+1023	Invalid call to SNBaseGroup::GetBaseBondOrder()
+1024	Invalid call to SNBaseGroup::GetSubstituentBaseAtom()
+1025	Unable to find a base group in this molecule; too large or complex
+1026	Unable to create molecule from smiles string.
+1027	Unable to formulate isoalkyl substituent name.
+1028	Unable to name molecules with multiple equivalent characteristic groups
+1029	Failed to assign a base type for this molecule
+1030	Molecule with no substituents should contain all atoms in the base group
+1031	Not all atoms have been accounted for in this name; failed
+1032	Unsupported valence; failed
+1033	Isotopic specification is not yet supported; too complex
+1034	Failed to generate heteroatom base name
+1035	Unable to locate standard bonding number
+1036	Naming atoms in non-standard valence states is not yet supported; too complex
+1037	Unable to calculate Latin prefix for substituent
+1038	Unable to get trivial name for substituent
+1039	Detected unsupported heteroatom chain; too complex or large
+1040	Some functional group atoms are unaccounted for; failed
+1041	Unable to prioritize a base chain in this set; failed
+1042	Unable to get a suffix name for this base group; failed
+1044	Unsupported type in GetBaseGroupNameAsSubstituent; failed
+1045	Unsupported type in GetBaseGroupNameAsSubstituentBaseAtom; failed
+1046	GetHighPriorityChain() passed zero-length chain list; failed
+1047	Unable to get stereochemical identifier for atom; failed
+1048	Unable to get stereochemical identifier for bond; failed
+1049	No implementation for functional group of this type; failed
+1050	Unable to identify substituent base atom; failed
+1051	Unable to sort by weight; failed
+1052	Multi-component nomenclature is not currently supported; failed
+1053	Detected an unsupported radical specification; molecule too complex
+1054	Unexpected non-chalcogen atom type in ester substituent; failed
+1055	Unable to find an appropriate chain endpoint for this customized parent group; failed
+1056	Unable to build a substituent from this atom and bond pair; failed
+1057	Unable to name an acid with multiple single bonds to the substituent base; failed
+1058	Unable to find type suffix for this chalcogen acid type; failed
+1059	Unable to determine the phosphorous or arsenic acid type; failed
+1060	Unable to find a suitable base atom to name this as a substituent; failed
+1061	Unable to build ester substituents from root atoms other than C, Si, Sn, Ge, Pb or H; failed
+1063	Molecules with a total charge not equal to zero are not supported; failed
+1064	Molecules with multiple hydrazines as the principal group are not supported; failed
+1065	Unsupported single-ring structure; failed
+1066	Unable to build a chain of this ringed molecule; failed
+1067	Unable to find which direction to number this substituent from; failed
+1068	Unidentified tolyl substituent; failed
+1069	Unable to name this aromatic substituent; failed
+1070	Unable to find a chain that matches this locant string; failed
+1071	Unable to build possible parent ring set; failed
+1072	Unable to name this tosyl substituent; failed
+1073	Biphenyl is screened out right now; failed
+1074	Error parsing error; failed
+1075	Unable to name this hydrazine substituent; failed
+1076	Unable to get a root prefix for this hydrazine name; failed
+1077	Unable to get a substituted substituent name for this hetero acid; failed
+1078	Unable to name hetero esters as substituent bases; failed
+1079	Unable to name hydrazines as substituent bases; failed
+1080	Unable to select a base chain set; failed
+1081	Unable to name unsaturated heterocycles; failed
+1082	Unable to name heterocycles with more than two heteroatoms; failed
+1083	Unable to recognize this heterocyclic structure; failed
+1084	Unable to name this five-membered non-aromatic heterocyclic structure; failed
+1085	Unable to name this six-membered non-aromatic heterocyclic structure; failed
+1086	Unable to name this five-membered aromatic heterocyclic structure; failed
+1087	Identified a pyrrole
+1088	Identified one of (furan, thiophene, selenophene, tellurophene)
+1089	Identified one of (imidazole, pyrazole)
+1090	Identified one of (oxazole, isooxazole, thiazole, isothiazole) 
+1091	Unable to generate a non-trivial replacement name for this ring with greater than 10 members
+1092	Unable to generate a name for this non-aromatic unsaturated ring
+1093	Unable to generate a name for this aromatic ring of ten members or less
+1094	Unsupported hetero-aromatic ring structure detected; failed
+1095	Unsupported aromatic ring structure detected; failed
+1096	Unsupported non-aromatic heterocyclic structure detected; failed
+1097	Unsupported bridged ring structure detected; failed
+1098	Unsupported fusion ring structure detected; failed
+1099	Unsupported spiro ring structure detected; failed
+1100	Unable to generate a name for this saturated ring of ten members or less
+1101	Identified a pyran
+1102	Can't do indicated hydrogens on six-membered trivially named heterocycles
+1103	Identified a pyridine
+1104	Unable to generate a Hantzsch-Widman name for this structure; failed
+1105	Unable to get preferred heteroatom; failed
+1106	Unable to get least preferred heteroatom; failed
+1107	This unsaturated heterocyclic structure does not have the maximum number of conjugated double bonds
+1108	This unsaturated heterocyclic structure does not have an even number of ring atoms
+1109	Unable to name rings with triple bonds
+1110	Unable to name formally aromatic systems with contiguous high-order bonds
+1111	Unable to compute indicated hydrogens for this structure; failed
+1112	This ring of 10 members or less is not covered by Hantzsch-Widman nomenclature and is unsupported; failed
+1113	This molecule has an improper valence; failed
+1114	Unable to name the base atom of this hetero acid or ester; failed
+1115	Unable to get a root prefix for this hydrazine; failed
+1116	Unable to name heteroacids as substituent bases; failed
+1117	Unable to calculate the charge of this fragment; failed
+1118	Unable to name this neutral hydro fragment; failed
+1119	Unable to get a class name for this chalcogen; failed
+1120	Unable to name this salt component; failed
+1121	Unable to name ionic groups as substituents; failed
+1122	Unable to find an alphabetical locant for this fusion atom; failed
+1123	Unable to name molecules with multiple fusion blocks; failed
+1124	Unable to name fusion systems with more than two rings; failed
+1125	Unable to name this fused ring system; failed
+1126	Unable to name this isochroman/isochromene; failed
+1127	Unable to determine a numbering order for this fused ring system; failed
+1128	Unable to determine locants for carbazole; failed
+1129	Unable to determine locants for xanthene; failed
+1130	Unable to determine locants for anthracene; failed
+1131	Unable to systematically name ring fusions with no heteroatoms; failed
+1132	Unable to systematically name ring fusions with more than two rings; failed
+1133	Unable to systematically name ring fusions where there is not clear precedence between the rings; failed
+1135	Unable to get the next bond locant; failed
+1136	Unable to identify a parent ring system in this fused ring set; failed
+1137	Unable to name ring fusions when the parent has multiple ring connections; failed
+1138	Unable to identify a parent ring set in this fused ring system; failed
+1139	Unable to name ring fusions with more than one substituent ring system; failed
+1140	Something has gone horribly wrong with FindAzineParent(); failed
+1141	Unable to prioritize an azine group; failed
+1142	Unable to get build a SNQueryGroupConfig object; failed
+1143	Unable to prioritize one fusion parent; failed
+1144	Unable to recursively name ring fusions; failed
+1145	Unable to number this steroid; failed
+1146	Unable to get bond locant order for this ring fusion; failed
+1147	Unable to get locants for this ring fusion; failed
+1148	Unable to get a prefix name for this principal group; failed
+1149	Unable to name molecules with multiple bridged blocks; failed
+1150	Unable to name bridged ring systems with heteroatoms; failed
+1151	Unable to find a sufficient number of bridge rings; failed
+1152	Unable to name bridged systems with greater than two bridgehead atoms; failed
+1153	Unable to prioritize a main ring in this bridged system; failed
+1154	Unable to break this bridge into segments; failed
+1155	Unable to find bridge endpoints for numbering; failed
+1156	Unable to name bridged fused ring systems; failed
+1157	Unable to name aromatic bridged ring systems; failed
+1158	Unable to name bridged systems with more than two rings; failed
+1159	Unable to name this carbamic acid derivative; failed
+1160	Unable to name heteroacids in this orientation; failed
+1161	Unable to determine a stereochemical descriptor locant for this atom; failed
+1162	Unable to determine a stereochemical descriptor locant for this bond; failed
+1163	Unable to name heteroatomic chains of nitrogen or oxygen; failed
+1164	Unable to name this heteroatom or heteroatom configuration; failed
+1165	Unable to name this alcohol; failed
+1166	Unable to get a locant for the attachment point to the principal group for this substituent; failed
+1167	Unable to find a base atom for this functional substituent; failed
+1168	Unable to name a functional group with no functional atoms; failed
+1169	Unable to get a substituent name for this functional group; failed
+1170	Unable to get a parent suffix for this functional group; failed
+1171	Unable to get a substituent base name for this functional group; failed
+1172	Unable to name this ketone; failed
+1173	Unable to name this acid analog; failed
+1174	Unable to get a first word for this acid suffix; failed
+1175	Unable to get a second word for this acid suffix; failed
+1176	Unable to get a substituent root name for this non-principal acid; failed
+1177	Unable to get a base substituent root name for this non-principal acid; failed
+1178	Unable to get a suffix for this trivial name; failed
+1179	Unable to name esters as substituent groups; failed
+1180	Unable to generate an acid base group from this match; failed
+1181	Peroxy analogs of acids are not supported; failed
+1182	Acids of this base type are not yet supported; failed
+1183	Unable to get a suffix for this heteroacid; failed
+1184	Unable to name this acid halide; failed
+1185	Unable to locate a nitrogen-containing base group in this molecule; failed
+1186	Unable to get a name for this substituent; failed
+1187	Unable to find a base atom for this bond order comparison; failed
+1188	Unable to name this chalcogen; failed
+1189	Unable to isolate a peroxy group here; failed
+1190	Unable to name imidic acids as substituents; failed
+1191	Unable to name hetero acids as substituents; failed
+1192	Unable to get a locant for this substituent; failed
+1193	Unable to get a fixed locant for this position; failed
+1194	Unable to get special locants for this amide; failed
+1195	Unable to name this amide as a substituent base; failed
+1196	Unable to name polyanhydrides in this release; failed
+1197	Zero locant; failed
+1198	Zero locant in ring fusion name; failed
+1199	Unable to name this amide derivative; failed
+1200	Siloxanes not supported; failed
+1201	Unhandled carbon acid; failed
+1202	This is an unhandled hetero alcohol; failed
+1203	This is an unhandled multi-imidic acid; failed
+1204	Broken phosphinoyl; failed
+1205	Unsupported hydrazine carboxamide; failed
+1206	Unsupported inorganic complex; failed
+1207	Unable to find a preferred base chain; failed
+1208	Unable to name ring assemblies with more than two ring blocks; failed
+1209	Unable to add the principal base atom to this chain; failed
+1210	Unable to name massively bridged ring systems such as fullerenes; failed
+1211	Unable to name analogs of polynuclear acids; failed
+1212	Unable to name anionic anhydrides in this release; failed
+1213	Unable to name multiply esterified polynuclear acids; failed
+1214	Unable to name this structure with multiple fragments; failed
+1215	Unable to name boron complexes; failed
+1216	Unsupported polyspiro ring structure detected; failed
+1217	Unsupported spiro fused polycyclic ring structure detected; failed
+1218	Unable to name ring assemblies with components containing customized numbering; failed
+1219	Unable to name ring assemblies joined by unsaturated bonds; failed
+1220	Invalid call to SNBaseGroup::GetParentSpiroAtoms(); failed
+1221	Bridged macrocycles; failed
+1222	Cyclic bridge in bridge fused ring system; failed
+1223	Unable to name bridged fused ring systems with heterogeneous bridges; failed
+1224	More than 3 rings having common bond; failed
+1225	Unable to find a bridge in this bridged fused ring system; failed
+1226	Unable to find a base fused ring system in this bridged fused ring system; failed
+1227	Unable to name structures containing absolute stereocenters as well as racemic or relative stereocenters; failed
+1228	Unable to name structures containing both racemic and relative stereocenters; failed
+1229	Unable to name structures containing more than one group of racemic or relative stereocenters; failed
+1230	Charged bridge; failed
+1231	Incorrect character sequence found in the name; failed
+1232	Unable to name 2-imidodicarbonic acid derivatives; failed
+1233	Unable to name phosphonic dihydrazides and similar structures; failed
+1234	Unable to name esters, locants for esterified substituents needed; failed
+1235	Unable to name phanes/porphyrins etc.; failed
+1236	Unable to name not bipodal bridges in bridged fused ring system; failed
+1237	Unable to name bridged fused ring systems with composite bridges; failed
+1238	Unable to name bridged fused ring systems with dependent bridges; failed
+1239	Unable to name a composite bridge in bridged fused systems; failed
+sn_fusion_parents
+162
+C12=C(C=CC=C2)NC3=C(C=CC=C3)O1|a13,anyType|aAll,wildCharge|bAll,ignoreOrder	GetPhenoxazines
+C12=CC=CN=C1C=CC3=CC=CN=C23|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=NC=C1C=CC3=CC=CN=C23|aAll,wildCharge|bAll,ignoreOrder
+C12=CN=CC=C1C=CC3=CC=CN=C23|aAll,wildCharge|bAll,ignoreOrder
+C12=NC=CC=C1C=CC3=CC=CN=C23|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CN=C1C=CC3=CC=NC=C23|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=NC=C1C=CC3=CC=NC=C23|aAll,wildCharge|bAll,ignoreOrder
+C12=CN=CC=C1C=CC3=CC=NC=C23|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CN=C1C=CC3=CN=CC=C23|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=NC=C1C=CC3=CN=CC=C23|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CN=C1C=CC3=NC=CC=C23|aAll,wildCharge|bAll,ignoreOrder
+C23=C1C(NC=N3)=CC=CC1=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C13=CC=CC=C1C=C2C=CC=CC2=N3|aAll,wildCharge|bAll,ignoreOrder
+C13=CC=CC=C1C2=CC=CC=C2C=N3|aAll,wildCharge|bAll,ignoreOrder
+C1(NC3=C2C=CC=C3)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C12=CN=CN=C1N=CC=N2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=NN=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CN=CN=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=NC=CN=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CN=C1C=CC=N2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CN=C1C=CN=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CN=C1C=NC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CN=C1N=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CN=NC=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=NC=C1C=CN=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=NC=C1C=NC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CN=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=NC=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+N12C=CC=CC1=CC=CC2|aAll,wildCharge|bAll,ignoreOrder
+C12=C(NC=N2)C=NC=N1|aAll,wildCharge|bAll,ignoreOrder
+C12=C(NN=C2)C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C12=C(NC=C2)C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C12=CNC=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+N12C=CC=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+N12C=CC=C1C=CC2|aAll,wildCharge|bAll,ignoreOrder
+""	GetHeptaHeterocycleWithAtLeastOneN
+""	GetHexaHeterocycleWithAtLeastThreeHeteroatomsAndAtLeastOneN
+""	GetHexaHeterocycleWithOneNAndADifferentHeteroatom
+C1=NN=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1=NC=CC=N1|aAll,wildCharge|bAll,ignoreOrder
+C1=NC=CN=C1|aAll,wildCharge|bAll,ignoreOrder
+C1=NC=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+""	GetPentaHeterocycleWithAtLeastThreeHeteroatomsAndAtLeastOneN
+""	GetPentaHeterocycleWithOneNAndADifferentHeteroatom
+N1N=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1=NC=CN1|aAll,wildCharge|bAll,ignoreOrder
+N1C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+""	GetTriOrTetraHeterocycleWithAtLeastOneN
+""	GetHeterocycleWithHalogenAndNoN
+C1(OC(C=CC=C3)=C3S2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(OC(C=CC=C3)=C3[Se]2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(OC(C=CC=C3)=C3[Te]2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(OC(C=CC=C3)=C3P2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(OC(C=CC=C3)=C3[AsH]2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(OC(C=CC=C3)=C3[SbH]2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(OC(C=CC=C3)=C3O2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(CC3=C(C=CC=C3)O2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(CC=CO2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C12C=COC=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+""	GetHeptaHeterocycleWithNoNAndAtLeastOneO
+""	GetHexaHeterocycleWithTwoOrMoreHeteroAtomsNoNAndAtLeastOneO
+C1=CC=CCO1|aAll,wildCharge|bAll,ignoreOrder
+""	GetPentaHeterocycleWithAtLeastTwoHeteroatomsNoNAndAtLeastOneO
+O1C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+""	GetTriOrTetraHeterocycleWithNoNAndAtLeastOneO
+C1(SC(C=CC=C3)=C3[AsH]2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(SC(C=CC=C3)=C3S2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(CC3=C(C=CC=C3)S2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(CC=CS2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C12C=CSC=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+""	GetHeterocycleWithAtLeastOneS
+C1([Se]C(C=CC=C3)=C3[Se]2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(CC3=C(C=CC=C3)[Se]2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(CC=C[Se]2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C12C=C[Se]C=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+""	GetHeterocycleWithAtLeastOneSe
+C1([Te]C(C=CC=C3)=C3[Te]2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(CC3=C(C=CC=C3)[Te]2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(CC=C[Te]2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C12C=C[Te]C=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+""	GetHeterocycleWithAtLeastOneTe
+C12=C(C=CC=C2)PC3=C(C=CC=C3)P1|aAll,wildCharge|bAll,ignoreOrder
+C12=C(C=CC=C2)PC3=C(C=CC=C3)C1|aAll,wildCharge|bAll,ignoreOrder
+C13=CC=CC=C1C2=CC=CC=C2C=P3|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CP=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=PC=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+P12C=CC=CC1=CC=CC2|aAll,wildCharge|bAll,ignoreOrder
+C12=C(PC=C2)C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C12=CPC=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+P12C=CC=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+""	GetHeterocycleWithAtLeastOneP
+C12=C(C=CC=C2)[AsH]C3=C(C=CC=C3)[AsH]1|aAll,wildCharge|bAll,ignoreOrder
+C12=C(C=CC=C2)[AsH]C3=C(C=CC=C3)C1|aAll,wildCharge|bAll,ignoreOrder
+C13=CC=CC=C1C2=CC=CC=C2C=[As]3|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=C[As]=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=[As]C=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+[As]12C=CC=CC1=CC=CC2|aAll,wildCharge|bAll,ignoreOrder
+C12=C([AsH]C=C2)C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C12=C[AsH]C=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+[As]12C=CC=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+""	GetHeterocycleWithAtLeastOneAsSiGeSnPbBOrHg
+C12=C(C=CC=C2)[SiH2]C3=C(C=CC=C3)[SiH2]1|aAll,wildCharge|bAll,ignoreOrder
+C12=C(C=CC=C2)BC3=C(C=CC=C3)B1|aAll,wildCharge|bAll,ignoreOrder
+C1([Hg]C(C=CC=C3)=C3[Hg]2)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+""	FindPolyphenyleneGT8
+""	FindPolynaphthyleneGT4
+""	FindPolyaceneGT10
+""	FindPolyapheneGT10
+""	FindPolyheliceneGT9
+C1(C=CC=C5)=C5C(C=CC=C4)=C4C6=C(C=CC=C6)C(C=CC=C3)=C3C7=C(C=CC=C7)C8=C(C=CC=C8)C%10=C(C=CC=C%10)C9=C(C=CC=C9)C2=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C9%10=CC8=CC7=CC6=CC5=CC4=CC3=CC2=CC1=CC=CC=C1C=C2C=C3C=C4C=C5C=C6C=C7C=C8C=C9C=CC=C%10|aAll,wildCharge|bAll,ignoreOrder
+C45=CC3=CC2=CC1=CC=C6C(C=C7C(C=C8C(C=C9C(C=C%10C(C=CC=C%10)=C9)=C8)=C7)=C6)=C1C=C2C=C3C=C4C=CC=C5|aAll,wildCharge|bAll,ignoreOrder
+C1%10=CC=C(C9=C6C2=C3C4=C5C6=C7C8=C9%10)C=C2C=CC3=CC=C4C=CC5=CC7=CC=C8C=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(C=CC=C4)=C4C(C=CC=C3)=C3C5=C(C=CC=C5)C6=C(C=CC=C6)C(C=CC=C7)=C7C9=C(C=CC=C9)C8=C(C=CC=C8)C2=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C1(C=C(C=CC=C9)C9=C8)=C8C(C=C(C=CC=C7)C7=C6)=C6C(C=C(C=CC=C5)C5=C4)=C4C2=C1C=C3C(C=CC=C3)=C2|aAll,wildCharge|bAll,ignoreOrder
+C89=CC7=CC6=CC5=CC4=CC3=CC2=CC1=CC=CC=C1C=C2C=C3C=C4C=C5C=C6C=C7C=C8C=CC=C9|aAll,wildCharge|bAll,ignoreOrder
+C45=CC3=CC2=CC1=CC=C6C(C=C7C(C=C8C(C=C9C(C=CC=C9)=C8)=C7)=C6)=C1C=C2C=C3C=C4C=CC=C5|aAll,wildCharge|bAll,ignoreOrder
+C1(C=CC=C4)=C4C5=C(C=CC=C5)C(C=CC=C3)=C3C6=C(C=CC=C6)C8=C(C=CC=C8)C7=C(C=CC=C7)C2=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C78=CC6=CC5=CC4=CC3=CC2=CC1=CC=CC=C1C=C2C=C3C=C4C=C5C=C6C=C7C=CC=C8|aAll,wildCharge|bAll,ignoreOrder
+C34=CC2=CC1=C(C=C6C(C=C7C(C=C8C(C=CC=C8)=C7)=C6)=C5)C5=CC=C1C=C2C=C3C=CC=C4|aAll,wildCharge|bAll,ignoreOrder
+C13=CC=CC=C1C=C4C=CC5=CC7=C2C=CC=CC2=CC8=CC=C6C=C3C4=C5C6=C78|aAll,wildCharge|bAll,ignoreOrder
+C1(C=CC=C5)=C5C(C=CC=C4)=C4C(C=CC=C3)=C3C(C=CC=C7)=C7C6=C(C=CC=C6)C2=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C67=CC5=CC4=CC3=CC2=CC1=CC=CC=C1C=C2C=C3C=C4C=C5C=C6C=CC=C7|aAll,wildCharge|bAll,ignoreOrder
+C34=CC2=CC1=C(C=C6C(C=C7C(C=CC=C7)=C6)=C5)C5=CC=C1C=C2C=C3C=CC=C4|aAll,wildCharge|bAll,ignoreOrder
+C17=CC=CC=C1C=C6C3=CC2=CC=CC=C2C=C3C5=CC4=CC=CC=C4C=C5C6=C7|aAll,wildCharge|bAll,ignoreOrder
+C17=CC=C(C6=C2C3=C4C5=C67)C=CC2=CC=C3C=CC4=CC=C5C=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(C2=CC=CC=C2C3=C7C=CC=C6C4=CC=CC=C4C5=C67)=C3C5=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C1(C=CC=C6)=C6C(C=CC=C5)=C5C(C=CC=C4)=C4C(C=CC=C3)=C3C2=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C56=CC4=CC3=CC2=CC1=CC=CC=C1C=C2C=C3C=C4C=C5C=CC=C6|aAll,wildCharge|bAll,ignoreOrder
+C23=CC1=CC=C4C(C=C5C(C=C6C(C=CC=C6)=C5)=C4)=C1C=C2C=CC=C3|aAll,wildCharge|bAll,ignoreOrder
+C14=CC=CC=C1C2=CC=CC=C2C3=CC=CC=C3C5=CC=CC=C45|aAll,wildCharge|bAll,ignoreOrder
+C45=CC3=CC2=CC1=CC=CC=C1C=C2C=C3C=C4C=CC=C5|aAll,wildCharge|bAll,ignoreOrder
+C23=CC1=CC=C4C(C=C5C(C=CC=C5)=C4)=C1C=C2C=CC=C3|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CC(C3=CC=CC5=C3C4=CC=C5)=C1C4=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C15=CC=CC=C1C4=CC=C3C2=CC=CC=C2C=CC3=C4C=C5|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CC(C=C3C=CC=CC3=C4)=C1C4=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C34=CC2=CC1=CC=CC=C1C=C2C=C3C=CC=C4|aAll,wildCharge|bAll,ignoreOrder
+C12=C(C=C4C(C=CC=C4)=C3)C3=CC=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C13=CC=CC=C1C=CC4=C2C=CC=CC2=CC=C34|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=C3C=CC=C4C=CC(C2=C34)=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C13=CC=CC=C1C2=CC=CC=C2C4=CC=CC=C34|aAll,wildCharge|bAll,ignoreOrder
+C14=CC=CC3=C1C(C=C4)=C2C=CC=CC2=C3|aAll,wildCharge|bAll,ignoreOrder
+C1(C=CC2=CC3=CC=CC=C34)=C2C4=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CC(C3=CC=CC=C34)=C1C4=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C13=CC=CC=C1C=C2C=CC=CC2=C3|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CC=C1C=CC3=CC=CC=C23|aAll,wildCharge|bAll,ignoreOrder
+C23=C1C(CC=C3)=CC=CC1=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C1(CC3=C2C=CC=C3)=C2C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C13=CC=CC2=C1C(C=C3)=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CC=C1C3=CC=CC=C23|aAll,wildCharge|bAll,ignoreOrder
+C23=CC1=CC=CC1=CC2=CC=C3|aAll,wildCharge|bAll,ignoreOrder
+C23=CC=C1C=CC=C1C2=CC=C3|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CC=CC1=CC=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C1(C=CC=CC=C2)=C2C=CC=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CC=CC=CC1=CC=CC=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CC=CC=CC=C1C=CC=CC=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+""	FindPolyaleneGT6
+C12=CC=CC=CC1=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CC=C1C=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+C12=C(CC=C2)C=CC=C1|aAll,wildCharge|bAll,ignoreOrder
+C12=CC=CC1=CC=C2|aAll,wildCharge|bAll,ignoreOrder
+""	FindPolyalene3or4

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Preferences and Settings" data-mc-conditions="MyImport.ChemDraw help">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>Customizing Hotkeys</title>
+        <link href="../Resources/Stylesheets/Cambridgesoft1.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h2 class="Heading2"><a name="A-Customize_2096640490_1463184"></a><a name="A-Customize_2096640490_47466"></a>Customizing Hotkeys<a name="kanchor295"></a></h2>
+        <div class="Body">If you are familiar with XML, you can edit the ChemDraw Hotkeys, or create your own. </div>
+        <div class="Body">&#160;</div>
+        <div class="Body">To customize Hotkeys, open the Hotkeys.xml file in a text editor. There are two paths--depending on whether this is a <b>default installation</b> or a <b>custom installation</b>. The preferred method is to edit this file from a custom installation location.</div>
+        <ul>
+            <li style="font-family: Arial;" value="1">If a <b>Default Installation</b>, the path is:</li>
+        </ul>
+        <div class="Body"><span style="font-family: 'Courier New'; color: #00008b;">Go &gt; Applications &gt; Right-click on ChemDraw &gt; Choose Show Package Contents &gt; Contents &gt; Resources &gt; SpecialPurpose &gt; ChemDraw Items &gt; Hotkeys.xml</span>
+        </div>
+        <ul>
+            <li value="1"><span style="font-family: Arial;">If a <b>Custom Installation</b>, the path is:</span>
+            </li>
+        </ul>
+        <p style="font-family: 'Courier New';color: #00008b;">Custom location folder &gt; ChemDraw Items &gt; Hotkeys.xml</p>
+        <DIV class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span> It is safest to edit the Hotkeys.xml file from a custom installation location, rather than from the default installation location. Since when editing the Hotkeys.xml from the default installation location, this can affect the whole ChemDraw package content.</DIV>
+        <div class="Body"> The Hotkeys within the file are organized by object type:</div>
+        <div class="Bullet1-1st">“Atom”: Hotkeys that modify atoms.</div>
+        <div class="Bullet1-inner">“Bond”: Hotkeys that modify bonds.</div>
+        <div class="Bullet1-inner">"AA1": Hotkeys that sets the label for the single letter amino acids.</div>
+        <div class="Bullet1-inner">"DNA": Hotkeys that sets the label for the DNA sequence.</div>
+        <div class="Bullet1-inner">"RNA": Hotkeys that sets the label for the RNA sequence.</div>
+        <div class="Bullet1-last">“Generic”: Hotkeys that select tools and open dialog boxes.</div>
+        <div class="Body">Each Hotkey is encoded in this format:</div>
+        <div class="Body"><span class="Code">&lt;Hotkey key="{</span><i class="Emphasis" style="font-family: 'Times New Roman';font-size: 9.5pt;line-height: 11.5pt;">key}</i><span class="Code">" command="</span> <i class="Emphasis" style="font-family: 'Times New Roman';font-size: 9.5pt;line-height: 11.5pt;">{command}</i><span class="Code">" value="</span><i class="Emphasis" style="font-family: 'Times New Roman';font-size: 9.5pt;line-height: 11.5pt;">{value}</i><span class="Code">" description="</span> <i class="Emphasis" style="font-family: 'Times New Roman';font-size: 9.5pt;line-height: 11.5pt;">{description}</i><span class="Code">”/&gt;</span></div>
+        <H4>Key</H4>
+        <div class="Body">Key is the keyboard key that invokes the command. You can assign the same key to different functions as long as the functions are defined for different object types. For example, ‘b’ changes an atom to Boron in the <span class="Code">Atom</span> object type, a bond to bold in the <span class="Code">Bond</span> object type, and could be assigned to the Benzene tool in the <span class="Code">Generic</span> object type. You can use any key except the hard-coded keys: function keys, ENTER, SPACE, BACKSPACE, and arrow keys.</div>
+        <div class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>Hotkeys are case sensitve. For example, you can define the hotkeys "S" and "s" to different functions within an object type.</div>
+        <div class="Body">If a key appears more than once in the file for the same object type, the one closest to the end of the file takes precedence.</div>
+        <h4>Command</h4>
+        <div class="Body">Command is any one of the predefined command names. All available commands  are described in the hotkeys.xml file. The command ID's are defined based on the object types as follows:</div>
+        <table style="margin-left: 0;margin-right: auto;caption-side: top;width: 100%;">
+            <col style="width: 157px;" />
+            <col style="width: 190px;" />
+            <col />
+            <thead>
+                <tr>
+                    <th>Object Type</th>
+                    <th>Command ID</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Atom</td>
+                    <td>LABELTEXT</td>
+                    <td>Sets the label for the atoms text</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>SPROUT</td>
+                    <td>Addition of bonds to an atom</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>CHARGE</td>
+                    <td>Changes the charge of an atom</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>FREE_SITE</td>
+                    <td>Increment/decrement free sites of an atom</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>UPTO_SITE</td>
+                    <td>Increment/decrement the UpTo number of substituents of an atom</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>EXACT_SITE</td>
+                    <td>Increment/decrement the number of substituents of an atom</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>ATOMNUMBER</td>
+                    <td>Show/hide the atom numbers</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>ATTACHMENTPOINT</td>
+                    <td>Sets the value of the attachment point</td>
+                </tr>
+                <tr>
+                    <td>Bond</td>
+                    <td>BONDORDER</td>
+                    <td>Sets the bond order</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>BONDDISPLAY</td>
+                    <td>Sets the bond display</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>BONDPOSITION</td>
+                    <td>Sets the position of bonds</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>BONDDOUBLEPOSITION</td>
+                    <td>Sets the alignment for double bonds</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>FUSERING</td>
+                    <td>Fuses a ring to a bond</td>
+                </tr>
+                <tr>
+                    <td>Generic</td>
+                    <td>DIALOG</td>
+                    <td>Display a dialog</td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                    <td>TOOLMODE</td>
+                    <td>Changes the current tool</td>
+                </tr>
+                <tr>
+                    <td>AA1</td>
+                    <td>AA1</td>
+                    <td>Sets the label for the single letter amino acids</td>
+                </tr>
+                <tr>
+                    <td>DNA</td>
+                    <td>DNA</td>
+                    <td>Sets the label for the DNA sequence</td>
+                </tr>
+                <tr>
+                    <td>RNA</td>
+                    <td>RNA</td>
+                    <td>Sets the label for the RNA sequence</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>You cannot add to the command list.</div>
+        <h4>Value</h4>
+        <div class="Body">This is the parameter value associated with the command. For example, if the command is LABELTEXT, the value is the label that appears. If the command is BONDDISPLAY, the value corresponds to the bond display type.</div>
+        <div class="Body">To create a hotkey that switches to a particular tool, choose TOOLMODE for a command and use any of these command names for a value:</div>
+        <table style="width: 100%; margin-left: 0; margin-right: auto;">
+            <col style="width: 216px;" />
+            <col style="width: 245px;" />
+            <tbody>
+                <tr>
+                    <td>LASSO</td>
+                    <td>TLCPLATE </td>
+                </tr>
+                <tr>
+                    <td>MARQUEE</td>
+                    <td>BENZENE</td>
+                </tr>
+                <tr>
+                    <td>3DTRACKBALL</td>
+                    <td>CYCLOPENTADIENE</td>
+                </tr>
+                <tr>
+                    <td>MASSFRAG</td>
+                    <td>CYCLOHEXANECHAIR2</td>
+                </tr>
+                <tr>
+                    <td>ERASER</td>
+                    <td>CYCLOHEXANECHAIR1</td>
+                </tr>
+                <tr>
+                    <td>TEXT</td>
+                    <td>CYCLOOCTANE</td>
+                </tr>
+                <tr>
+                    <td>SOLIDBOND</td>
+                    <td>CYCLOHEPTANE</td>
+                </tr>
+                <tr>
+                    <td>MULTIBOND</td>
+                    <td>CYCLOHEXANE</td>
+                </tr>
+                <tr>
+                    <td>DASHEDBOND</td>
+                    <td>CYCLOPENTANE</td>
+                </tr>
+                <tr>
+                    <td>PEN</td>
+                    <td>CYCLOBUTANE</td>
+                </tr>
+                <tr>
+                    <td>HASHEDBOND</td>
+                    <td>CYCLOPROPANE</td>
+                </tr>
+                <tr>
+                    <td>ARROW</td>
+                    <td>TEMPLATE</td>
+                </tr>
+                <tr>
+                    <td>HASHEDWEDGEDBOND</td>
+                    <td>SNAKINGCHAIN</td>
+                </tr>
+                <tr>
+                    <td>ORBITAL</td>
+                    <td>ACYCLICCHAIN</td>
+                </tr>
+                <tr>
+                    <td>BOLDBOND</td>
+                    <td>QUERY</td>
+                </tr>
+                <tr>
+                    <td>DRAWINGELEMENTS</td>
+                    <td>TABLE</td>
+                </tr>
+                <tr>
+                    <td>WEDGEDBOND</td>
+                    <td>ARC</td>
+                </tr>
+                <tr>
+                    <td>BRACKET</td>
+                    <td>WAVYBOND</td>
+                </tr>
+                <tr>
+                    <td>HOLLOWWEDGEDBOND</td>
+                    <td>CHEMICALSYMBOLS</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span><i class="Emphasis">The features that are available depends on the level of ChemDraw you have.</i>
+        </div>
+        <h4>Description</h4>
+        <div class="Body">The tool description explains what each hotkey does.</div>
+        <h4 class="Heading4">Editing the <a name="kanchor296"></a>Hotkeys.xml file</h4>
+        <div class="Note" data-mc-autonum="&lt;b&gt;Note: &lt;/b&gt; "><span class="autonumber"><span><b>Note: </b> <![CDATA[ ]]></span></span>Ensure that "Smart Quotes" are disabled while editing hotkeys.</div>
+        <div class="Body">To edit ChemDraw hotkeys:</div>
+        <table class="AutoNumber_div_numlist1-1st" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>1. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="1. ">Open the <span class="Action_Object">hotkeys.xml</span> file in a text editor.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>2. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="2. ">Navigate to the appropriate hotkey list in the <span class="Code">hotkeys.xml</span> file.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>3. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="3. ">Either add a new hotkey entry using the appropriate format and values or edit an existing hotkey in the list.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>4. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="4. ">Save the hotkeys.xml file.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-last" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>5. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="5. ">Exit and restart ChemDraw.</td>
+            </tr>
+        </table>
+        <DIV class="Caution" data-mc-autonum="&lt;b&gt;Caution: &lt;/b&gt; "><span class="autonumber"><span><b>Caution: </b> <![CDATA[ ]]></span></span>Exercise caution when editing hotkeys.xml file, since if the formatting is incorrect, it will not be read, and some functions of ChemDraw may cease to work correctly. Make a back up the original copy of the file prior to making any changes.</DIV>
+    </body>
+</html>

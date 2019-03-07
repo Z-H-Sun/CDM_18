@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ToolbarGroup xmlns="http://www.cambridgesoft.com/software/ChemDraw/gui"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/gui ToolBar.xsd">
+    <Toolbar uniqueID="OrbitalsToolBarID" preferenceKey="Orbitals" columns="7" rows="3"
+        defaultOrientation="horizontal"
+        hideOnApplicationSwitch="true" menuLocation="otherMenu">
+        <Title localizationName="OrbitalsToolbarTitle">Orbitals</Title>
+        <TextMenuItem>
+            <Title localizationName="OrbitalsToolbarMenuItem">Orbitals</Title>
+        </TextMenuItem>
+        <Tooltip localizationName="OrbitalsToolbarToolTip">Orbitals Tools</Tooltip>
+        <Button buttonStyle="toggle" row="1" column="4" titleMode="hidden" uniqueID="OrbitalsButtonID_p_Shaded">
+            <Graphic sharedGraphic="Orbitals_p_Shaded"/>
+            <Command command="chooseOrbitalTool_p_Shaded"/>
+        </Button>
+        <Button buttonStyle="toggle" column="1" row="1" titleMode="hidden" uniqueID="OrbitalsButtonID_s_Open">
+            <Graphic sharedGraphic="Orbitals_s_Open"/>
+            <Command command="chooseOrbitalTool_s_Open"/>
+        </Button>
+        <Button buttonStyle="toggle" row="2" column="1" titleMode="hidden" uniqueID="OrbitalsButtonID_Sigma_Open">
+            <Graphic sharedGraphic="Orbitals_Sigma_Open"/>
+            <Command command="chooseOrbitalTool_Sigma_Open"/>
+        </Button>
+        <Button buttonStyle="toggle" row="3" column="1" titleMode="hidden" uniqueID="OrbitalsButtonID_spLobe_Open">
+            <Graphic sharedGraphic="Orbitals_spLobe_Open"/>
+            <Command command="chooseOrbitalTool_spLobe_Open"/>
+        </Button>
+        <Button buttonStyle="toggle" row="1" column="2" titleMode="hidden" uniqueID="OrbitalsButtonID_s_Shaded">
+            <Graphic sharedGraphic="Orbitals_s_Shaded"/>
+            <Command command="chooseOrbitalTool_s_Shaded"/>
+        </Button>
+        <Button buttonStyle="toggle" row="2" column="2" titleMode="hidden" uniqueID="OrbitalsButtonID_Sigma_Shaded">
+            <Graphic sharedGraphic="Orbitals_Sigma_Shaded"/>
+            <Command command="chooseOrbitalTool_Sigma_Shaded"/>
+        </Button>
+        <Button buttonStyle="toggle" row="3" column="2" titleMode="hidden" uniqueID="OrbitalsButtonID_spLobe_Shaded">
+            <Graphic sharedGraphic="Orbitals_spLobe_Shaded"/>
+            <Command command="chooseOrbitalTool_spLobe_Shaded"/>
+        </Button>
+        <Button buttonStyle="toggle" row="1" column="3" titleMode="hidden" uniqueID="OrbitalsButtonID_s_Solid">
+            <Graphic sharedGraphic="Orbitals_s_Solid"/>
+            <Command command="chooseOrbitalTool_s_Solid"/>
+        </Button>
+        <Button buttonStyle="toggle" row="2" column="3" titleMode="hidden" uniqueID="OrbitalsButtonID_Sigma_Solid">
+            <Graphic sharedGraphic="Orbitals_Sigma_Solid"/>
+            <Command command="chooseOrbitalTool_Sigma_Solid"/>
+        </Button>
+        <Button buttonStyle="toggle" row="3" column="3" titleMode="hidden" uniqueID="OrbitalsButtonID_spLobe_Solid">
+            <Graphic sharedGraphic="Orbitals_spLobe_Solid"/>
+            <Command command="chooseOrbitalTool_spLobe_Solid"/>
+        </Button>
+        <Button buttonStyle="toggle" row="2" column="4" titleMode="hidden" uniqueID="OrbitalsButtonID_sp3_Shaded">
+            <Graphic sharedGraphic="Orbitals_sp3_Shaded"/>
+            <Command command="chooseOrbitalTool_sp3_Shaded"/>
+        </Button>
+        <Button buttonStyle="toggle" row="3" column="4" titleMode="hidden" uniqueID="OrbitalsButtonID_sp3_Shaded2">
+            <Graphic sharedGraphic="Orbitals_sp3_Shaded2"/>
+            <Command command="chooseOrbitalTool_sp3_Shaded2"/>
+        </Button>
+        <Button buttonStyle="toggle" row="1" column="5" titleMode="hidden" uniqueID="OrbitalsButtonID_p_Solid">
+            <Graphic sharedGraphic="Orbitals_p_Solid"/>
+            <Command command="chooseOrbitalTool_p_Solid"/>
+        </Button>
+        <Button buttonStyle="toggle" row="2" column="5" titleMode="hidden" uniqueID="OrbitalsButtonID_sp3_Solid">
+            <Graphic sharedGraphic="Orbitals_sp3_Solid"/>
+            <Command command="chooseOrbitalTool_sp3_Solid"/>
+        </Button>
+        <Button buttonStyle="toggle" row="3" column="5" titleMode="hidden" uniqueID="OrbitalsButtonID_sp3_Solid2">
+            <Graphic sharedGraphic="Orbitals_sp3_Solid2"/>
+            <Command command="chooseOrbitalTool_sp3_Solid2"/>
+        </Button>
+        <Button buttonStyle="toggle" row="1" column="6" titleMode="hidden" uniqueID="OrbitalsButtonID_dxy_Shaded">
+            <Graphic sharedGraphic="Orbitals_dxy_Shaded"/>
+            <Command command="chooseOrbitalTool_dxy_Shaded"/>
+        </Button>
+        <Button buttonStyle="toggle" row="2" column="6" titleMode="hidden" uniqueID="OrbitalsButtonID_dz2_Shaded">
+            <Graphic sharedGraphic="Orbitals_dz2_Shaded"/>
+            <Command command="chooseOrbitalTool_dz2_Shaded"/>
+        </Button>
+        <Button buttonStyle="toggle" row="3" column="6" titleMode="hidden" uniqueID="OrbitalsButtonID_dz2_Shaded2">
+            <Graphic sharedGraphic="Orbitals_dz2_Shaded2"/>
+            <Command command="chooseOrbitalTool_dz2_Shaded2"/>
+        </Button>
+        <Button buttonStyle="toggle" row="1" column="7" titleMode="hidden" uniqueID="OrbitalsButtonID_dxy_Solid">
+            <Graphic sharedGraphic="Orbitals_dxy_Solid"/>
+            <Command command="chooseOrbitalTool_dxy_Solid"/>
+        </Button>
+        <Button buttonStyle="toggle" row="2" column="7" titleMode="hidden" uniqueID="OrbitalsButtonID_dz2_Solid">
+            <Graphic sharedGraphic="Orbitals_dz2_Solid"/>
+            <Command command="chooseOrbitalTool_dz2_Solid"/>
+        </Button>
+        <Button buttonStyle="toggle" row="3" column="7" titleMode="hidden" uniqueID="OrbitalsButtonID_dz2_Solid2">
+            <Graphic sharedGraphic="Orbitals_dz2_Solid2"/>
+            <Command command="chooseOrbitalTool_dz2_Solid2"/>
+        </Button>
+    </Toolbar>
+</ToolbarGroup>

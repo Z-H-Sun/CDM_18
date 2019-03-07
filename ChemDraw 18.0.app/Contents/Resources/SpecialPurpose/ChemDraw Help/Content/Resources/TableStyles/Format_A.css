@@ -1,0 +1,617 @@
+/* MadCap Table Style: */
+
+/*<meta sourceDocument="D:\Projects\people\DocTeam\ChemOffice 13.0 documentation\1-Chem &amp; Bio Drawing\Source files\CDOnline.book" />*/
+
+mcTableStyle
+{
+	name: Format_A;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	border-spacing-x: 0;
+	border-spacing-y: 0;
+	border-collapse: collapse;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+	border-top-style: none;
+	border-top-width: 1px;
+	border-bottom-style: none;
+	border-bottom-width: 1px;
+	border-right-style: none;
+	border-right-width: 1px;
+	border-left-style: none;
+	border-left-width: 1px;
+	cell-padding-top: 0pt;
+	cell-padding-left: 0pt;
+	cell-padding-right: 0pt;
+	cell-padding-bottom: 0pt;
+}
+
+mcTableColumnStyle
+{
+	separator-style: none;
+	ruler-style: none;
+}
+
+mcTableHeadStyle
+{
+	
+}
+
+mcTableBodyStyle
+{
+	span: 2;
+	separator-style: none;
+	ruler-style: none;
+}
+
+mcTableBodyStyle
+{
+	span: 2;
+	separator-style: none;
+	ruler-style: none;
+}
+
+mcTableFootStyle
+{
+	
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle_Format_A
+{
+	border-collapse: collapse;
+	border-left-style: none;
+	border-left-color: #000000;
+	border-left-width: 1px;
+	border-right-style: none;
+	border-right-color: #000000;
+	border-right-width: 1px;
+	border-top-style: none;
+	border-top-color: #000000;
+	border-top-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle_Format_A .Column-
+{
+	
+}
+
+.TableStyle_Format_A .Head-
+{
+	
+}
+
+.TableStyle_Format_A .HeadI--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .HeadI-- p
+{
+	
+}
+
+.TableStyle_Format_A .HeadE--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .HeadE-- p
+{
+	
+}
+
+.TableStyle_Format_A .HeadF--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .HeadF-- p
+{
+	
+}
+
+.TableStyle_Format_A .HeadH--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .HeadH-- p
+{
+	
+}
+
+.TableStyle_Format_A .HeadD--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle_Format_A .HeadD-- p
+{
+	
+}
+
+.TableStyle_Format_A .HeadC--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .HeadC-- p
+{
+	
+}
+
+.TableStyle_Format_A .HeadB--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .HeadB-- p
+{
+	
+}
+
+.TableStyle_Format_A .HeadA--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle_Format_A .HeadA-- p
+{
+	
+}
+
+.TableStyle_Format_A .HeadG--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle_Format_A .HeadG-- p
+{
+	
+}
+
+.TableStyle_Format_A .Foot-
+{
+	
+}
+
+.TableStyle_Format_A .FootI--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .FootI-- p
+{
+	
+}
+
+.TableStyle_Format_A .FootE--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .FootE-- p
+{
+	
+}
+
+.TableStyle_Format_A .FootF--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .FootF-- p
+{
+	
+}
+
+.TableStyle_Format_A .FootH--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .FootH-- p
+{
+	
+}
+
+.TableStyle_Format_A .FootD--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle_Format_A .FootD-- p
+{
+	
+}
+
+.TableStyle_Format_A .FootC--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .FootC-- p
+{
+	
+}
+
+.TableStyle_Format_A .FootB--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .FootB-- p
+{
+	
+}
+
+.TableStyle_Format_A .FootA--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle_Format_A .FootA-- p
+{
+	
+}
+
+.TableStyle_Format_A .FootG--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle_Format_A .FootG-- p
+{
+	
+}
+
+.TableStyle_Format_A .Body-
+{
+	
+}
+
+.TableStyle_Format_A .BodyI--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .BodyI-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyE--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .BodyE-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyF--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .BodyF-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyH--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .BodyH-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyD--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+}
+
+.TableStyle_Format_A .BodyD-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyC--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .BodyC-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyB--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .BodyB-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyA--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle_Format_A .BodyA-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyG--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+}
+
+.TableStyle_Format_A .BodyG-- p
+{
+	
+}
+
+.TableStyle_Format_A .Body-
+{
+	
+}
+
+.TableStyle_Format_A .BodyI--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .BodyI-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyE--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .BodyE-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyF--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .BodyF-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyH--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .BodyH-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyD--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+}
+
+.TableStyle_Format_A .BodyD-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyC--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .BodyC-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyB--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-right-style: none;
+}
+
+.TableStyle_Format_A .BodyB-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyA--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+}
+
+.TableStyle_Format_A .BodyA-- p
+{
+	
+}
+
+.TableStyle_Format_A .BodyG--
+{
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	border-bottom-style: none;
+}
+
+.TableStyle_Format_A .BodyG-- p
+{
+	
+}
+
+

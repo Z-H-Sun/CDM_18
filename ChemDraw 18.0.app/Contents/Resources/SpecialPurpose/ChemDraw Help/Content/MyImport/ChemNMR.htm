@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Chemistry Features|ChemNMR" data-mc-ignored-words="ChemNMR" data-mc-conditions="MyImport.ChemDraw help">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>ChemNMR (Professional Level)</title>
+        <link href="../Resources/TableStyles/NMR_table.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../Resources/Stylesheets/Cambridgesoft1.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h2 class="Heading2"><a name="6a-Chem_969106972_1212985"></a><a name="6a-Chem_969106972_39005"></a>ChemNMR (Professional Level)</h2>
+        <div class="Body">Using ChemNMR, you can estimate and display proton and Carbon-13 chemical shifts for a selected molecule.</div>
+        <div class="Body">As with ChemDraw, you can also use Chem3D to predict NMR. Chem3D includes several interfaces to computational chemistry packages which predict NMR. Some packages predict IR spectra and other spectra as well. For more information on Chem3D packages, which have NMR predictions, and their available parameters, see the <i>Chem3D User Guide</i>.</div>
+        <H3 class="Heading3">Setting Parameters Values in ChemNMR</H3>
+        <p>Use the ChemNMR option in Preferences dialog to set the parameter values in ChemNMR. See the example below:</p>
+        <p>
+            <img src="preference-chemnmr.png" style="width: 496px;height: 381px;" />
+        </p>
+        <H4 class="Heading4">Solvent </H4>
+        <div class="Body">The solvent is not user-definable in ChemNMR, except by adding new custom shift correction data. Most spectra in the default ChemNMR database are run in deuterated chloroform, but the database is intended to be solvent-free. In ChemDraw, you can set either deuterated chloroform, or deuterated dimethyl sulfoxide as solvent from the Preferences dialog. Spectral shifts which depend on the solvent are generally indicated as "rough" predictions. </div>
+        <H4 class="Heading4">Spectrometer Frequency</H4>
+        <div class="Body"> ChemNMR's default for estimating proton NMR is a spectrometer frequency of 300 MHz. To change the default frequency, either set the new frequency using the Preferences dialog, or hold the &lt;Alt&gt; key while selecting <b>Predict 1H-NMR Shifts</b>, and enter a frequency in MHz and run the spectrum. The new frequency will apply until you reset it, including after closing ChemDraw. The spectrometer frequency parameter only applies to proton NMR. </div>
+        <div class="Body">For further information, see:</div>
+        <div class="Bullet1-1st"><a href="#6a-Chem_969106972_1183683" title="" alt="" class="MCXref xref">NMR Shifts</a> (How to run NMR predictions in ChemDraw)</div>
+        <div class="Bullet1-inner"><a href="#6a-Chem_969106972_1209750" title="" alt="" class="MCXref xref">Assigning Structures to Spectra</a> (Re-linking atoms to peaks)</div>
+        <div class="Bullet1-inner"><a href="#6a-Chem_969106972_1183706" title="" alt="" class="MCXref xref">Viewing Spectral Assignments</a> (Peaks associated with atoms)</div>
+        <div class="Bullet1-inner"><a href="#6a-Chem_969106972_1183715" title="" alt="" class="MCXref xref">Removing Spectral Assignments</a> (Dissociating peaks from atoms)</div>
+        <div class="Bullet1-inner"><a href="#6a-Chem_969106972_1212032" title="" alt="" class="MCXref xref">ChemNMR (Professional Level)</a> (Adding new spectrum information)</div>
+        <div class="Bullet1-inner"><a href="#6a-Chem_969106972_1209699" title="" alt="" class="MCXref xref">ChemNMR Limitations</a> (Elements and standard deviations)</div>
+        <div class="Bullet1-last"><a href="#6a-Chem_969106972_1209704" title="" alt="" class="MCXref xref">NMR References</a> (Source citations)</div>
+        <H3 class="Heading3"><a name="6a-Chem_969106972_1183683"></a><a name="6a-Chem_969106972_71721"></a>NMR Shifts<a name="kanchor510"></a><a name="kanchor511"></a><a name="kanchor512"></a></H3>
+        <div class="Body">ChemNMR estimates chemical shifts for all hydrogen or carbon atoms for which additivity rules are available. Following a hierarchical list, it first identifies key substructures of a molecule. A substructure provides the base value for the estimated shift. For example, benzene would be the key substructure of trinitrotoluene.</div>
+        <div class="Body">When a substructure is a ring system not available in the data, ChemNMR approximates its base shift using embedded rings and, if necessary, will disassemble the ring into acyclic substructures.</div>
+        <div class="Body">ChemNMR views remaining parts of the molecule as substituents of a substructure. Each substituent adds to, or subtracts from, the base shift of the substructure to which it is attached. Additivity rules determine the increment of each contribution. If an increment for a substituent cannot be determined, ChemNMR uses embedded substituents—smaller structural units with the same neighboring atoms. Or, it will use increments of identical, or embedded substituents, of a corresponding substructure by assuming that the effects of the substituents are of the same magnitude. </div>
+        <div class="Body">ChemNMR provides a detailed protocol of the estimation process applied. It gives substructures as names, compound classes in most cases, substituents in the form of a linear code, respectively.</div>
+        <div class="Body"> It also implements models for ethylenes (cis/trans) and cyclohexanes (equatorial/axial)</div>
+        <div class="Body">To view <span class="_Override" style="font-size: 80%;vertical-align: super;">1</span>H or <span class="_Override" style="font-size: 80%;vertical-align: super;">13</span>C NMR information:</div>
+        <table class="AutoNumber_div_numlist1-1st" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>1. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="1. ">Select a structure.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-last" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>2. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="2. ">Navigate to <span class="Action_Object">Structure</span>&gt;<span class="Action_Object">Predict 1H-NMR Shifts</span> or <span class="Action_Object">Predict 13C-NMR Shifts</span>.</td>
+            </tr>
+        </table>
+        <div class="Body">ChemNMR redraws the molecule with the estimated shifts and displays the information and line spectrum in a new window. </div>
+        <H3 class="Heading3"><a name="6a-Chem_969106972_1183692"></a>Modifying NMR Frequency</H3>
+        <div class="Body">You can change the default NMR frequency of 300 Mhz in ChemDraw Proton NMR predictions. </div>
+        <div class="Body">To change the frequency:</div>
+        <table class="AutoNumber_div_numlist1-1st" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>1. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="1. ">Navigate to <span class="Action_Object">File</span>&gt;<span class="Action_Object">Preferences</span>. The Preferences dialog appears.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>2. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="2. ">Select <span class="Action_Object">ChemNMR</span> option.</td>
+            </tr>
+        </table>
+        <p>
+            <img src="preference-chemnmr.png" style="width: 432px;height: 332px;" />
+        </p>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>3. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="3. ">Specify the new frequency in the Frequency text box.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>4. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="4. ">Click <span class="Action_Object">OK</span>.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-last" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>5. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="5. ">Navigate to <span class="Action_Object">Structure</span>&gt;<span class="Action_Object">Predict 1H-NMR Shifts. </span>. The predicted NMR spectrum appears.</td>
+            </tr>
+        </table>
+        <H3 class="Heading3"><a name="6a-Chem_969106972_1209750"></a><a name="6a-Chem_969106972_67535"></a>Assigning Structures to Spectra</H3>
+        <div class="Body">ChemDraw Professional lets you assign structures to spectra. You can then display the structure associated with a specific peak by placing the pointer on that peak.</div>
+        <div class="Body">To assign structures to spectra:</div>
+        <table class="AutoNumber_div_numlist1-1st" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>1. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="1. ">Open a spectral file.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>2. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="2. ">Draw the structure (or structures) to assign to the spectrum.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>3. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="3. ">Select specific atoms and bonds in the structure.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>4. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="4. ">&lt;Shift&gt;+click the peak, or peaks, to which you want the structure assigned.</td>
+            </tr>
+        </table>
+        <div class="Body">The selection rectangle surrounds the selected objects.</div>
+        <table class="AutoNumber_div_numlist1-last" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>5. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="5. ">Navigate to <span class="Action_Object">Structure</span>&gt;<span class="Action_Object">Make Spectrum&#8209;Structure Assignment</span>.</td>
+            </tr>
+        </table>
+        <div class="Body">The selected atoms and bonds in the structure are associated with the selected spectral peaks.</div>
+        <H3 class="Heading3"><a name="6a-Chem_969106972_1183706"></a><a name="6a-Chem_969106972_17085"></a>Viewing Spectral Assignments<a name="kanchor513"></a></H3>
+        <DIV class="Body">To view spectral assignments:</DIV>
+        <table class="AutoNumber_div_numlist1-1st" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>1. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="1. ">Click the Lasso or Marquee tool.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-last" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>2. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="2. ">Place the pointer over a peak. The assigned atoms or bonds are highlighted.</td>
+            </tr>
+        </table>
+        <H3 class="Heading3"><a name="6a-Chem_969106972_1183715"></a><a name="6a-Chem_969106972_31365"></a>Removing Spectral Assignments<a name="kanchor514"></a></H3>
+        <div class="Body">To remove spectrum to structure assignments:</div>
+        <table class="AutoNumber_div_numlist1-1st" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>1. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="1. ">Click the Lasso or Marquee tool.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>2. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="2. ">Select the objects from which to remove the assignment.</td>
+            </tr>
+        </table>
+        <table class="AutoNumber_div_numlist1-inner" style="width: 100%; margin-left: 0;" cellspacing="0" cellpadding="0">
+            <col style="width: -25px;" />
+            <col style="width: 25px;" />
+            <col style="width: auto;" />
+            <tr>
+                <td valign="top" />
+                <td class="AutoNumber_div_numlist1-1st" valign="top"><span>3. </span>
+                </td>
+                <td class="AutoNumber_div_numlist1-1st" valign="top" data-mc-autonum="3. ">Navigate to <span class="Action_Object">Structure</span>&gt;<span class="Action_Object">Clear Spectrum&#8209;Structure</span>.</td>
+            </tr>
+        </table>
+        <div class="Body">To stop using your own data and restore ChemDraw to its original settings:</div>
+        <p class="GraphicAnchor">
+        </p>
+        <table class="TableStyle_NMR_table" style="width: 581px;caption-side: top;mc-table-style: url('../Resources/TableStyles/NMR_table.css');" cellspacing="0">
+            <col width="581px" />
+            <tbody>
+                <tr>
+                    <td class="TableStyle_NMR_table_Body_0_0_RowSep_ColEnd">
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">  ACD/Labs07190711112D</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">&#160;</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;"> 14 14  0  0  0  0  0  0  0  0 15 V2000</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    5.7578   -1.9992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    5.7578   -3.3267    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    4.6062   -1.3275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    4.6062   -3.9825    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    3.4547   -1.9992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    3.4547   -3.3267    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    6.9094   -1.3275    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    8.0609   -1.9992    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    6.9094   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    2.3031   -1.3275    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    2.3031   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    1.1516   -1.9992    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    1.1516   -3.3267    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">    0.0000   -1.3275    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">  1  2  1  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">  1  3  2  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">  1  7  1  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">  2  4  2  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">  3  5  1  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">  4  6  1  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">  5  6  2  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">  5 10  1  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">  7  8  1  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">  7  9  2  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;"> 10 11  1  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;"> 10 12  1  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;"> 12 13  2  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;"> 12 14  1  0  0  0  0</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  ZZC   1 5</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  ZZC   2 6</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  ZZC   3 4</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  ZZC   4 1</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  ZZC   5 3</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  ZZC   6 2</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  CHG  2   7   1   8  -1</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  ZZC   7 9</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  ZZC   8 13</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  ZZC   9 10</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  ZZC  10 7</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  ZZC  11 8</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  ZZC  12 11</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  ZZC  13 12</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">M  END</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">&gt;  &lt;ID&gt;</p>
+                        <p class="Tbletextlong" style="margin-bottom: 0pt;font-family: Courier;font-style: normal;font-size: 9pt;line-height: 9pt;">1</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_NMR_table_Body_1_0_RowSep_ColEnd">&gt;  &lt;solvent&gt;d6-DMSO&gt;  &lt;SHIFT1&gt;2,9.61,0.0&gt;  &lt;SHIFT2&gt;3,8.92,0.0&gt;  &lt;SHIFT3&gt;6,9.01,0.0&gt;  &lt;SHIFT4&gt;10,3.11,0.0&gt;  &lt;SHIFT5&gt;11,1.16,0.0&gt;  &lt;SHIFTS&gt;5$$$$ TH&gt;  &lt;solvent&gt;d6-DMSO&gt;  &lt;SHIFT1&gt;2,9.6,0.0&gt;  &lt;SHIFT2&gt;3,8.91,0.0&gt;  &lt;SHIFT3&gt;6,9.11,0.0&gt;  &lt;SHIFT4&gt;10,2.75,0.0&gt;  &lt;SHIFT5&gt;11,1.17,0.0&gt;  &lt;SHIFT6&gt;12,2.41,0.0&gt;  &lt;SHIFTS&gt;6$$$$</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_NMR_table_Body_0_0_RowSep_ColEnd">  ACD/Labs07190711112D 15 15  0  0  0  0  0  0  0  0 16 V2000    7.1683   -1.9521    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0    7.1683   -3.2484    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0    6.0438   -1.2962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0    6.0438   -3.8887    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0    4.9194   -1.9521    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0    4.9194   -3.2484    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0    8.2927   -1.2962    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0    9.4171   -1.9521    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0    8.2927   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0    3.7950   -1.2962    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0    3.7950   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0    2.2489   -2.1708    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0    1.1401   -1.5149    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0    0.0000   -2.1552    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0    1.1401   -0.2186    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0  1  2  1  0  0  0  0  1  3  2  0  0  0  0  1  7  1  0  0  0  0  2  4  2  0  0  0  0  3  5  1  0  0  0  0  4  6  1  0  0  0  0  5  6  2  0  0  0  0  5 10  1  0  0  0  0  7  8  1  0  0  0  0  7  9  2  0  0  0  0 10 11  1  0  0  0  0 10 12  1  0  0  0  0 12 13  1  0  0  0  0 13 14  2  0  0  0  0 13 15  1  0  0  0  0M  ZZC   1 5M  ZZC   2 6M  ZZC   3 4M  ZZC   4 1M  ZZC   5 3M  ZZC   6 2M  CHG  2   7   1   8  -1M  ZZC   7 9M  ZZC   8 14M  ZZC   9 10M  ZZC  10 7M  ZZC  11 8M  ZZC  12 11M  ZZC  13 12M  ZZC  14 13M  END&gt;  &lt;ID&gt;2</td>
+                </tr>
+                <tr>
+                    <td class="TableStyle_NMR_table_Body_1_0_RowEnd_ColEnd">&gt;  &lt;solvent&gt;d6-DMSO&gt;  &lt;SHIFT1&gt;2,9.6,0.0&gt;  &lt;SHIFT2&gt;3,8.91,0.0&gt;  &lt;SHIFT3&gt;6,9.11,0.0&gt;  &lt;SHIFT4&gt;10,2.75,0.0&gt;  &lt;SHIFT5&gt;11,1.17,0.0&gt;  &lt;SHIFT6&gt;12,2.41,0.0&gt;  &lt;SHIFTS&gt;6$$$$</td>
+                </tr>
+            </tbody>
+        </table>
+        <H3 class="Heading3"><a name="6a-Chem_969106972_1209699"></a><a name="6a-Chem_969106972_37177"></a>ChemNMR Limitations</H3>
+        <DIV class="Bullet1-1st">The program handles the following elements and isotopes: </DIV>
+        <DIV class="BodyInd">H, D, He, Li, Be, B, C, N, O, F, Ne, Na, Mg, Al, Si, P, S, Cl, Ar, K, Ca, Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn, Ga, Ge, As, Se, Br, Kr, Rb, Sr, Y, Zr, Nb, Mo, Tc, Ru, Rh, Pd, Ag, Cd, In, Sn, Sb, Te, I, Xe, Cs, Ba, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Hf, Ta, W, Re, Os, Ir, Pt, Au, Hg, Tl, Pb, Bi, Po, At, Rn, Fr, Ra, Ac, Th, Pa, U, Nep, Pu, Am, Cm, Bk, Cf, Es, Fm, Md, No, Lr. </DIV>
+        <DIV class="Bullet1-inner">Functional groups are expanded automatically.</DIV>
+        <DIV class="Bullet1-inner">In the case of <span class="_Override" style="line-height: 10pt;font-size: 6.4pt;vertical-align: super;">1</span>H NMR, it estimates shifts of about 90% of all CH<span class="_Override" style="font-style: italic;font-size: 80%;vertical-align: sub;">x</span>-groups with a standard deviation of 0.2.-0.3 ppm. The use of polar solvents may strongly increase these deviations. It does not estimate shifts of hydrogen atoms bonded to heteroatoms because they are significantly affected by solvents, concentration, impurities, and steric effects.</DIV>
+        <DIV class="Bullet1-inner">In case of <span class="_Override" style="line-height: 10pt;font-size: 6.4pt;vertical-align: super;">13</span>C NMR, it estimates over 95% of the shifts with a mean deviation of &#8209;0.29 ppm and standard deviation of 2.8 ppm.</DIV>
+        <H3 class="Heading3"><a name="6a-Chem_969106972_1209704"></a><a name="6a-Chem_969106972_86684"></a>NMR References</H3>
+        <div class="Body">Sources for ChemDraw  NMR data include the following publications:</div>
+        <DIV class="BodyInd">Fürst, A.; Pretsch, E.<span class="_Override" style="font-style: italic;">  <![CDATA[ ]]></span><i class="Emphasis">Anal. Chim. Acta</i> 1990,<span class="_Override" style="font-style: italic;">  <![CDATA[ ]]></span><i class="Emphasis">229</i>, 17.</DIV>
+        <DIV class="BodyInd">Pretsch, E.; Fürst, A.; Badertscher M.; Bürgin, R.; Munk, M. E.<span class="_Override" style="font-style: italic;"> J. Chem. Inf. Comp. Sci.</span> 1992,<span class="_Override" style="font-style: italic;">  <![CDATA[ ]]></span><i class="Emphasis">32</i>, 291-295.</DIV>
+        <DIV class="BodyInd">Bürgin Schaller, R.; Pretsch, E.<span class="_Override" style="font-style: italic;">  <![CDATA[ ]]></span><i class="Emphasis">Anal. Chim. Acta</i><span class="_Override" style="font-style: italic;">  <![CDATA[ ]]></span>1994, <i class="Emphasis">290</i>, 295.</DIV>
+        <DIV class="BodyInd">Bürgin Schaller, R.; Arnold, C.; Pretsch, E.<span class="_Override" style="font-style: italic;">  <![CDATA[ ]]></span><i class="Emphasis">Anal. Chim. Acta</i> 1995, <i class="Emphasis">312</i>, 95-105.</DIV>
+        <DIV class="BodyInd">Bürgin Schaller, R.; Munk, M. E.; Pretsch, E. <i class="Emphasis">J.&#160;Chem. Inf. Comput. Sci.</i>1996, <i class="Emphasis">36</i>, 239-243.</DIV>
+    </body>
+</html>

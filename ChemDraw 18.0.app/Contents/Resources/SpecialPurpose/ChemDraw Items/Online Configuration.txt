@@ -1,0 +1,85 @@
+# The Online Configuration file contains the definitions for the items in ChemDraw's Online menu
+# Blank lines and lines beginning with # are ignored.
+# The file consists of a section for each menu item
+# Each line consists of a keyword, a colon (:), and a value
+# Every section must begin with a MenuItem keyword
+# Other possible keywords are PostURL, PostData, ShowPage
+# Note that InputType corresponds to the arguments to the QUADCONST macro in the FinderFileType enum
+
+MenuItem: Search SciFinder
+PostURL: https://chemistry-api.cas.org/scifinder/workflow/services/1.0/linkAnswer/
+PostData:
+InputType: CdxM
+LaunchURL:
+PostHeaders: +dJFI7+cPXJIDJ2YRkBS5VsDwjc8gR38/pQwHpfew0mO2E5apV+3B325LVjxWVHOsaPn77ooKLCPqo5V8Dg9QKwll07lY22zuhy3GNGQiTPkkrvjLEkfmu9oJB9xvM+SGkUML5cIZmRe5ZI9TSl/xgUn1tD8vsFh+tsrE+f9jxNnNCP9OCRtVYweeaF2jXD/LB7mIJeCcUs5SNX0PcPey9LubLIKMpbFvaESGQrc2pVpLzDAsdSKgZP2km+qPU/g/uYdiiIEs/W9yK5SdyUhVgdeAkYv7lNdIFH3t+ijyy58DjAtj0lpqkcA3scu/zEf0X36tC2kzhYKjILWZb1pzV4U59XKMhomv4DklSGV634zFb4fYQ/30aSe1ldv9nQbu/swB1fbJ8+1IH+IR/I7G5UAppQl6So2pqxdBn1SN6WVKzuxsFHv1Xu+dfQg+FoO5sOTxk2NKXvfD0l8XOpXpcebueNMkdTYXwBT1M20o1Ta2aGne3dPW2XzJ7sl8fU6
+Dialog0: SciFinderStructureSearch
+Dialog1: SciFinderReactionSearch
+Target0: reaction/substructure
+Target1: substance/sss
+Target2: substance/exact
+Target3: reaction/substructure?role=product
+Target4: reaction/substructure?role=reactant
+Errors: 400=: the query being sent is missing or cannot be processed, there is an invalid query parameter and/or path parameter.##SciFinder is unable to interpret the query sent. For additional assistance, please visit the SciFinder support page:##https://www.cas.org/contact-us/cas-customer-center;401=: problems with the OAuth2 token.##This error typically means that there is a problem with the installation.  It is recommended that you try reinstalling the software.  If that does not help, please contact PerkinElmer Informatics Support and be sure to include the error:##https://www.perkinelmer.com/informatics/support/contact;403=: problems with the request signature.##This error typically means that there is a problem with the installation.  It is recommended that you try reinstalling the software.  If that does not help, please contact PerkinElmer Informatics Support and be sure to include the error:##https://www.perkinelmer.com/informatics/support/contact;404=: the URL specified could not be resolved by the server, or a required header is missing.##This error typically means that there is a problem with the installation.  It is recommended that you try reinstalling the software.  If that does not help, please contact PerkinElmer Informatics Support and be sure to include the error:##https://www.perkinelmer.com/informatics/support/contact;406=: the server cannot generate a response matching the provided Accept header.##This error typically means that there is a problem with the installation.  It is recommended that you try reinstalling the software.  If that does not help, please contact PerkinElmer Informatics Support and be sure to include the error:##https://www.perkinelmer.com/informatics/support/contact;415=: the Content-Type must be either chemical/x-cdxml, chemical/x-mdl-molfile, or chemical/x-mdl-rxnfile.##This error typically means that there is a problem with the installation.  It is recommended that you try reinstalling the software.  If that does not help, please contact PerkinElmer Informatics Support and be sure to include the error:##https://www.perkinelmer.com/informatics/support/contact;500=: unable to reach server.##SciFinder may be down for maintenance.  To view availability, see:##https://www.cas.org/products/scifinder/scifinder-availability##Or if you are connecting via a proxy server, it may have configuration issues.  For additional assistance, please visit the SciFinder support page:##https://www.cas.org/contact-us/cas-customer-center
+
+#MenuItem: Find Information on ChemFinder.com
+#PostURL: http://chemfinder.cambridgesoft.com/result.asp
+#PostData: return_fields=Mol_Rel_ID&sstype=1&Struct=
+#LaunchURL: http://chemfinder.cambridgesoft.com/result.asp?mol_rel_id=
+
+MenuItem: -
+
+MenuItem: Find ACX Numbers from Structure
+PostURL: https://chemacx.cambridgesoft.com/chemacx/chemacx/chemacx_action.asp?dbname=chemacx&dataaction=search_no_gui
+PostData: return_fields=Substance.ACX_ID&struc_search_type=exact&getPrefsFromPost=true&IDENTITY=1&Substance.Structure=
+
+MenuItem: Find Structure from ACX Number
+Prompt: Enter the ACX Registry Number for which a structure is to be inserted:
+PostURL: https://chemacx.cambridgesoft.com/chemacx/chemacx/chemacx_action.asp?dbname=chemacx&dataaction=search_no_gui
+PostData: return_fields=Substance.CSNum&struc_search_type=exact&getPrefsFromPost=true&IDENTITY=1&Substance.ACX_ID=
+GetStructureURL: https://chemacx.cambridgesoft.com/chemacx/chemacx/chemacx_action.asp?dbname=chemacx&dataaction=get_structure&Table=Substance&Field=Structure&DisplayType=cdx&StrucID=
+
+MenuItem: Find Structure from Name at ChemACX.Com
+Prompt: Enter the chemical name for which a structure is to be inserted:
+PostURL: https://chemacx.cambridgesoft.com/chemacx/chemacx/chemacx_action.asp?dbname=chemacx&dataaction=search_no_gui
+PostData: return_fields=Substance.CSNum&struc_search_type=exact&getPrefsFromPost=true&IDENTITY=1&Synonym.Name==
+GetStructureURL: https://chemacx.cambridgesoft.com/chemacx/chemacx/chemacx_action.asp?dbname=chemacx&dataaction=get_structure&Table=Substance&Field=Structure&DisplayType=cdx&StrucID=
+
+MenuItem: Find Suppliers on ChemACX.Com
+PostURL: https://chemacx.cambridgesoft.com/chemacx/chemacx/chemacx_action.asp?dbname=chemacx&dataaction=search_no_gui
+PostData: return_fields=Substance.CSNum&struc_search_type=exact&getPrefsFromPost=true&IDENTITY=1&Substance.Structure=
+LaunchURL: https://chemacx.cambridgesoft.com/chemacx/chemacx/chemacx_pricepage.asp?pricerobot=1&strucid=
+
+MenuItem: -
+
+MenuItem: Browse PerkinElmer Signals Notebook Individual Edition
+LaunchURL: https://signalsnotebook.perkinelmer.cloud/
+
+MenuItem: Browse SciStore.Com
+LaunchURL: https://scistore.cambridgesoft.com/
+
+MenuItem: Browse Lead Discovery Special Offer
+LaunchURL: https://www.perkinelmer.com/Lead-Discovery-ChemDraw
+
+MenuItem: Browse PerkinElmer.com
+LaunchURL: https://www.cambridgesoft.com/
+
+MenuItem: Browse PerkinElmer Documentation
+LaunchURL: https://www.cambridgesoft.com/services/DesktopSupport/Documentation/
+
+MenuItem: Browse PerkinElmer Technical Support
+LaunchURL: https://www.cambridgesoft.com/support/
+
+MenuItem: Browse PerkinElmer Downloads
+LaunchURL: https://www.cambridgesoft.com/services/DesktopSupport/Downloads/
+
+MenuItem: Register Online
+LaunchURL: https://www.cambridgesoft.com/support/register/
+
+MenuItem: -
+
+MenuItem: Browse ChemOffice SDK
+LaunchURL: http://sdk.cambridgesoft.com/
+
+MenuItem: Browse TIBCO Spotfire
+LaunchURL: https://www.cambridgesoft.com/ensemble/spotfire/LeadDiscoverypoweredbyTIBCOSpotfire/Default.aspx
+
