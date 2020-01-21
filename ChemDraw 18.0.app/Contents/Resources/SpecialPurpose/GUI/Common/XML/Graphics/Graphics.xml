@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<GraphicSet xmlns="http://www.cambridgesoft.com/software/ChemDraw/gui"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cambridgesoft.com/software/ChemDraw/gui GUI.xsd">
-    <Graphic uniqueID="TABLE_BORDERS_NONE"/>
-    <Graphic uniqueID="COLOR_MIXED"/>
-    <Graphic uniqueID="TABLE_BORDERS_ALL"/>
-    <Graphic uniqueID="TABLE_BORDERS_BOX"/>
-    <Graphic uniqueID="TABLE_BORDERS_CUSTOM"/>
-</GraphicSet>

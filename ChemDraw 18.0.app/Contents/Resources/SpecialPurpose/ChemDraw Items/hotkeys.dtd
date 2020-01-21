@@ -1,9 +1,0 @@
-<!ELEMENT Command EMPTY>
-<!ATTLIST Command id (BONDDISPLAY | BONDORDER | CHARGE | DIALOG | LABELTEXT | FUSERING | AA1 | DNA | RNA) #REQUIRED description CDATA #REQUIRED >
-<!ELEMENT Commands (Command+)>
-<!ELEMENT Hotkey EMPTY>
-<!ATTLIST Hotkey key CDATA #REQUIRED command (BONDDISPLAY | BONDORDER | CHARGE | DIALOG | LABELTEXT | FUSERING | AA1 | DNA | RNA) #REQUIRED value CDATA #REQUIRED description CDATA #REQUIRED >
-<!ELEMENT Hotkeys (Hotkey+)>
-<!ELEMENT Object (Commands, Hotkeys)>
-<!ATTLIST Object type (Atom | Bond | AA1 | DNA | RNA | Generic) #REQUIRED >
-<!ELEMENT Objects (Object+)>
